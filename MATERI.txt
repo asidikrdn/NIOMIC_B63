@@ -11,3 +11,7 @@ Untuk mempermudah dalam memahami apa itu HTML, mari kita buat sebuah perumpamaan
     JS      : Akan memiliki fungsi untuk mengatur pintu rumah dibuka kedalam / keluar, mengatur saluran air, mengatur instalasi listrik seperti Ketika di Tekan ON maka lampu kamar menyala. 
 
 ================================================================================================================================
+PERTEMUAN 2 : Membuat File HTML
+
+1. Membuat folder project
+2. Membuat new file dalam folder project dengan diakhiri .html (biasanya file dinamai index.html)
