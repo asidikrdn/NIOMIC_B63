@@ -15,3 +15,66 @@ PERTEMUAN 2 : Membuat File HTML
 
 1. Membuat folder project
 2. Membuat new file dalam folder project dengan diakhiri .html (biasanya file dinamai index.html)
+
+================================================================================================================================
+PERTEMUAN 3 : Struktur HTML
+
+Kita akan memahami istilah-istilah dasar pada HTML yaitu :
+    1. Element HTML
+        Jika kita bilang Element, maka yang dimaksud adalah satu bagian utuh yang terdiri dari tag, atribut, dan seluruh teks yang berada diantara tag pembuka dan penutup.
+        namun untuk mempermudah memahami Element, berikut adalah beberapa contoh dari element :
+        - Element Meta      : <meta charset="utf-8">
+        - Element HTML      : <html></html>
+        - Element Head      : <head></head>
+        - Element title     : <title></title>
+        - Element body      : <body></body>
+    
+    2. Tag (Pembuka dan Penutup) dan Self Closing Tag 
+        Tag adalah bagian dari sebuah element, tag sendiri ada yang disebut : tag pembuka, tag penutup, dan self Closing tag.
+        Kita akan coba memahami ketiga hal tersebut. 
+        - Tag Pembuka
+            Pada element body, yang disebut tag pembuka adalah      : <body>
+            Pada element tittle, yang disebut tag pembuka adalah    : <tittle>
+        - Tag Penutup
+            Pada element body, yang disebut tag penutup adalah      : </body>
+            Pada element tittle, yang disebut tag penutup adalah      : </tittle>
+        - Self Closing Tag
+            Self Closing Tag adalah element dalam html yang tidak memiliki pasangan tag pembuka dan penutup.
+            Contoh  : <meta charset="utf-8">
+
+            Ada banyak element yang sifatnya self closing tag seperti :
+            <area />   <base />   <br />   <col />   <command />   <embed />   <hr />   <img />   <input />
+            <keygen />   <link />   <menuitem />   <meta />   <param />   <source />   <track />   <wbr />
+
+            Penulisan "/" pada self closing tag dalam HTML 5 bersifat optional, dan lebih baik ditinggalkan. 
+            Sehingga nanti ketika kita belajar menuliskan element yang sifatnya self closing tag, kita cukup menuliskannya seperti ini :
+            <meta>, <img>, <hr>, <br>, dan seterusnya.
+
+            Namun sekarang kita tidak akan membahas fungsi dari element-element tersebut, kita saat ini hanya perlu memahami istilah-istilah yang berada di dalam element HTML.
+
+    3. Attributes
+        Attribute adalah informasi tambahan yang ditulis pada tag pembuka. 
+        Fungsi dari atribut ini bermacam-macam tergantung nilai dan pada tag mana ia ditempatkan.
+        Untuk memahami atribut maka kita akan menuliskan contoh element yang didalamnya memiliki atribut :
+        
+        <a id="info" href="https://niomic.com">Info Pembelajaran HTML</a>
+
+        Ket :
+        - Element a         : <a id="info" href="https://niomic.com">Info Pembelajaran HTML</a>
+        - Tag Pembuka       : <a id="info" href="https://niomic.com">
+        - Tag Penutup       : </a>
+        - Attribute         : id="info"
+                              href="https://niomic.com"
+            Nama Attribute  : id dan href
+            Value/Nilai     : "info" dan "https://niomic.com"
+
+    4. DOCTYPE / DTD (Document Type Declaration)
+        DOCTYPE atau Document Type Declaration (DTD) adalah sebuah keterangan yang ditulis untuk memberitahu web browser tentang aturan penulisan dari dokumen yang sedang ditampilkan. Doctype ditulis pada baris pertama halaman HTML.
+        Pada HTML versi 4.01, DOCTYPE ditulis seperti ini :
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "https://www.w3.org/TR/html14/strict.dtd">
+
+        Pada HTML 5 Penulisan doctype jauh lebih sederhana yaitu : <!DOCTYPE html>
+    
+    5. Body Element
+        Di dalam element body inilah tempat kita akan menuliskan code-code HTML yang akan kita tampilkan pada web browser
