@@ -95,4 +95,10 @@ Kita akan memahami istilah-istilah dasar pada HTML yaitu :
         - Selanjutnya klik link/ip yang ada pada aplikasi web server for Chrome
 
     ================================================================================================================================
-    
+    PERTEMUAN 5 : Menjalankan HTML (File Selain Index.html)
+
+    1. Jika menggunakan cara no.1 pada pertemuan 4, maka bisa langsung terbuka
+    2. Jika menggunakan cara no.2 pada pertemuan 4, maka bisa langsung copykan link lalu ditambahkan "/(namafile).html" untuk memanggil file html selain index.html
+
+    ================================================================================================================================
+
