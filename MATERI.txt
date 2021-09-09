@@ -80,25 +80,113 @@ Kita akan memahami istilah-istilah dasar pada HTML yaitu :
     5. Body Element
         Di dalam element body inilah tempat kita akan menuliskan code-code HTML yang akan kita tampilkan pada web browser
     
-    ================================================================================================================================
-    PERTEMUAN 4 : Menjalankan HTML
+================================================================================================================================
+PERTEMUAN 4 : Menjalankan HTML
 
-    1. Manual
-        - Pilih file html
-        - Klik kanan, Open With, pilih Web Browser
+1. Manual
+    - Pilih file html
+    - Klik kanan, Open With, pilih Web Browser
+    - Atau seret file ke web browser
 
-        - Atau seret file ke web browser
+2. Menggunakan Web Server for Chrome
+    - Buka Web Server for Chrome
+    - Pilih Choose Folder, kemudian pilih folder yang didalamnya ada file html yang ingin kita tampilkan
+    - Selanjutnya klik link/ip yang ada pada aplikasi web server for Chrome
 
-    2. Menggunakan Web Server for Chrome
-        - Buka Web Server for Chrome
-        - Pilih Choose Folder, kemudian pilih folder yang didalamnya ada file html yang ingin kita tampilkan
-        - Selanjutnya klik link/ip yang ada pada aplikasi web server for Chrome
+================================================================================================================================
+PERTEMUAN 5 : Menjalankan HTML (File Selain Index.html)
 
-    ================================================================================================================================
-    PERTEMUAN 5 : Menjalankan HTML (File Selain Index.html)
+1. Jika menggunakan cara no.1 pada pertemuan 4, maka bisa langsung terbuka
+2. Jika menggunakan cara no.2 pada pertemuan 4, maka bisa langsung copykan link lalu ditambahkan "/(namafile).html" untuk memanggil file html selain index.html
 
-    1. Jika menggunakan cara no.1 pada pertemuan 4, maka bisa langsung terbuka
-    2. Jika menggunakan cara no.2 pada pertemuan 4, maka bisa langsung copykan link lalu ditambahkan "/(namafile).html" untuk memanggil file html selain index.html
+================================================================================================================================
+PERTEMUAN 6 : HEAD Element
 
-    ================================================================================================================================
+Element yang sering digunakan dan diletakkan di dalam element head :
+1. Element Meta
+    Tag <meta> berfungsi untuk memberi informasi mengenai halaman HTML yang saat ini sedang ditampilkan
+    - Meta charset  : berfungsi memberi instruksi kepada web browser tentang bagaimana cara menerjemahkan karakter-karakter yang ada di dalam halaman HTML.
+    Pada HTML 4 meta charset ditulis seperti ini : <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    Namun pada HTML 4 penulisannya jauh lebih ringkas : <meta charset="UTF-8">
+    Ketika kita menuliskan struktur HTML dan didalamnya kita letakkan meta caharset ataupun tidak, kita tidak bisa melihat perbedaannya karena meta charset ini sendiri berhubungan bagaimana web browser memproses pada karakter-karakter yang berada di dalam HTML.
 
+    - Meta Author, Keywords dan Description
+        Ketika kita menuliskan Meta Author, Keywords, dan Description maka ketiga meta tersebut berhubungan dengan SEO (Search Engine Optimization) yaitu digunakan untuk mempermudah mesin pencari seperti google untuk mendapatkan informasi dari website yang kita buat.
+        Sehingga ketika kita memasang ketiga meta tersebut di dalam struktur HTML kita, kita tidak bisa melihat perbedaannya karena itu berhubungan dengan web browser memberikan informasi kepada 'robot' / mesin pencari.
+        Contoh Penulisan : 
+        * <meta name="author" content="Makanan Nusantara">
+        * <meta name="keywords" content="Rendang, Bubur Menado, Gulai Nangka Muda, Lontong Tahu, Soto Makasan">
+        * <meta name="description" content="Situs Tentang Makanan Nusantara">
+
+    - Meta Refresh
+        Meta refresh digunakan untuk melakukan web refresh / reload pada halaman website kita, Contoh : jika kita ingin web refresh / reload website kita setiap 60 detik sekali, maka kita cukup menuliskan code meta refresh.
+        <meta http-equiv="refresh" content="60">
+        
+    -Meta tag Viewport
+        Meta Viewport yang ditulis seperti ini : <meta name="viewport" content="width=device-width, initial-scale=1">
+        Digunakan pada web dengan desain responsive (Responsive Web Design). Secara garis besar, mea tag viewport ditambahkan agar desain responsive dapat tampil sempurna di dalam layar berukuran kecil (seperti tablet atau smartphone).
+        Meta tag viewport ini nanti akan kita praktekkan saat belajar dengan web responsive di materi selanjutnya.
+        
+    NOTE : Untuk Meta tag X-UA-Compatible dan Meta tag Robots, saat ini bekum diterapkan karena hal ini sudah masuk ke tingkat teknis, jika nanti sudah mampu membuat sebuah website dengan HTML silahkan kembali untuk mempelajari kedua meta tag tersebut.
+
+    - Meta tag X-UA-Compatible
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        Digunakan untuk menangani permasalahan terkait web browser Internet Explorer. IE memiliki mode compatibility view yang aktif ketika halaman web diakses dari komputer lokal atau diakses dari dalam Intranet.
+        Fitur ini membuat perlakuan berbeda dalam menangani halaman web (mirip quirks mode).
+        Meta tag diatas akan memaksa IE untuk tidak masuk ke mode compatibility view.
+
+    - Meta tag Robots
+        <meta name="robots" content="index, follow"> atau <meta name="robots" content="noindex, nofollow">
+        Digunakan untuk memberi pesan kepada search engine bagaimana halaman web akan diproses, jika nilai atribut content adalah "index, follow", maka mesin pencari akan mengindex halaman tersebut (dimasukkan kedalam hasil pencarian).
+        Namun jika nilai atribut content adalah "noindex, nofollow", maka isi web tidak akan dimasukkan ke hasil pencarian (mungkin halaman web bersifat rahasia dan anda tidak ingin seseorang mengaksesnya dari google).
+    
+2. Element Title
+    Element title berfungsi untuk menampilkan judul pada halaman website yang kita buat. 
+    Contoh : 
+    <title>Belajar HTML - NIOMIC</title>
+
+    Jika dijalankan maka tab pada browser saat membuka file HTML kita akan tampil tulisan sesuaai dengan isi dari element title.
+
+3. Element Link
+    Element link akan sering kita gunakan ketika kita berhubungan dengan file lain, contoh ketika kita ingin menghubungkan HTML kita dengan file css,
+    codenya : <link href="style.css" rel="stylesheet">
+    Kita akan membahas hal tersebut nanti saat kita memasuki pembelajaran CSS.
+
+    Contoh menggunakan element link untuk membuat Favicon (icon yang ditampilan pada tab browser)
+    <link rel="icon" href="http://www.iconarchive.com/download/i97515/sicons/basic-round-social/facebook.ico" type="image/x-icon">
+    - Gambar dari internet
+        Pada contoh diatas, kita menampilkan Favicon dari internet yaitu melalui link icon tersebut
+    - Gambar dari local
+        Jika kita meletakkan gambar dalam folder tempat kita menuliskan code HTMLnya
+        <link rel="icon" href="namaicon.png" type="image/png">
+        Jika gambar kita letakkan di dalam folder lagi, misal folder img, maka seperti berikut
+        <link rel="icon" href="img/namaicon.jpg" type="image/jpg">
+        
+    NOTE :
+    pada atribut type="image/png" kita bisa menggantinya sesuai dengan gambar yang kita masukkan, jika gambar yang dimasukkan adalah jpg maka atribut type menjadi type="image/jpg",
+    dan jika gambarnya berformat .ico maka menjadi type="image/x-icon".
+    
+4. Element Base
+    Element base bersifat global, dan digunakan untuk memasukkan sebuah link secara global.
+    Element base ini akan kita coba praktekkan saat kita belajar materi HTML selanjutnya, karena element base berhubungan dengan element lain, agar ketika dipraktekkan menjadi lebih paham.
+    Element base ditulis seperti ini : <base href="/media/images" target="_blank">
+    
+5. Element Script
+    Element Script digunakan untuk menginput Script kedalam halaman HTML, element script sering digunakan untuk menuliskan code Javascript, baik yang dituliskan secara internal ataupun menghubungkan secara eksternal.
+    Code ditulis seperti ini : <script type="text/javascript"></script>
+    Element script akan kita praktekkan nanti saat kita mulai belajar javascript.
+
+6. Element Style
+    Element Style digunakan untuk menginput kode style ke dalam halaman HTML.
+    Element Style ditulis seperti ini : <style type="text/css"></style>
+    Element style akan kita pelajari, saat memasuki materi pembelajaran CSS.
+    
+7. Element NOSCRIPT
+    Element NOSCRIPT digunakan untuk menampilkan informasi ketika browser mematikan javascriptnya.
+    Element NOSCRIPT ditulis seperti ini : <noscript>Silahkan aktifkan javascript, untuk mengakses situs ini</noscript>
+    Karena ini sudah masuk hal teknis, maka element noscript hanya bisa kita praktekkan saat kita sudah memasuki materi pembuatan website dengan javascript didalamnya.
+
+================================================================================================================================
+
+
+    
