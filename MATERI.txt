@@ -69,7 +69,8 @@ Kita akan memahami istilah-istilah dasar pada HTML yaitu :
             Value/Nilai     : "info" dan "https://niomic.com"
 
     4. DOCTYPE / DTD (Document Type Declaration)
-        DOCTYPE atau Document Type Declaration (DTD) adalah sebuah keterangan yang ditulis untuk memberitahu web browser tentang aturan penulisan dari dokumen yang sedang ditampilkan. Doctype ditulis pada baris pertama halaman HTML.
+        DOCTYPE atau Document Type Declaration (DTD) adalah sebuah keterangan yang ditulis untuk memberitahu web browser tentang aturan penulisan dari dokumen yang sedang ditampilkan. 
+        Doctype ditulis pada baris pertama halaman HTML.
         Pada HTML versi 4.01, DOCTYPE ditulis seperti ini :
         <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
         "https://www.w3.org/TR/html14/strict.dtd">
@@ -78,3 +79,20 @@ Kita akan memahami istilah-istilah dasar pada HTML yaitu :
     
     5. Body Element
         Di dalam element body inilah tempat kita akan menuliskan code-code HTML yang akan kita tampilkan pada web browser
+    
+    ================================================================================================================================
+    PERTEMUAN 4 : Menjalankan HTML
+
+    1. Manual
+        - Pilih file html
+        - Klik kanan, Open With, pilih Web Browser
+
+        - Atau seret file ke web browser
+
+    2. Menggunakan Web Server for Chrome
+        - Buka Web Server for Chrome
+        - Pilih Choose Folder, kemudian pilih folder yang didalamnya ada file html yang ingin kita tampilkan
+        - Selanjutnya klik link/ip yang ada pada aplikasi web server for Chrome
+
+    ================================================================================================================================
+    
