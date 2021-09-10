@@ -231,3 +231,23 @@ PERTEMUAN 9 : Comment dan UnComment
     Tapi kita juga bisa melakukannya lewat shortcut keys pada keyboard, caranya :
     - Blok/Tandai Code (yang sudah dicomment) yang ingin kita UnComment
     - Tetan CTRL + / (Windows/Linux) atau Command + /
+
+================================================================================================================================
+PERTEMUAN 10 : Tugas 2 HTML
+================================================================================================================================
+PERTEMUAN 11 : Element Paragraph
+
+Element Paragraph yang ditulis <p></p> digunakan untuk membuat paragraf pada sebuah halaman website.
+Dan element paragraph ini sangat sering digunakan.
+Contoh Penulisan :
+    <p>Menuliskan paragraf pertama dalam pembelajaran HTML</p>
+
+Atribut pada element paragraph
+1. Atribut Align
+    Atribut ini digunakan untuk mengatur format perataan teks dari paragraf tersebut, 
+    dengan value : left, right, center, justify.
+    Contoh code :
+        <p align="left">TEKS DISINI</p>
+        <p align="right">TEKS DISINI</p>
+        <p align="center">TEKS DISINI</p>
+        <p align="justify">TEKS DISINI</p>
