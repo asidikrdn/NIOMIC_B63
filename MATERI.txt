@@ -251,3 +251,37 @@ Atribut pada element paragraph
         <p align="right">TEKS DISINI</p>
         <p align="center">TEKS DISINI</p>
         <p align="justify">TEKS DISINI</p>
+
+================================================================================================================================
+PERTEMUAN 12 : Element Span
+
+Element Span merupakan element inline (element yang tidak membentuk garis baru) yang digunakan untuk mengelompokkan beberapa element yang dimaksudkan untuk memudahkan dalam pemberian style (dengan CSS)
+Contoh : 
+    Jika kita menuliskan kode berikut
+    <span>jalan 1</span>
+    <span>jalan 2</span>
+
+    Maka saat tampil di web browser teks "jalan 1" dan "jalan 2" akan sejaajar tanpa membuat baris baru, berbeda dengan saat kita menggunakan element paragraph.
+    Itu artinya menggunakan element span tidak akan merubah struktur teks yang sudah kita buat.
+
+Namun kegunaan span itu sendiri lebih ke mengelompokkan dan digunakan untuk mempermudah pemberian code CSS pada teks tertentu.
+Contoh : 
+    <p>Belajar Membuat <span>Website</span></p>
+    Sehingga kita bisa memberikan code CSS khusus pada kata "Website" saja, seperti berikut ini :
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Belajar HTML  - NIOMIC</title>
+            <style>
+                .web{
+                color: orange;
+                }
+            </style>
+        </head>
+        <body>
+            <p>Belajar Membuat <span class="web">Website</span></p>
+        </body>
+        </html>
+    Yang mana ketika dijalankan, maka hanya kata "Website" saja yang akan berwarna orange.
