@@ -199,4 +199,35 @@ Contoh Penulisan :
 <h4>Element Untuk Judul H4</h4>
 <h5>Element Untuk Judul H5</h5>
 <h6>Element Untuk Judul H6</h6>
+
+================================================================================================================================
+PERTEMUAN 9 : Comment dan UnComment
+
+1. Comment
+    Dalam HTML Comment digunakan untuk memberikan keterangan pada code yang kita tulis didalam HTML, sehingga code yang kita tulis hari ini ketika kita membukanya dikemudian hari, kita akan mudah memahaminya dengan ada comment tersebut.
+
+    Code/Teks yang dicomment dalam HTML tidak akan diproses oleh web browser, sehingga ketika dijalankan code/teks tersebut tidak akan ditampilkan.
+    Comment dibuat menggunakan :
+        tag pembuka     : <!--
+        tag penutup     : -->
     
+    Contoh : 
+        <h1>Element Untuk Judul H1</h1>
+        <h2>Element Untuk Judul H2</h2>
+        <!-- <h3>Element Untuk Judul H3</h3> -->
+        <h4>Element Untuk Judul H4</h4>
+        <!-- <h5>Element Untuk Judul H5</h5> -->
+        <h6>Element Untuk Judul H6</h6>
+
+    Untuk melakukan comment kita bisa melakukaan secara manual dengan cara menuliskan tag pembuka (<!--) dan penutup (-->) pada keterangan ataupun element yang ingin kita comment.
+
+    Tapi kita juga bisa melakukannya lewat shortcut keys pada keyboard, caranya :
+    - Blok/Tandai Code yang ingin kita jadikan comment
+    - Tekan CTRL + / (Windows/Linux) atau Command + / (Mac OS)
+
+2. UnComment
+    Untuk UnComment atau menghapus comment kita bisa melakukannya secara manual dengan menghapus tag pembuka (<!--) dan penutup (-->) pada element comment yang ingin kita UnComment.
+
+    Tapi kita juga bisa melakukannya lewat shortcut keys pada keyboard, caranya :
+    - Blok/Tandai Code (yang sudah dicomment) yang ingin kita UnComment
+    - Tetan CTRL + / (Windows/Linux) atau Command + /
