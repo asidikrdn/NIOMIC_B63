@@ -187,6 +187,16 @@ Element yang sering digunakan dan diletakkan di dalam element head :
     Karena ini sudah masuk hal teknis, maka element noscript hanya bisa kita praktekkan saat kita sudah memasuki materi pembuatan website dengan javascript didalamnya.
 
 ================================================================================================================================
+PERTEMUAN 7 : Tugas 1 HTML
+================================================================================================================================
+PERTEMUAN 8 : Heading Element
 
-
+Heading element digunakan untuk membuat judul (heading) di dalam halaman HTML. Element heading terdiri dari 6 level atau 6 tingkatan dari <h1> sampai <h6>, dimana setiap tingkatan memiliki ukuran defaultnya sendiri sendiri.
+Contoh Penulisan : 
+<h1>Element Untuk Judul H1</h1>
+<h2>Element Untuk Judul H2</h2>
+<h3>Element Untuk Judul H3</h3>
+<h4>Element Untuk Judul H4</h4>
+<h5>Element Untuk Judul H5</h5>
+<h6>Element Untuk Judul H6</h6>
     
