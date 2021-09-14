@@ -285,3 +285,48 @@ Contoh :
         </body>
         </html>
     Yang mana ketika dijalankan, maka hanya kata "Website" saja yang akan berwarna orange.
+
+================================================================================================================================
+PERTEMUAN 13 : Tugas 3 HTML
+================================================================================================================================
+PERTEMUAN 14 : Anchor Element
+
+Anchor Element yang ditulis <a></a> merupakan salah satu tag terpenting dalam HTML. Anchor Element ini digunakan untuk membuat link ke halaman lain.
+Contoh Penulisan : <a>Klik Disini</a>
+
+1. Atribut href
+    Untuk menginput lokasi tujuan pada element <a></a>, maka membutuhkan atribut href (hyperText references)
+    - href dengan tujuan website lain :
+        <a href="https://niomic.com">Klik Disini</a>
+    - href dengan tujuan halaman sendiri di dalam web :
+        Untuk mencoba menggunakan href dengan tujuan halaman yang berada di dalam 1 web, sekarang kita akan mencoba membuat 4 buah file html dan 2 folder, dengan susunan sebagai berikut :
+        
+        html
+            blog
+                contact
+                    halaman3.html
+                halaman2.html
+            halaman1.html
+            index.html
+        
+        - Buatlah file index.html dan halaman1.html dan folder dengan nama blog
+        - Di dalam folder blog buatlah file halaman2.html dan folder dengan nama contact
+        - Di dalam folder contact buatlah file dengan nama halaman3.html
+
+        index.html : Pada halaman index.html, kita akan menuliskan code element anchor yang mengarah ke halaman1.html
+            <a href="halaman1.html">Ke Halaman 1</a>
+        
+        halaman1.html : Pada halaman halaman1.html, kita akan menuliskan code element anchor yang mengarah ke halaman2.html
+            <a href="blog/halaman2.html">Ke Halaman 2</a>
+        
+        halaman2.html : Pada halaman halaman2.html, kita akan menuliskan code element anchor yang mengarah ke halaman3.html
+            <a href="contact/halaman3.html">Ke Halaman 3</a>
+
+        halaman3.html : Pada halaman halaman3.html, kita akan menuliskan code element anchor yang mengarah Kembali ke index.html
+            <a href="../../index.html">Ke Halaman Index</a>
+
+3. Atribut Target
+    Dengan menggunakan atribut target="_blank" kita bisa membuka tab baru untuk halaman web yang kita tuju
+        <a href="https://niomic.com" target="_blank">Klik Halaman Baru</a>
+    
+    Kita bisa mengklik "Klik Halaman Baru" dan akan otomatis membuka tab baru dan akan menampilkan halaman web yang dituju sesuai value dari href
