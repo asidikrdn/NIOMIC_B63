@@ -330,3 +330,29 @@ Contoh Penulisan : <a>Klik Disini</a>
         <a href="https://niomic.com" target="_blank">Klik Halaman Baru</a>
     
     Kita bisa mengklik "Klik Halaman Baru" dan akan otomatis membuka tab baru dan akan menampilkan halaman web yang dituju sesuai value dari href
+
+================================================================================================================================
+PERTEMUAN 15 : Mencoba Link Anchor Element Dengan Tujuan ID
+
+Anchor element yang ditulis <a></a> merupakan salah satu tag terpenting dalam HTML.
+Anchor element ini digunakan untuk membuat link ke halaman lain atau bisa juga ke halaman itu sendiri
+
+Contoh penulisan : <a>Klik Disini</a>
+
+- Atribut id
+    Untuk mencoba menghubungkan sebuah link ke bagian halaman yang sama, kita membutuhkan sebuah atribut id yang mana atribut id berfungsi untuk memberi tanda pada sebuah element.
+
+Untuk mencoba membuat contoh link ke halaman yang sama, maka kita akan membutuhkan sebuah halaman yang memiliki banyak konten.
+
+1. Kita berikan id pada setiap element judul dalam sebuah paragraf
+    <h3 id="page1">Judul Artikel 1</h3>
+    <h3 id="page2">Judul Artikel 2</h3>
+    <h3 id="page3">Judul Artikel 3</h3>
+
+2. Kita tuliskan kode anchor element yang ketika di klik nanti akan mengarahkan ke setiap judul paragraf setiap halaman tersebut.
+    <a href="#page1">Ke Artikel 1</a>
+    <a href="#page2">Ke Artikel 2</a>
+    <a href="#page3">Ke Artikel 3</a>
+
+3. Dan untuk melihat hasilnya kita harus membuat sebuah paragraf yang panjang dalam halaman tersebut, agar terlihat perubahannya ketika kita menjalankan dan mencobanya nanti.
+
