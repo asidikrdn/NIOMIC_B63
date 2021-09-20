@@ -355,4 +355,17 @@ Untuk mencoba membuat contoh link ke halaman yang sama, maka kita akan membutuhk
     <a href="#page3">Ke Artikel 3</a>
 
 3. Dan untuk melihat hasilnya kita harus membuat sebuah paragraf yang panjang dalam halaman tersebut, agar terlihat perubahannya ketika kita menjalankan dan mencobanya nanti.
+===============================================================================================================
+PERTEMUAN 16 : Tugas 4 HTML
+===============================================================================================================
+PERTEMUAN 17 : Break Element dan Horizontal Rule
 
+1. Break Element
+    Break Element adalah element self closing yang ditulis <br> yang digunakan untuk membuat baris baru.
+    
+    Tips : Jika ada 4 Break Element yang ditulis, maka ketika dijalankan akan menghasilkan baris baru sebanyak 4x
+
+2. Horizontal Rule
+    Horizontal Rule adalah element self closing yang ditulis <hr> yang digunakan untuk membuat garis datar.
+
+===============================================================================================================
