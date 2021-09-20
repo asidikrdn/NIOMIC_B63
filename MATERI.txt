@@ -403,6 +403,95 @@ HTML Entity adalah cara penulisan karakter dengan menggunakan simbol khusus agar
     - &reg;
         digunakan untuk membuat simbol (r)
     - &gt;
-        digunakan untuk membuat >
+        digunakan untuk membuat simbol >
     - &lt;
-        digunakan untuk membuat <
+        digunakan untuk membuat simbol <
+
+===============================================================================================================PERTEMUAN 20 : Tugas 5 HTML
+===============================================================================================================PERTEMUAN 21 : List Element
+
+1. Ordered List
+    Digunakan untuk membuat list yang berurutan.
+    Contoh :
+    <ol>
+        <li>Nasi Kucing</li>
+        <li>Kue Dolar</li>
+        <li>Roti Ketawa</li>
+        <li>Kue Satu</li>
+        <li>Kue Kentut</li>
+    </ol>
+
+    Atribut type
+        Secara default element ordered list akan menampilkan urutan berupa angka dari 1 sampai panjang element <li>.
+        Jika ingin mengganti bukan dengan angka, contoh berupa huruf "a"/"A" atau huruf romawi "i"/"I", kita bisa melakukannya dengan cara memberikan atribut type pada element <ol>.
+        Contoh :
+        <ol type="a">
+        atau
+        <ol type="A">
+        atau
+        <ol type="i">
+        atau
+        <ol type="I">
+        atau
+        <ol type="1">
+    
+    Atribut start
+        Atribut start digunakan untuk mengSET dari mana nomor urut dimulainya
+        Contoh :
+        <ol type="a" start="4">
+
+        maka list yang ditampilkan akan dimulai dari huruf "d"
+    
+    Membuat Nested List
+        Kita juga bisa membuat nested list, yaitu list yang didalamnya juga memiliki list
+        Contoh :
+        <ol type="1" start="4">
+            <li>Nasi Kucing</li>
+                <ol type="a">
+                    <li>Cabang Yogya</li>
+                    <li>Cabang Solo</li>
+                </ol>
+            <li>Kue Dolar</li>
+            <li>Roti Ketawa</li>
+            <li>Kue Satu</li>
+            <li>Kue Kentut</li>
+        </ol>
+
+2. Unordered List
+    Digunakan untuk membuat list dan tidak memerlukan urutan
+    Contoh :
+    <ul>
+        <li>Kue Dolar</li>
+        <li>Roti Ketawa</li>
+        <li>Kue Satu</li>
+        <li>Kue Kentut</li>
+    </ul>
+
+    Atribut type
+        Kita juga dapat merubah bentuk defaultnya, contoh menjadi square / circle dengan menambahkan atribut type.
+        Contoh :
+        <ul type="circle">
+            <li>Kue Dolar</li>
+            <li>Roti Ketawa</li>
+            <li>Kue Satu</li>
+            <li>Kue Kentut</li>
+        </ul>
+        <ul type="square">
+            <li>Kue Dolar</li>
+            <li>Roti Ketawa</li>
+            <li>Kue Satu</li>
+            <li>Kue Kentut</li>
+        </ul>
+
+3. Description List
+    Digunakan untuk membuat list yang dibawahnya akan memiliki deskripsi/penjelasan. Dengan penulisannya sebagai berikut :
+    <dl>
+        <dt>Kue Dolar</dt>
+            <dd>Masakan nusantara khas Surabaya ini tidak menyerupai uang logam ataupun berhubungan dengan mata uang asing tersebut.</dd>
+        <dt>Roti Ketawa</dt>
+            <dd>Roti khas Sumatera Utara ini berbentuk bulat dan ada belahan dipermukaannya yang mirip seperti sebuah senyuman atau ketawa</dd>
+        <dt>Kue Satu</dt>
+            <dd>Mungkin anda sudah sering melihat kue satu menjadi sajian khas saat lebaran. Kue kecil berwarna putih ini salah satu masakan nusantara warisan Jawa Barat yang sudah ada sejak dulu</dd>
+        <dt>Kue Kentut</dt>
+            <dd>Ada nasi yang bisa kentut ? Asal munculnya nama itu adalah karena masakan nusantara khas Medan ini dibungkus oleh daun kentut yang memang memiliki aroma tidak sedap seperti bau kentut.</dd>
+    </dl>
