@@ -392,3 +392,17 @@ PERTEMUAN 18 : Formatting Element
 7. Preformatted Element
     Digunakan untuk membuat teks menjadi tidak terformat
     <pre></pre>
+
+===============================================================================================================PERTEMUAN 19 : HTML Entity
+
+HTML Entity adalah cara penulisan karakter dengan menggunakan simbol khusus agar tidak diterjemahkan oleh web browser sebagai bagian dari code HTML
+    - &nbsp;
+        digunakan untuk membuat spasi (teks kosong)
+    - &copy;
+        digunakan untuk membuat simbol (c)
+    - &reg;
+        digunakan untuk membuat simbol (r)
+    - &gt;
+        digunakan untuk membuat >
+    - &lt;
+        digunakan untuk membuat <
