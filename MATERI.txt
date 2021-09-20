@@ -369,3 +369,26 @@ PERTEMUAN 17 : Break Element dan Horizontal Rule
     Horizontal Rule adalah element self closing yang ditulis <hr> yang digunakan untuk membuat garis datar.
 
 ===============================================================================================================
+PERTEMUAN 18 : Formatting Element
+
+1. Italic Element
+    Digunakan untuk membuat efek miring pada huruf
+    <i></i>
+2. Bold Element
+    Digunakan untuk membuat efek tebal pada huruf
+    <b></b>
+3. Underline Element
+    Digunakan untuk memberi efek garis bawah pada teks
+    <u></u>
+4. Strikethrough Element
+    Digunakan untuk memberi efek teks tercoret
+    <s></s>
+5. Superscript Element
+    Digunakan untuk membuat karakter kecil diatas pada karakter yang ditandai (Misalnya untuk membuat operasi perpangkatan)
+    <sup></sup>
+6. Subscript Element
+    Digunakan untuk membuat karakter kecil dibawah pada karakter yang ditandai
+    <sub></sub>
+7. Preformatted Element
+    Digunakan untuk membuat teks menjadi tidak terformat
+    <pre></pre>
