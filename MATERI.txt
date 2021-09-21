@@ -542,3 +542,16 @@ Element Image bersifat self closing dan ditulis : <img>
     Untuk mencoba mengaplikasikan atribut tersebut kita membutuhkan teks, agar nanti terlihat perbedaannya.
     Contoh : 
     <img src="img/contoh-gambar.png" alt="gambar gorengan" width="10%" height="10%" border="4" align="right">
+===============================================================================================================
+PERTEMUAN 25 : Figure Element dan Figcaption Element
+
+Figure digunakan untuk memngbungkus satu atau beberapa Element Image yang mana Element tersebut nantinya akan diberi sebuah keterangan, dan penulisan keterangannya dimasukkan di dalam Element Figcaption.
+
+Contoh :
+<figure>
+    <img src="img/contoh-gambar.png" alt="gambar gorengan" width="40%" height="40%">
+    <img src="img/contoh-gambar.png" alt="gambar gorengan" width="40%" height="40%">
+    <figcaption>
+        Gambar Gorengan 2.0
+    </figcaption>
+</figure>
