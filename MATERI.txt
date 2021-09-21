@@ -393,7 +393,8 @@ PERTEMUAN 18 : Formatting Element
     Digunakan untuk membuat teks menjadi tidak terformat
     <pre></pre>
 
-===============================================================================================================PERTEMUAN 19 : HTML Entity
+===============================================================================================================
+PERTEMUAN 19 : HTML Entity
 
 HTML Entity adalah cara penulisan karakter dengan menggunakan simbol khusus agar tidak diterjemahkan oleh web browser sebagai bagian dari code HTML
     - &nbsp;
@@ -407,8 +408,10 @@ HTML Entity adalah cara penulisan karakter dengan menggunakan simbol khusus agar
     - &lt;
         digunakan untuk membuat simbol <
 
-===============================================================================================================PERTEMUAN 20 : Tugas 5 HTML
-===============================================================================================================PERTEMUAN 21 : List Element
+===============================================================================================================
+PERTEMUAN 20 : Tugas 5 HTML
+===============================================================================================================
+PERTEMUAN 21 : List Element
 
 1. Ordered List
     Digunakan untuk membuat list yang berurutan.
@@ -495,3 +498,47 @@ HTML Entity adalah cara penulisan karakter dengan menggunakan simbol khusus agar
         <dt>Kue Kentut</dt>
             <dd>Ada nasi yang bisa kentut ? Asal munculnya nama itu adalah karena masakan nusantara khas Medan ini dibungkus oleh daun kentut yang memang memiliki aroma tidak sedap seperti bau kentut.</dd>
     </dl>
+===============================================================================================================
+PERTEMUAN 22 : Tugas 6 HTML
+===============================================================================================================
+PERTEMUAN 23 : Tugas 7 HTML
+===============================================================================================================
+PERTEMUAN 24 : Image Element
+
+Element Image digunakan untuk menampilkan gambar ke dalam web browser.
+Element Image bersifat self closing dan ditulis : <img>
+
+- Atribut Src
+    Untuk menampilkan gambar, kita dapat menambahkan atribut src yang berfungsi mengambil gambar baik dari internet maupun local.
+    Contoh :
+    <img src="https://cdn-icons-png.flaticon.com/512/1312/1312139.png">     (Gambar Online)
+    <img src="img/contoh-gambar.png">                                       (Gambar Lokal)
+
+- Atribut Alt
+    Penulisan atribut alt ini sangat penting di dalam element image tersebut. Atribut alt ini memiliki fungsi untuk menampilkan teks ketika gambar yang kita masukkan gagal terload/terbuka di browser.
+    Contoh :
+    Gambar yang berada di lokal kita bernama "contoh-gambar.png" dan akan saya coba salahkan penulisannya dengan menuliskan "contoh-gambar1.png", sehingga gambar tersebut gagal terload
+    <img src="img/contoh-gambar.png" alt="gambar gorengan">
+
+- Atribut Title
+    Atribut ini berfungsi untuk memberikan keterangan pada saat cursor mouse kita berada/diarahkan pada gambar tersebut.
+    Contoh :
+    <img src="http://glutenfreedelivers.com/template/images/white/glutenfree4.jpg" alt="mie instan" title="Indomie">
+
+- Atribut Height & With
+    Element Image memiliki atribut yang berfungsi untuk mengatur lebar dan tinggi dari image tersebut, kita bisa melakukannya dengan menambahkan atribut width dan height dalam satuan pixel/persen.
+    Contoh :
+    Pixel   : <img src="img/contoh-gambar.png" alt="gambar gorengan" width="200" height="200">
+    Persen  : <img src="img/contoh-gambar.png" alt="gambar gorengan" width="50%" height="40%">
+
+- Atribut Border
+    Atribut Border berfungsi untuk memberikan garis tepi/bingkai. Value dari atribut border satuannya adalah pixel.
+    Contoh :
+    <img src="img/contoh-gambar.png" alt="gambar gorengan" width="50%" height="40%" border="4">
+
+- Atribut Align
+    Atribut Align berfungsi untuk mengatur posisi dari gambar terhadap teks di sekitarnya.
+    Ada 4 value dalam atribut align ini : bottom, left, middle, right, top.
+    Untuk mencoba mengaplikasikan atribut tersebut kita membutuhkan teks, agar nanti terlihat perbedaannya.
+    Contoh : 
+    <img src="img/contoh-gambar.png" alt="gambar gorengan" width="10%" height="10%" border="4" align="right">
