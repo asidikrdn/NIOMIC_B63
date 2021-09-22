@@ -593,3 +593,47 @@ Untuk melihat perbedaannya sekarang kita praktekkan bertahap :
 2. Kemudian jalankan di browser, silahkan di inspect element dan kemudian dirubah browsernya ke versi mobile, maka akan terlihat hasilnya. Ketika kita menonaktifkan meta tag viewport kita bisa melihat bahwa hasilnya tidak terlihat responsive untuk versi mobile.
 3. Sekarang coba kita aktifkan kembali meta tag viewport
 4. Kemudian buka kembali browser yang sudah dalam posisi versi mobile, Dan sekarang kita lihat hasilnya. Kita bisa melihat hasilnya bahwa gambar yang ditampilkan akan jauh lebih bagus ketika kita menggunakan meta tag viewport untuk membuat tampilan tersebut menjadi responsive.
+
+===============================================================================================================
+PERTEMUAN 28 : Tugas 8 HTML
+===============================================================================================================
+PERTEMUAN 29 : Iframe Element
+
+Iframe digunakan untuk memasukkan halaman dari luar ke dalam website kita, bisa dalam bentuk file pdf, youtube, website lain, ataupun maps.
+Penulisan :
+<iframe src=""></iframe>
+
+1. Website
+    Dengan iframe kita bisa memasukkan website lain ke dalam halaman kita.
+    
+    Contoh :
+    <iframe src="https://niomic.com" width="600" height="600"></iframe>
+
+    Di dalam iframe kita dapat mengatur atribut width dan height nya sesuai kebutuhan kita. 
+    
+    Note : Tidak semua website bisa dimasukkan ke dalam iframe, itu tergantung kebijakan pemilik websitenya apakah membolehkan atau tidak.
+
+2. File PDF
+    Kita juga bisa memasukkan file pdf ke dalam iframe, sebagai contoh kita akan mencoba memasukkan file pdf ini : https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
+
+    Contoh :
+    <iframe src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" width="600" height="600"></iframe>
+
+3. Youtube
+    Youtube sudah menyediakaan video-videonya untuk dimasukkan ke halaman website kita, dan kita hanya cukup untuk mengambil link iframe yang sudah disediakan oleh youtube. Caranya :
+    - Buka video youtube yang disematkan di halaman website kita
+    - Klik Bagikan
+    - Kemudian Klik Sematkan
+    - Kemudian akan muncul link iframenya, silahkan copy dan masukkan ke dalam halaman website kita
+
+    Contoh :
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZoUFPBrSO1o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+4. Maps
+    Sama seperti youtube, google maps juga bisa dimasukkan ke dalam website kita, dan google maps juga sudah menyediakan link iframe untuk dimasukkan ke dalam website kita. Caranya :
+    - Bukalah maps google, dan pilih lokasi
+    - Klik menu Bagikan dan kemudian akan muncul pilihan
+    - Silahkan klik Sematkan Peta, kemudian kamu bisa mengcopy link iframe yang tersedia
+    
+    Contoh :
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1016369.0810230912!2d105.72958496230609!3d-5.685409760804671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9bcc8!2sMonumen+Nasional!5e0!3m2!1sid!2sid!4v1539336172375" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
