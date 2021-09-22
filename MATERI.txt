@@ -566,3 +566,30 @@ Contoh :
     <img src="img/contoh-gambar.png" alt="gambar gorengan" width="40%" height="40%">
 </a>
 
+===============================================================================================================
+PERTEMUAN 27 : Menerapkan Meta Tag Viewport
+
+Meta tag viewport ditambahkan agar desain responsive dapat tampil sempurna di dalam layar berukuran kecil (seperti tablet atau smartphone). Sekarang kita akan coba mempraktekkannya.
+
+Contoh, Meta tag viewport ditulis seperti ini : 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Dan untuk menguji meta tag viewport kita memasukkan sebuah image, dan sebuah teks paragraf seperti berikut :
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Belajar HTML  - NIOMIC</title>
+ </head>
+ <body>
+     <img src="img/contoh-gambar.png" alt="gambar gorengan" width="350" height="350">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ </body>
+</html>
+
+Untuk melihat perbedaannya sekarang kita praktekkan bertahap :
+1. Silahkan comment element meta tag viewport
+2. Kemudian jalankan di browser, silahkan di inspect element dan kemudian dirubah browsernya ke versi mobile, maka akan terlihat hasilnya. Ketika kita menonaktifkan meta tag viewport kita bisa melihat bahwa hasilnya tidak terlihat responsive untuk versi mobile.
+3. Sekarang coba kita aktifkan kembali meta tag viewport
+4. Kemudian buka kembali browser yang sudah dalam posisi versi mobile, Dan sekarang kita lihat hasilnya. Kita bisa melihat hasilnya bahwa gambar yang ditampilkan akan jauh lebih bagus ketika kita menggunakan meta tag viewport untuk membuat tampilan tersebut menjadi responsive.
