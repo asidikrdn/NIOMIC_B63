@@ -555,3 +555,14 @@ Contoh :
         Gambar Gorengan 2.0
     </figcaption>
 </figure>
+
+===============================================================================================================
+PERTEMUAN 26 : Menyisipkan Link Pada Image
+
+Kita bisa juga menyisipkan link pada gambar, sehingga ketika gambar tersebut diklik akan menuju ke lokasi dari website/halaman yang dituju.
+
+Contoh :
+<a href="" target="_blank">
+    <img src="img/contoh-gambar.png" alt="gambar gorengan" width="40%" height="40%">
+</a>
+
