@@ -637,3 +637,55 @@ Penulisan :
     
     Contoh :
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1016369.0810230912!2d105.72958496230609!3d-5.685409760804671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9bcc8!2sMonumen+Nasional!5e0!3m2!1sid!2sid!4v1539336172375" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+===============================================================================================================
+PERTEMUAN 30 : Tugas 9 HTML
+
+===============================================================================================================
+PERTEMUAN 31 : Audio Element
+
+Dengan audio element, kita dapat menjalankan file audio di dalam website kita. 
+Penulisaan audio element adalah : 
+<audio></audio>
+
+- Atribut src
+    Untuk memasukkan file audio kita membutuhkan atribut src
+    Contoh :
+    <audio src="sample.mp3"></audio>
+
+- Atribut controls
+    Kita membutuhkan atribut ini agar audio dapat dijalankan di website kita. Sesuai namanya atribut ini berfungsi untuk memberikan control pada audio player kita.
+    Contoh :
+    <audio src="sample.mp3" controls></audio>
+
+- Atribut muted
+    Digunakan untuk mematikan volume audio
+    Contoh :
+    <audio src="sample.mp3" controls muted></audio>
+
+- Atribut loop
+    Atribut ini digunakan untuk memutar kembali audio yang sudah selesai diputar.
+    Contoh :
+    <audio src="sample.mp3" controls loop></audio>
+
+- Atribut preload
+    Atribut ini berfungsi untuk mengatur bagaimana browser untuk men-buffer / mendownload audio sebelum diplay.
+    Ada 3 value pada atribut ini :
+    - auto  : artinya saat web diload, audio akan otomatis di buffer/download sehingga saat diplay tidak buffer lagi
+    - none  : artinya saat web diload, audio tidak akan otomatis di buffer/download hingga user menekan tombol play
+    - meta  : artinya saat web diload, audio akan di buffer/download sebagian dan sebagian yang lain saat diplay
+
+- Memuat 2 format audio dalam 1 element audio
+    Tentunya akan ada beberapa browser yang tidak support dengan sebuah audio. Untuk mengatasi hal tersebut kita bisa memasukkan beberapa jenis audio ke dalam element audio, yang nantinya akan berfungsi memberikan alternatif jika salah satu audio tidak berfungsi akan memutar format audio yang lain
+
+    Contoh :
+    <audio controls>
+        <source src="sample.mp3" type="audio/mp3">
+        <source src="sample.ogg" type="audio/ogg">
+    </audio>
+
+- Atribut autoplay
+    Atribut ini berfungsi untuk membuat audio kita langsung terplay ketika halaman website diakses. Namun kadang-kadang terjadi kendala pada autoplay di beberapa browser.
+    Contoh :
+    <audio src="sample.mp3" controls autoplay></audio>
+
