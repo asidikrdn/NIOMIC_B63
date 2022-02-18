@@ -392,6 +392,9 @@ PERTEMUAN 18 : Formatting Element
 7. Preformatted Element
     Digunakan untuk membuat teks menjadi tidak terformat
     <pre></pre>
+8. Mark
+    Digunakan untuk membuat highlight atau tulisan yang disorot
+    <mark></mark>
 
 ===============================================================================================================
 PERTEMUAN 19 : HTML Entity
