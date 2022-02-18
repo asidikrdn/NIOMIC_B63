@@ -7,15 +7,54 @@
     <title>Belajar HTML - NIOMIC</title>
 </head>
 <body>
-    <!-- <audio src="audio/sample-15s.mp3" controls preload="auto"></audio><br>
-    <audio src="audio/sample-15s.mp3" controls preload="none"></audio><br>
-    <audio src="audio/sample-15s.mp3" controls preload="metadata"></audio> -->
+    <!-- Element video dengan atribut src -->
+    <video src="video/sample.mp4"></video>
 
-    <audio controls autoplay>
-        <source src="audio/sample-15s.mp3" type="audio/mp3">
-        <source src="audio/sample-15s.ogg" type="audio/ogg">
-    </audio>
-    <!-- Dengan cara diatas, maka audio yang akan di play adalah source yang pertama, jika tidak bisa dibuka maka mencoba source yang kedua, dan seterusnya -->
+    <br>
+
+    <!-- Element video dengan atribut src dan controls -->
+    <video src="video/sample.mp4" controls></video>
+    
+    <br>
+    
+    <!-- Element video dengan atribut src, controls dan muted -->
+    <video src="video/sample.mp4" controls muted></video>
+    
+    <br>
+    
+    <!-- Element video dengan atribut src, controls dan loop -->
+    <video src="video/sample.mp4" controls loop></video>
+    
+    <br>
+    
+    <!-- Element video dengan atribut src, controls, width dan height -->
+    <video src="video/sample.mp4" controls width="200" height="200"></video>
+    <video src="video/sample.mp4" controls width="30%" height="30%"></video>
+
+    <br>
+
+    <!-- Element video dengan atribut src, controls dan poster -->
+    <video src="video/sample.mp4" controls poster="img/gambar.jpg"></video>
+
+    <br>
+
+    <!-- Element video dengan atribut src, controls dan preload -->
+    <video src="video/sample.mp4" controls preload="auto"></video>
+    <video src="video/sample.mp4" controls preload="none"></video>
+    <video src="video/sample.mp4" controls preload="metadata"></video>
+    
+    <br>
+
+    <!-- Element video dengan atribut src dan controls dan autoplay -->
+    <video src="video/sample.mp4" controls autoplay></video>
+
+    <br>
+    
+    <!-- Element video dengan atribut src dan controls dan menyisipkan 2 format video -->
+    <video controls>
+        <source src="video/sample.mp4" type="video/mp4">
+        <source src="video/sample.ogv" type="video/ogv">
+    </video>
 
 </body>
 </html>

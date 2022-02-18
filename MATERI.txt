@@ -689,3 +689,63 @@ Penulisaan audio element adalah :
     Contoh :
     <audio src="sample.mp3" controls autoplay></audio>
 
+===============================================================================================================
+PERTEMUAN 32 : Tugas 10 HTML
+
+===============================================================================================================
+PERTEMUAN 33 : Video Element
+
+Dengan video element, kita dapat menjalankan file video dalam website kita. 
+Penulisan video element adalah :
+<video></video>
+
+- Atribut Src
+    Untuk memasukkan file video kita membutuhkan atribut src
+    Contoh :
+    <video src="sample.mp4"></video>
+
+- Atribut Controls
+    Sesuai namanya, atribut ini berfungsi untuk memberikan control pada video player kita.
+    Contoh :
+    <video src="sample.mp4" controls></video>
+
+- Atribut Muted
+    Digunakan untuk mematikan volume suara pada video
+    Contoh :
+    <video src="sample.mp4" controls muted></video>
+
+- Atribut Loop
+    Digunakan untuk memutar kembali secara otomatis pada video yang sudah selesai diputar.
+    Contoh : 
+    <video src="sample.mp4" controls loop></video>
+
+- Atribut width dan Height
+    Atribut ini berfungsi untuk mengatur tinggi dan lebar dari sebuah video. Satuan value bisa diisi dengan pixel atau persen.
+    Contoh :
+    <video src="sample.mp4" controls width="200" height="200"></video>
+    <video src="sample.mp4" controls width="30%" height="30%"></video>
+
+- Atribut poster
+    Berfungsi untuk menampilkan poster / gambar sampul dari video tersebut
+    Contoh :
+    <video src="sample.mp4" controls poster="gambar.jpg"></video>
+
+- Atribut preload
+    Berfungsi untuk mengatur bagaimana proses browser untuk men-buffer / mendownload video sebelum di play. Ada 3 value pada atribut preload
+
+    auto    : Saat website dimuat, video akan otomatis dibuffer/download sehingga saat dimainkan tidak perlu buffer Kembali
+    none    : Saat website dimuat, video tidak akan otomatis dibuffer/download sampai user menekan tombol play
+    meta    : Saat website dimuat, video akan dibuffer/download sebagian dan sebagian yang lain saat dimainkan
+
+- Atribut Autoplay
+    Berfungsi untuk membuat video kita langsung otomatis dimainkan saat halaman website diakses.
+    Contoh :
+    <video src="sample.mp4" controls autoplay></video>
+
+- Memutar dua format video
+    Tentunya akan ada beberapa browser yang tidak support dengan sebuah format video. Untuk mengatasi hal tersebut, kita bisa memasukkan beberapa format video didalam element video, yang nantinya akan berfungsi memberikan alternatif jika salah satu video tidak berfungsi akan memutar format video yang lain.
+    Contoh:
+    <video controls>
+        <source src="sample.mp4" type="video/mp4">
+        <source src="sample.ogv" type="video/ogv">
+    </video>
