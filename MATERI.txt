@@ -860,3 +860,21 @@ Contoh :
         <input type="text" name="namabelakang" value="">
         <input type="text" name="kota" value="">
     </form>
+
+===============================================================================================================
+PERTEMUAN 38 : Tugas 13 HTML
+
+===============================================================================================================
+PERTEMUAN 39 : Tugas 14 HTML
+
+===============================================================================================================
+PERTEMUAN 40 : Input Element Type Hidden
+
+Element Input merupakan element yang banyak digunakan ketika kita membangun sebuah website.
+Contoh :
+<input>
+
+- Atribut Type (Hidden)
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "hidden". Element input dengan atribut type hidden ketika dijalankan tidak akan tampil pada browser. Tetapi, jika di cek dengan inspect element, barulah element input dengan atribut type hidden akan terlihat.
+    Contoh :
+    <input type="hidden">
