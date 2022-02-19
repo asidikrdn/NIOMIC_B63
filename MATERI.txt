@@ -786,3 +786,77 @@ Contoh :
     Berfungsi untuk menonaktifkan validasi bawaan dari element yang berada di dalam element form.
     Contoh :
     <form action="" method="" Novalidate></form>
+
+===============================================================================================================
+PERTEMUAN 37 : Input Element Type Text (Text Box)
+
+Element Input merupakan element yang banyak digunakan ketika kita membangun sebuah website.
+Contoh :
+<input>
+
+- Atribut Type (Text)
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "text".
+    Contoh :
+    <input type="text">
+
+- Atribut Value
+    Atribut Value berfungsi untuk memberikan nilai secara langsung pada element input tersebut.
+    Contoh :
+    <input type="text" value="Jakarta">
+
+- Atribut Size
+    Berfungsi untuk memnberikan ukuran element input berdasarkan jumlah karakter
+    Contoh :
+    <input type="text" Size="7">
+    <br>
+    <input type="text" size="12">
+
+- Atribut ReadOnly dan Disabled
+    Atribut ini berfungsi untuk membuat sebuah element input tidak dapat dirubah nilainya. Perbedaannya, ketika menggunakan disabled maka element tersebut benar-benar dinonaktifkan. Sedangkan readonly secara tampilan akan tetap aktif, hanya saja tidak dapat dirubah nilainya. 
+    Contoh :
+    <input type="text" value="Jakarta" disabled>
+    <br>
+    <input type="text" value="Jakarta" readonly>
+
+- Atribut Maxlength
+    Berfungsi untuk membatasi jumlah karakter yang diinput. Perbedaannya dengan atribut size adalah, atribut size membatasi secara tampilan, sedangkan Maxlength membatasi valuenya.
+    Contoh :
+    <input type="text" Maxlength="7">
+
+- Atribut Autofocus
+    Berfungsi untuk meletakkan kursor secara otomatis ketika halaman web diakses
+    Contoh :
+    <input type="text" autofocus>
+
+- Atribut Placeholder
+    Berfungsi untuk memberikan text pada element input yang berupa informasi sementara (bukan value). Biasanya digunakan untuk memberikan panduan terkait apa yang harus diisi dalam element tersebut.
+    Contoh :
+    <input type="text" placeholder="Nama Ibu Kota">
+
+- Atribut Required
+    Berfungsi untuk menandai bahwa element input tersebut wajib diisi.
+    Contoh :
+    <input type="text" Required>
+    
+    Untuk dapat melihat efek dari atribut Required, kita perlu melengkapi element input dengan atribut submit, dan diletakkan didalam element form.
+    Contoh :
+    <form>
+        <input type="text" required>
+        <input type="submit" value="KIRIM">
+    </form>
+
+    Jika ingin merubah pesan ketika element tersebut dikosongkan, gunakan atribut oninvalid.
+    Contoh :
+    <form>
+        <input type="text" required oninvalid="this.setCustomValidity('Mohon diisi')">
+        <input type="submit" value="KIRIM">
+    </form>
+
+- Atribut Name
+    Berfungsi sebagai penanda sebuah element input di dalam form. Biasanya digunakan untuk pengenal pada bahasa lain, misal Javascript atau PHP.
+    Contoh :
+    <form>
+        <input type="text" name="namadepan" value="">
+        <input type="text" name="namabelakang" value="">
+        <input type="text" name="kota" value="">
+    </form>
