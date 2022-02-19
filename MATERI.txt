@@ -752,3 +752,37 @@ Penulisan video element adalah :
         <source src="sample.mp4" type="video/mp4">
         <source src="sample.ogv" type="video/ogv">
     </video>
+
+===============================================================================================================
+PERTEMUAN 34 : Tugas 11 HTML
+
+===============================================================================================================
+PERTEMUAN 35 : Tugas 12 HTML
+
+===============================================================================================================
+PERTEMUAN 36 : Form Element
+
+Element Form akan sangat sering kita gunakan ketika kita membangun sebuah website, terutama untuk membuat sesuatu yang berhubungan dengan input data, form digunakan sebagai container / pembungkus dari element seperti text box, text area, radio button, dll.
+Contoh :
+<form></form>
+
+- Atribut Action
+    Berfungsi untuk merujuk pada file untuk tujuan dari eksekusi pengiriman data
+    Contoh :
+    <form Action=""></form>
+
+- Atribut Method
+    Berfungsi memberitahu browser tentang proses pengiriman sebuah data. Value dari method ini bisa berupa "get" / "post".
+    Contoh :
+    <form action="" method="get"></form>
+    <form action="" method="post"></form>
+
+- Atribut Target
+    Atribut target disini sama fungsinya dengan atribut target pada element anchor, dengan menggunakan atribut tersebut ketika form dieksekusi akan membuka tab baru (jika value diisi dengan _blank)
+    Contoh :
+    <form action="" method="post" target="_blank"></form>
+
+- Atribut Novalidate
+    Berfungsi untuk menonaktifkan validasi bawaan dari element yang berada di dalam element form.
+    Contoh :
+    <form action="" method="" Novalidate></form>
