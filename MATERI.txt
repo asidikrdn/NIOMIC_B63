@@ -928,3 +928,23 @@ Contoh :
     Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "color". Element input dengan atribut type color digunakan untuk menampilkan pilihan sebuah warna
     Contoh :
     <input type="color">
+
+===============================================================================================================
+PERTEMUAN 45 : Input Element Type Email dan Atribut Autocomplete
+
+Element Input merupakan element yang banyak digunakan ketika kita membangun sebuah website.
+Contoh :
+<input>
+
+- Atribut Type Email
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "email". Element input dengan atribut type email digunakan untuk input khusus email, jadi jika pengguna menginputkan teks selain email, akan ada notifikasi peringatan pada browser yang mirip dengan peringatan pada atribut required.
+    Contoh :
+    <input type="email">
+
+- Atribut Autocomplete
+    Atribut autocomplete berfungsi memberi saran pada sebuah inputan, dalam contoh ini kita mencoba menggunakan dalam element input type email.
+    Contoh :
+    <input type="email" name="email" autocomplete="on">
+
+    Selain untuk type email, atribut autocomplete dapat digunakan pada element input dengan type lain yaitu text, search, url, tel, password, datepicker, range, dan color.
+    Saran yang ditampilkan oleh atribut autocomplete ini berbeda-beda, tergantung dari inputan yang sering digunakan oleh pengguna dalam browsernya masing-masing.
