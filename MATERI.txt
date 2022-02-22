@@ -960,6 +960,6 @@ Contoh :
 <input>
 
 - Atribut Type Url
-    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "url". Element input dengan atribut type url digunakan untuk input khusus url, jadi jika pengguna menginputkan teks selain url, akan ada notifikasi peringatan pada browser yang mirip dengan peringatan pada atribut required.
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "url". Element input dengan atribut type url digunakan untuk input khusus url, jadi jika pengguna menginputkan teks selain url, akan ada notifikasi peringatan pada browser yang mirip dengan peringatan pada atribut required. Penulisan yang diterima oleh element ini adalah dengan menggunakan 'http://' atau 'https://' di bagian depannya
     Contoh :
     <input type="url">
