@@ -975,3 +975,30 @@ Contoh :
     Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "search". Element input dengan atribut type search sekilas terlihat tidak ada perbedaannya dengan type text, perbedaan antara keduanya terletak pada tombol 'x' yang akan tampil pada element input type search. Tombol 'x' tersebut digunakan untuk melakukan 'clear' atau menghapus inputan yang sudah ada.
     Contoh :
     <input type="search">
+
+===============================================================================================================
+PERTEMUAN 49 : Input Element Type Number (Min, Max, dan Step)
+
+Element Input merupakan element yang banyak digunakan ketika kita membangun sebuah website.
+Contoh :
+<input>
+
+- Atribut Type Number
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "number". Element input dengan atribut type number digunakan untuk input khusus angka.
+    Contoh :
+    <input type="number">
+
+- Atribut Min dan Max
+    Atribut ini digunakan untuk membatasi angka minimum dan maksimum yang boleh dimasukkan kedalam element input type number.
+    Contoh :
+    <input type="number" min="4" max="10">
+    Dengan kode diatas, maka angka yang bisa dimasukkan adalah range dari 4 sampai 10.
+    Selain pada type number, atribut min dan max juga dapat dikombinasikan dengan element input type lainnya, yaitu range, date, datetime-local, month, time, and week.
+
+- Atribut Step
+    Atribut ini digunakan untuk memberikan kelipatan ketika mengklik tombol keatas atau kebawah yang ada di kolom inputan.
+    Contoh :
+    <input type="number" min="4" max="10" step="2">
+    Dengan kode diatas, maka ketika inputan awalnya adalah 5, begitu kita menekan tombol keatas maka inputan bertambah 2 menjadi 6.
+    Selain pada type number, atribut step juga dapat dikombinasikan dengan element input type lainnya, yaitu range, date, datetime-local, month, time, and week.
+
