@@ -895,3 +895,24 @@ Contoh :
     Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "image". Element input dengan atribut type image biasanya digunakan untuk membuat sebuah button dengan sebuah gambar.
     Contoh :
     <input type="image" src="button_konfirmasi.png" width="200">
+
+===============================================================================================================
+PERTEMUAN 42 : Tugas 15 HTML
+
+===============================================================================================================
+PERTEMUAN 43 : Input Element Type Button dan Button Element
+
+Untuk membuat button, dapat dilakukan dengan menggunakan element input atau element button.
+
+- Dengan Element Input
+    <input type="submit" value="KIRIM 1">
+    <input type="button" value="BUTTON 1">
+    <input type="reset" value="RESET 1">
+
+- Dengan Element Button
+    <button type="submit" name="submit">KIRIM 2</button>
+    <button type="button" name="button">BUTTON 2</button>
+    <button type="reset" name="reset">RESET 2</button>
+
+Perbedaan :
+Button yang dibuat dengan element input biasanya digunakan dalam element form, sedangkan button yang dibuat dengan element button digunakan diluar element form. Selain itu, pada element button kita bisa mengisikan konten seperti teks atau gambar, Sedangkan pada element input kita hanya bisa memberikan teks pada buttonnya.
