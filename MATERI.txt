@@ -916,3 +916,15 @@ Untuk membuat button, dapat dilakukan dengan menggunakan element input atau elem
 
 Perbedaan :
 Button yang dibuat dengan element input biasanya digunakan dalam element form, sedangkan button yang dibuat dengan element button digunakan diluar element form. Selain itu, pada element button kita bisa mengisikan konten seperti teks atau gambar, Sedangkan pada element input kita hanya bisa memberikan teks pada buttonnya.
+
+===============================================================================================================
+PERTEMUAN 44 : Input Element Type Color
+
+Element Input merupakan element yang banyak digunakan ketika kita membangun sebuah website.
+Contoh :
+<input>
+
+- Atribut Type Color
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "color". Element input dengan atribut type color digunakan untuk menampilkan pilihan sebuah warna
+    Contoh :
+    <input type="color">
