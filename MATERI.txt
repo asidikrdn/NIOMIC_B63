@@ -1028,3 +1028,15 @@ Contoh :
     <input type="range" min="4" max="10" step="2">
     Dengan kode diatas, maka ketika inputan awalnya adalah 4, begitu kita menggeser tombol slider ke kanan maka inputan bertambah 2 menjadi 6.
     Selain pada type range, atribut step juga dapat dikombinasikan dengan element input type lainnya, yaitu number, date, datetime-local, month, time, and week.
+
+===============================================================================================================
+PERTEMUAN 51 : Input Element Type Tel
+
+Element Input merupakan element yang banyak digunakan ketika kita membangun sebuah website.
+Contoh :
+<input>
+
+- Atribut Type Tel
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "tel". Element input dengan atribut type tel digunakan untuk menginputkan nomor telephone, baik telp rumah, hp, maupun whhatsapp. Perbedaan dengan input type text akan terlihat ketika kita membuka website dengan menggunakan smartphone. Keyboard yang akan dimunculkan secara otomatis adalah keyboard numerik, berbeda jika kita membuka element input type text, keyboard yg dimunculkan adalah keyboard qwerty.
+    Contoh : 
+    <input type="tel">
