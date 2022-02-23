@@ -1147,3 +1147,29 @@ PERTEMUAN 57 : Label Element
     Contoh :
     <label for="NasiGoreng">Nasi Goreng</label>
     <input type="checkbox" name="makanan" id="NasiGoreng">
+
+===============================================================================================================
+PERTEMUAN 58 : Tugas 19 HTML
+
+===============================================================================================================
+PERTEMUAN 59 : Textarea Element
+
+Element textarea merupakan sebuah element yang digunakan untuk mendefinisikan kontrol input teks multi-baris. Element ini hampir sama dengan element input type text, bedanya pada textarea ukuran teks yang bisa dimuat jauh lebih banyak.
+Elemen <textarea> sering digunakan dalam formulir, untuk mengumpulkan masukan pengguna seperti komentar atau ulasan.
+Contoh :
+<textarea></textarea>
+
+- Atribut Rows dan Cols
+    Kedua atribut ini berfungsi untuk mengatur jumlah baris (row) dan kolom (col) pada textarea, simpelnya kedua atribut ini digunakan untuk mengatur panjang dan lebar dari textarea.
+    Contoh :
+    <textarea rows="5" cols="20"></textarea>
+
+- Atribut Maxlength
+    Atribut ini berfungsi untuk memberikan batasan jumlah karakter yang dapat diinputkan kedalam textarea. 
+    Contoh :
+    <textarea rows="5" cols="20" maxlength="25"></textarea>
+
+- Memberikan Inputan Awal
+    Kita dapat memberikan inputan awal pada textarea dengan cara menulis kalimat tersebut diantara tag pembuka dan penutup dari element textarea.
+    Contoh :
+    <textarea rows="5" cols="20">Inputan Awal</textarea>
