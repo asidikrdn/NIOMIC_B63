@@ -999,6 +999,32 @@ Contoh :
     Atribut ini digunakan untuk memberikan kelipatan ketika mengklik tombol keatas atau kebawah yang ada di kolom inputan.
     Contoh :
     <input type="number" min="4" max="10" step="2">
-    Dengan kode diatas, maka ketika inputan awalnya adalah 5, begitu kita menekan tombol keatas maka inputan bertambah 2 menjadi 6.
+    Dengan kode diatas, maka ketika inputan awalnya adalah 4, begitu kita menekan tombol keatas maka inputan bertambah 2 menjadi 6.
     Selain pada type number, atribut step juga dapat dikombinasikan dengan element input type lainnya, yaitu range, date, datetime-local, month, time, and week.
 
+===============================================================================================================
+PERTEMUAN 50 : Input Element Type Range (Min, Max, dan Step)
+
+Element Input merupakan element yang banyak digunakan ketika kita membangun sebuah website.
+Contoh :
+<input>
+
+- Atribut Type Number
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "range". Element input dengan atribut type range digunakan untuk membuat tombol slider (untuk memasukkan angka yang nilai pastinya tidak penting). 
+    Rentang default dari 'range' ini adalah 0 sampai dengan 100, namun kita dapat menetapkan batasan sendiri menggunakan atribut min dan max.
+    Contoh :
+    <input type="range">
+
+- Atribut Min dan Max
+    Atribut ini digunakan untuk membatasi angka minimum dan maksimum yang boleh dimasukkan kedalam element input type range.
+    Contoh :
+    <input type="range" min="4" max="10">
+    Dengan kode diatas, maka angka yang bisa dimasukkan adalah range dari 4 sampai 10.
+    Selain pada type range, atribut min dan max juga dapat dikombinasikan dengan element input type lainnya, yaitu number, date, datetime-local, month, time, and week.
+
+- Atribut Step
+    Atribut ini digunakan untuk memberikan kelipatan ketika menggeser tombol slider pada inputan dengan type range.
+    Contoh :
+    <input type="range" min="4" max="10" step="2">
+    Dengan kode diatas, maka ketika inputan awalnya adalah 4, begitu kita menggeser tombol slider ke kanan maka inputan bertambah 2 menjadi 6.
+    Selain pada type range, atribut step juga dapat dikombinasikan dengan element input type lainnya, yaitu number, date, datetime-local, month, time, and week.
