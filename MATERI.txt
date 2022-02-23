@@ -1040,3 +1040,45 @@ Contoh :
     Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "tel". Element input dengan atribut type tel digunakan untuk menginputkan nomor telephone, baik telp rumah, hp, maupun whhatsapp. Perbedaan dengan input type text akan terlihat ketika kita membuka website dengan menggunakan smartphone. Keyboard yang akan dimunculkan secara otomatis adalah keyboard numerik, berbeda jika kita membuka element input type text, keyboard yg dimunculkan adalah keyboard qwerty.
     Contoh : 
     <input type="tel">
+
+===============================================================================================================
+PERTEMUAN 53 : Input Element Type Date
+
+Element Input merupakan element yang banyak digunakan ketika kita membangun sebuah website.
+Contoh :
+<input>
+
+- Atribut Type Date
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "date". Element input dengan atribut type date berfungsi untuk mendefinisikan pemilih tanggal. Nilai yang dihasilkan meliputi tahun, bulan, dan hari.
+    Contoh :
+    <input type="date">
+
+- Atribut Type Time
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "time". Element input dengan atribut type time digunakan untuk mendefinisikan kontrol untuk memasukkan waktu (tanpa zona waktu).
+    Contoh :
+    <input type="time">
+
+    
+- Atribut Type Datetime-local
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "datetime-local". Element input dengan atribut type datetime-local digunakan untuk mendefinisikan pemilih tanggal. Nilai yang dihasilkan meliputi tahun, bulan, hari, dan waktu.
+    Contoh :
+    <input type="datetime-local">
+    
+- Atribut Type Datetime
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "datetime". Element input dengan atribut type datetime digunakan untuk mendefinisikan kontrol untuk memasukkan tanggal dan waktu (jam, menit, detik, dan sepersekian detik) serta zona waktu. Fitur ini telah dihapus dari WHATWG HTML, dan tidak lagi didukung di browser.
+    Contoh :
+    <input type="datetime">
+
+    Note : 
+    Input element dengan type datetime saat ini sudah dihapus dan tidak lagi didukung oleh sebagian besar browser. Sebagai gantinya, pengembang didorong untuk menggunakan datetime-local
+    
+- Atribut Type Month
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "month". Element input dengan atribut type month digunakan untuk mendefinisikan kontrol bulan dan tahun. Formatnya adalah "YYYY-MM".
+    Contoh :
+    <input type="month">
+    
+- Atribut Type Week
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "week". Element input dengan atribut type week digunakan untuk mendefinisikan kontrol minggu dan tahun (tanpa zona waktu).
+    Contoh :
+    <input type="week">
+    
