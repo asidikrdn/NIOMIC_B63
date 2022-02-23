@@ -1042,6 +1042,8 @@ Contoh :
     <input type="tel">
 
 ===============================================================================================================
+PERTEMUAN 52 : Tugas 17 HTML
+===============================================================================================================
 PERTEMUAN 53 : Input Element Type Date
 
 Element Input merupakan element yang banyak digunakan ketika kita membangun sebuah website.
@@ -1082,3 +1084,25 @@ Contoh :
     Contoh :
     <input type="week">
     
+===============================================================================================================
+PERTEMUAN 54 : Tugas 18 HTML
+===============================================================================================================
+PERTEMUAN 55 : Input Element Type File
+
+Element Input merupakan element yang banyak digunakan ketika kita membangun sebuah website.
+Contoh :
+<input>
+
+- Atribut Type File
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "file". Element input dengan atribut type file digunakan untuk mendefinisikan bidang pilih file dan tombol "Jelajahi" untuk mengunggah file. Untuk menentukan bidang pemilihan file yang memungkinkan beberapa file dipilih, tambahkan beberapa atribut lainnya.
+    Contoh :
+    <input type="file">
+
+- Atribut Accept
+    Atribut ini berfungsi untuk menentukan filter untuk jenis file apa yang dapat dipilih pengguna dari kotak dialog input file.
+    Contoh :
+    <input type="file" accept="image/x-png">
+    Maka hanya file image dengan ekstensi '.png' saja yang dapat dipilih
+
+    Note :
+    Atribut accept hanya dapat digunakan / dikombinasikan dengan <input type="file">.
