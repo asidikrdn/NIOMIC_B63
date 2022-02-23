@@ -1133,3 +1133,17 @@ Contoh :
     Contoh :
     <input type="checkbox" name="makanan" checked>
     <input type="radio" name="minuman" checked>
+
+===============================================================================================================
+PERTEMUAN 57 : Label Element
+
+    Element Label digunakan untuk mendefinisikan label. Penggunaan element label tidak dapat langsung terlihat. Penggunaan label baru akan terasa berfungsi ketika kita mencoba mengklik kalimat/teks yang ada di dalam element label yang sudah direferensikan kepada element input tertentu maka kursor akan otomatis fokus pada element input tersebut. Hal ini berguna untuk memperluas area klik.
+
+    Penulisan element label ada 2 cara, cara pertama ialah dengan memasukkan element input yang kita referensikan di dalam element label.
+    Contoh :
+    <label>Nasi Goreng : <input type="checkbox" name="makanan"></label>
+
+    Cara kedua ialah menggunakan atribut for dan id. Atribut for dari <label> harus sama dengan atribut id dari elemen terkait untuk mengikatnya bersama.
+    Contoh :
+    <label for="NasiGoreng">Nasi Goreng</label>
+    <input type="checkbox" name="makanan" id="NasiGoreng">

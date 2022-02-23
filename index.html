@@ -8,18 +8,27 @@
 </head>
 <body>
     
-    <!-- Input Type Checkbox -->
+    <!-- Element Label Cara Penulisan 1 dengan Input Type Checkbox-->
     <form action="">
-        <p>Nasi Goreng : <input type="checkbox" name="makanan"></p>
-        <p>Ayam Bakar : <input type="checkbox" name="makanan" checked></p>
-        <p>Ayam Geprek : <input type="checkbox" name="makanan"></p>
+        <p><label>Nasi Goreng : <input type="checkbox" name="makanan"></label></p>
+        <p><label>Ayam Bakar : <input type="checkbox" name="makanan"></label></p>
+        <p><label>Ayam Geprek : <input type="checkbox" name="makanan"></label></p>
     </form>
 
-    <!-- Input Type Radio -->
+    <!-- Element Label Cara Penulisan 2 dengan Input Type Radio -->
     <form action="">
-        <p>Es Jeruk : <input type="radio" name="minuman" checked></p>
-        <p>Es Teh : <input type="radio" name="minuman"></p>
-        <p>Es Kopi : <input type="radio" name="minuman"></p>
+        <p>
+            <label for="EsJeruk">Es Jeruk :</label> 
+            <input type="radio" name="minuman" id="EsJeruk">
+        </p>
+        <p>
+            <label for="EsTeh">Es Teh : </label>
+            <input type="radio" name="minuman" id="EsTeh">
+        </p>
+        <p>
+            <label for="EsKopi">Es Kopi : </label>
+            <input type="radio" name="minuman" id="EsKopi">
+        </p>
     </form>
 </body>
 </html>
