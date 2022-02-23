@@ -1106,3 +1106,30 @@ Contoh :
 
     Note :
     Atribut accept hanya dapat digunakan / dikombinasikan dengan <input type="file">.
+
+===============================================================================================================
+PERTEMUAN 56 : Input Element Type Checkbox dan Radio
+
+Element Input merupakan element yang banyak digunakan ketika kita membangun sebuah website.
+Contoh :
+<input>
+
+- Atribut Type Checkbox
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "checkbox". Element input dengan atribut type checkbox digunakan untuk mendefinisikan kotak centang. Kotak centang ditampilkan sebagai kotak persegi yang dapat dicentang saat diaktifkan. Kotak centang digunakan untuk membiarkan pengguna memilih satu atau lebih opsi dari sejumlah pilihan terbatas.
+    Contoh :
+    <input type="checkbox">
+
+- Atribut Type Radio
+    Atribut Type berfungsi mendifinisikan jenis input pada element input, atribut type pada element input memiliki value / nilai yang berbeda-beda, salah satunya yang akan dibahas dipertemuan ini adalah "radio". Element input dengan atribut type radio digunakan untuk mendefinisikan tombol radio. Tombol radio biasanya disajikan dalam grup radio (kumpulan tombol radio yang menjelaskan serangkaian opsi terkait). Hanya satu tombol radio dalam grup yang dapat dipilih secara bersamaan.
+    Contoh :
+    <input type="radio">
+
+    Catatan: Grup radio harus memiliki nama yang sama (nilai atribut nama) untuk diperlakukan sebagai grup. Setelah grup radio dibuat, memilih tombol radio apa pun di grup itu secara otomatis membatalkan pilihan tombol radio lain yang dipilih di grup yang sama. Anda dapat memiliki grup radio sebanyak mungkin di halaman yang Anda inginkan, selama setiap grup memiliki namanya sendiri.
+
+    Catatan: Atribut value mendefinisikan nilai unik yang terkait dengan setiap tombol radio. Nilai tidak ditampilkan kepada pengguna, tetapi merupakan nilai yang dikirim ke server pada "kirim" untuk mengidentifikasi tombol radio mana yang dipilih.
+
+- Atribut Checked
+    Atribut ini berfungsi untuk menentukan element input type checkbox dan radio sebagai element yang tercentang (terpilih) sejak saat halaman web dimuat.
+    Contoh :
+    <input type="checkbox" name="makanan" checked>
+    <input type="radio" name="minuman" checked>
