@@ -1260,3 +1260,20 @@ Contoh :
 <form>
     <input type="text" list="listmakanan">
 </form>
+
+===============================================================================================================
+PERTEMUAN 63 : Progress Element
+
+Element progress digunakan untuk menampilkan sebuah garis dari grafik kemajuan penyelesaian tugas.
+Contoh :
+<progress></progress>
+
+- Atribut value
+    Atribut ini berfungsi untuk memberikan nilai dari kemajuan dalam tugas tersebut
+    Contoh :
+    <progress value="70"></progress>
+
+- Atribut max
+    Atribut ini berfungsi untuk memberikan nilai maksimal dari kemajuan tugas
+    Contoh :
+    <progress value="70" max="100"></progress>
