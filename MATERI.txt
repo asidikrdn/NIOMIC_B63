@@ -1248,11 +1248,11 @@ PERTEMUAN 62 : Datalist Element
 Datalist Element adalah sebuah element yang berfungsi menyediakan list data untuk dijadikan referensi pada element input text, sehingga ketika kita mengisi element input text akan ada saran / suggestion sesuai dengan datalist yang kita buat.
 Contoh :
 <datalist id="listmakanan">
-    <option value="ayam-goreng">Ayam Goreng</option>
-    <option value="ayam-bakar">Ayam Bakar</option>
-    <option value="sate-padang">Sate Padang</option>
-    <option value="sate-madura">Sate Madura</option>
-    <option value="nasi-padang">Nasi Padang</option>
+    <option value="Ayam Goreng">Ayam Goreng</option>
+    <option value="Ayam Bakar">Ayam Bakar</option>
+    <option value="Sate Padang">Sate Padang</option>
+    <option value="Sate Madura">Sate Madura</option>
+    <option value="Nasi Padang">Nasi Padang</option>
 </datalist>
 
 Untuk menghubungkan element datalist dengan element input text yang dimasuksud, diperlukan atribut lain yaitu 'id' sebagai identifier pada element datalist, dan 'list' pada element input sebagai referensi datalist yang akan digunakan.
