@@ -1383,3 +1383,17 @@ Contoh :
     <table border="1" align="left"></table>
     <table border="1" align="center"></table>
     <table border="1" align="right"></table>
+
+===============================================================================================================
+PERTEMUAN 67 : Tugas 23 HTML
+
+===============================================================================================================
+PERTEMUAN 68 : Caption Element
+
+Element Caption digunakan untuk mendifinisikan judul dari sebuah table. Element ini ditulis didalam element table, tepat setelah menuliskan tag <table>.
+Contoh :
+<table border="1">
+    <caption>Tabel 1.1</caption>
+</table>
+
+Tips: Secara default, keterangan tabel akan diratakan tengah di atas tabel. Namun, properti CSS text-align dan caption-side dapat digunakan untuk meratakan dan menempatkan caption.
