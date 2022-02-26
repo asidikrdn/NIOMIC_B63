@@ -1277,3 +1277,109 @@ Contoh :
     Atribut ini berfungsi untuk memberikan nilai maksimal dari kemajuan tugas
     Contoh :
     <progress value="70" max="100"></progress>
+
+===============================================================================================================
+PERTEMUAN 64 : Tugas 21 HTML
+
+===============================================================================================================
+PERTEMUAN 65 : Tugas 22 HTML
+
+===============================================================================================================
+PERTEMUAN 66 : Table Element
+
+Element table merupakan element yang digunakan untuk membuat sebuah table dengan struktur dasar
+<table>, <tr> (table row), <th> (table header), <td> (table data)
+Contoh :
+<table>
+    <tr>
+        <th>No.</th>
+        <th>Nama Makanan</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Soto Makasar</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Nasi Goreng</td>
+    </tr>
+</table>
+
+- Atribut Border
+    Atribut ini digunakan untuk memberikan garis bingkai pada sebuah table, value dari atribut ini merupakan nilai pixel, dan dapat disesuaikan dengan ketebalan bingkai table.
+    Contoh :
+    <table border="1"></table>
+
+- Atribut Rules
+    Atribut ini digunakan untuk melengkapi atribut border, dengan atribut ini kita dapat memilih bagian mana yang akan diberikan pemisah (hal ini berlaku antar sel). Dalam penggunaannnya, atribut ini dapat digunakan tanpa bersama atribut border, karena peran border jika ada atribut rules hanyalah sebagai bingkai pembungkus pada sisi luar tabel.
+    Value dari atribut ini ada 4, yaitu rows, cols, all, dan none.
+    Contoh :
+    <table border="1" rules="rows"></table>
+    
+    Sesuai dengan arti dari masing-masing nilai tersebut, jika kita menambahkan atribut rules=”cols” pada tabel, maka untuk setiap sel akan ditampilkan garis pembatas hanya diantara kolom. Sedangkan atribut rules=”rows” akan menampilkan garis pembatas hanya diantara baris.
+
+    Jika menginginkan garis tampil baik untuk kolom maupun untuk baris tabel, kita dapat menggunakan atribut rules=”all”. Sebaliknya jika tidak ingin menampilkan garis apapun diantara sel, bisa menggunakan atribut rules=”none”.
+
+- Atribut Cellspacing
+    Atribut ini berfungsi untuk mengatur jarak antara suatu sel dengan sel lainnya. Value dari atribut ini berupa nilai pixel.
+    Contoh :
+    <table border="1" cellspacing="10"></table>
+    <table border="1" cellspacing="1"></table>
+
+- Atribut Cellpadding
+    Atribut ini berfungsi untuk mengatur jarak antara teks di dalam sel dengan garis bordernya. Value dari atribut ini berupa nilai pixel.
+    Contoh :
+    <table border="1" cellpadding="10"></table>
+    <table border="1" cellpadding="1"></table>
+    
+- Atribut Bgcolor
+    Atribut ini berfungsi untuk memberikan warna background pada sebuah table.
+    Contoh :
+    <table border="1" bgcolor="orange"></table>
+
+- Atribut Width dan Height
+    Atribut ini berfungsi untuk mengatur lebar dan tinggi dari sebuah table.
+    Atribut width dan height dapat digunakan untuk tag tabel (tag table) maupun untuk tag kolom (tag th, tag td, maupun tag col). Jika diletakkan pada tag table, atribut ini berfungsi untuk mengatur lebar/tinggi tabel secara keseluruhan. Namun jika diletakkan pada tag th atau td, atribut ini akan berfungsi untuk mengatur lebar/tinggi kolom.
+    Jika digunakan dalam tag tr/td, maka kita cukup mengatur salah satu sel saja. Misal kita ngin mengatur width pada sebuah kolom, kita cukup mengaturnya pada tag td dari sel yang menjadi bagian paling atas.
+    Misal kita ingin mengatur height pada sebuah baris, kita cukup memberikan pada tag td dari sel yang paling kiri, atau lebih mudah kita langsung berikan pada tag tr nya.
+    Contoh :
+    <table border="1" width="200" height="200"></table>
+    <table border="1" bgcolor="orange" width="80%">
+        <tr height="100">
+            <th width="40%">No.</th>
+            <th width="60%">Nama Makanan</th>
+        </tr>
+        <tr height="70">
+            <td>1</td>
+            <td>Soto Makasar</td>
+        </tr>
+        <tr height="40">
+            <td>2</td>
+            <td>Nasi Goreng</td>
+        </tr>
+    </table>
+
+- Atribut Rowspan dan Colspan
+    Atribut ini berfungsi untuk menggabungkan beberapa sel. 
+    Rowspan berfungsi untuk menggabungkan sel secara membujur (antar baris),
+    Colspan berfungsi untuk menggabungkan sel secara melintang (antar kolom).
+    Contoh :
+    <table border="1">
+        <tr>
+            <th colspan="2">Nama Makanan</th>
+        </tr>
+        <tr>
+            <td rowspan="2">No 1 dan 2</td>
+            <td>Soto Makasar</td>
+        </tr>
+        <tr>
+            <td>Nasi Goreng</td>
+        </tr>
+    </table>
+
+- Atribut Align
+    Atribut ini berfungsi untuk mengatur posisi dari sebuah table pada halaman web.
+    Contoh :
+    <table border="1" align="left"></table>
+    <table border="1" align="center"></table>
+    <table border="1" align="right"></table>
