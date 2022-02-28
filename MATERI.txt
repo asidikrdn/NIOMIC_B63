@@ -1465,3 +1465,16 @@ Tips: Elemen <thead>, <tbody>, dan <tfoot> tidak akan memengaruhi tata letak tab
 
 ===============================================================================================================
 PERTEMUAN 70 : Membuat Tabel
+
+===============================================================================================================
+PERTEMUAN 71 : Div Element
+
+Element Div (Division / divisi / bagian) merupakan element yang digunakan untuk mengelompokkan (menjadi wadah) dari beberapa element agar memudahkan ketika ditata menggunakan CSS atau dimanipulasi dengan javascript. Konten apapun dapat dimasukkan kedalam tag <div>. 
+Contoh :
+<div></div>
+
+Agar mudah ditata, tag <div> sebaiknya dilengkapi dengan menggunakan atribut class dan/atau id.
+Contoh :
+<div class="nama_makanan" id="nama_makanan"></div>
+
+Catatan: Secara default, browser selalu menempatkan jeda baris sebelum dan sesudah elemen <div>.

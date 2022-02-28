@@ -4,32 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar HTML | NIOMIC</title>
+    <title>Belajar HTML - NIOMIC</title>
+    <!-- Memberikan style pada tiap div -->
+    <style>
+        .container {
+            background-color: orange;
+        }
+        .judul{
+            color : white;
+        }
+        .content {
+            color : blue;
+        }
+    </style>
 </head>
 <body>
     
-    <!-- Membuat Tabel -->
-    <table border="1">
-        <thead>
-            <tr>
-                <th>No.</th>
-                <th>Nama Makanan</th>
-                <th>Image</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Soto Makasar</td>
-                <td><img src="img/soto-makasar.png" alt="Soto Makasar" width="100"></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Nasi Goreng</td>
-                <td><img src="img/nasi-goreng.jpg" alt="Nasi Goreng" width="100"></td>
-            </tr>
-        </tbody>
-    </table>
+    <!-- Div element -->
+    <div class="container">
+        <div class="judul">
+            <h1>Makanan Nusantara yang kelezatannya diakui dunia</h1>
+            <p>
+                Dengan keragaman kuliner yang tak terhitung jumlahnya, buah dari keragaman budaya di nusantara, masakan Indonesia berpotensi menembus pasar dunia.
+            </p>
+        </div>
+        <div class="content">
+            <h3>Rendang</h3>
+            <p>
+                Makanan asli Minangkabau, Sumatera Barat ini ternyata bukan hanya populer di Indonesia, tapi juga ngetop di masyarakat dunia. Bahkan pada survei yang dilakukan CNN tahun 2011, masakan rendang menduduki peringkat pertama sebagai makanan terlezat di dunia. 
+                Rendang ini berbahan dasar daging dan biasanya daging sapi lebih dipilih. Daging harus dimasak sampai kering agar bumbu dapat menyerap kedalamnya, serta agar tekstur daging menjadi lembut. Kelembutan daging dan bumbu yang enak dan pedas inilah yang memberikan rasa enak dan menyihir lidah banyak orang.
+            </p>
+        </div>
+    </div>
 
 </body>
 </html>
