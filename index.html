@@ -8,19 +8,30 @@
 </head>
 <body>
     
-    <!-- Element Table + Caption -->
+    <!-- Element Thead, Tbody, dan Tfoot -->
     <table border="1">
         <caption>Tabel 1.1</caption>
-        <tr>
-            <th colspan="2">Nama Makanan</th>
-        </tr>
-        <tr>
-            <td rowspan="2">No 1 dan 2</td>
-            <td>Soto Makasar</td>
-        </tr>
-        <tr>
-            <td>Nasi Goreng</td>
-        </tr>
+        <thead>
+            <tr>
+                <td>No.</td>
+                <td>Nama Makanan</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Soto Makasar</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nasi Goreng</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" align="center">Footer</td>
+            </tr>
+        </tfoot>
     </table>
 
 </body>

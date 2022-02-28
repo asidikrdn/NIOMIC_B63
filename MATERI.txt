@@ -1397,3 +1397,68 @@ Contoh :
 </table>
 
 Tips: Secara default, keterangan tabel akan diratakan tengah di atas tabel. Namun, properti CSS text-align dan caption-side dapat digunakan untuk meratakan dan menempatkan caption.
+
+===============================================================================================================
+PERTEMUAN 69 : Thead, Tbody, dan Tfoot Element
+
+Ketiga element ini berfungsi untuk memngbungkus baris pada sebuah table, berikut penjelasan lengkapnya
+
+- Thead
+    Tag <thead> digunakan untuk mengelompokkan konten header dalam tabel HTML. thead digunakan untuk menentukan bagian judul (header) pada table.
+    Contoh :
+    <table border="1">
+        <thead>
+            <tr>
+                <td>No.</td>
+                <td>Nama Makanan</td>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+    </table>
+
+    Catatan: 
+    Elemen <thead> harus memiliki satu atau lebih tag <tr> di dalamnya. Ditulis setelah elemen <caption> dan <colgroup>, dan sebelum elemen <tbody>, <tfoot>, dan <tr> apa pun .
+
+- Tbody
+    Tag <tbody> digunakan untuk mengelompokkan konten body dalam tabel HTML. tbody digunakan untuk menentukan bagian isi (body) pada table.
+    Contoh :
+    <table border="1">
+        <thead></thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Soto Makasar</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nasi Goreng</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+
+    Catatan: 
+    Elemen <thead> harus memiliki satu atau lebih tag <tr> di dalamnya. Ditulis setelah elemen <caption>, <colgroup>, <thead>, dan sebelum element <tfoot>.
+
+- Tfoot
+    Tag <tfoot> digunakan untuk mengelompokkan konten footer dalam tabel HTML. tfoot digunakan untuk menentukan bagian keterangan paling bawah / penutup (footer) pada table.
+    Contoh :
+    <table border="1">
+        <thead></thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <td colspan="1">Footer</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    Catatan: 
+    Elemen <tfoot> harus memiliki satu atau lebih tag <tr> di dalamnya. Ditulis setelah elemen <caption>, <colgroup>, <thead>, dan <tbody>.
+
+Browser dapat menggunakan elemen-elemen ini untuk mengaktifkan pengguliran badan tabel secara independen dari header dan footer. Juga, saat mencetak tabel besar yang mencakup beberapa halaman, elemen ini dapat mengaktifkan header dan footer tabel untuk dicetak di bagian atas dan bawah setiap halaman.
+
+Ketiga element diatas harus digunakan dalam konteks sebagai anak dari elemen <table>.
+
+Tips: Elemen <thead>, <tbody>, dan <tfoot> tidak akan memengaruhi tata letak tabel secara default. Namun, Anda dapat menggunakan CSS untuk menata elemen-elemen ini 
