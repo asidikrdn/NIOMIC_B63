@@ -1462,3 +1462,6 @@ Browser dapat menggunakan elemen-elemen ini untuk mengaktifkan pengguliran badan
 Ketiga element diatas harus digunakan dalam konteks sebagai anak dari elemen <table>.
 
 Tips: Elemen <thead>, <tbody>, dan <tfoot> tidak akan memengaruhi tata letak tabel secara default. Namun, Anda dapat menggunakan CSS untuk menata elemen-elemen ini 
+
+===============================================================================================================
+PERTEMUAN 70 : Membuat Tabel
