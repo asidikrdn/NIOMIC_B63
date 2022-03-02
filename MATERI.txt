@@ -1478,3 +1478,210 @@ Contoh :
 <div class="nama_makanan" id="nama_makanan"></div>
 
 Catatan: Secara default, browser selalu menempatkan jeda baris sebelum dan sesudah elemen <div>.
+
+===============================================================================================================
+PERTEMUAN 72 : Tugas 24 HTML
+
+===============================================================================================================
+PERTEMUAN 73 : Semantic Element - Grouping Element
+
+Semantic element merupakan sebuah element yang digunakan untuk mengelompokkan, pada dasarnya element ini sama dengan element div yang memiliki fungsi untuk mengelompokkan, hanya saja untuk semantic element ini nama pengelomppokkannya memiliki makna sesuai dengan penggunaannya.
+
+Selain utnuk pengelomppokkan, semantic element juga berfungsi untuk membantu algoritma pengindeksan yang dilakukan oleh googlebot dan bingbot. Sehingga, penggunaan semantic yang baik akan sangat berguna untuk meningkatkan SEO dari website yang dibuat. Dan hal ini seringkali diremehkan.
+
+- Layout Tag Header <header></header>
+    Tag header digunakan untuk bagian halaman web yang merupakan header (judul). Tag ini bisa digunakan lebih dari 1 kali, tergantung kebutuhan. Bagian atas web dimana kita meletakkan judul dan logo situs adalah tempat terbaik untuk menggunakan tag header. Namun di bagian atas artikel dimana terdapat judul dan sub judul artikel juga bisa dibungkus dengan tag header. Element header biasanya berisi satu atau lebih element heading (h1 - h6).
+    Contoh :
+    <header>
+        <h1>Judul Website</h1>
+        <img src="icon.png">
+    </header>
+
+    Catatan: 
+    Anda dapat memiliki beberapa elemen <header> dalam satu dokumen HTML. Namun, <header> tidak dapat ditempatkan di dalam elemen <footer>, <address> atau <header> lainnya.
+
+- Layout Tag Footer <footer></footer>
+    Tag footer biasanya digunakan untuk bagian bawah / kaki / penutup halaman. dimana kita menampilkan beberapa informasi mengenai website. Walaupun penggunaan paling jelas adalah untuk bagian footer halaman (meletakkan copyright, about us, dll), tag ini juga cocok digunakan pada bagian bawah artikel untuk menampung informasi tambahan seperti "tentang penulis" maupun link untuk share ke sosial media.
+    Contoh :
+    <main>
+        <h2>Judul Artikel 1</h2>
+        <p>... penjelasan artikel 1 ...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+    </main>
+    <footer>
+        <p>... copyright 2019 Niomic ...</p>
+    </footer>
+
+- Layout Tag Article <article></article>
+    Tag article biasanya digunakan untuk menampung konten web. Umumnya tag ini berada di dalam tag <section> atau <main>. Tag ini cocok sebagai container untuk artikel dalam sebuah blog, postingan forum, kabar berita, dll.
+    Contoh :
+    <article>
+        <h2>Judul Artikel</h2>
+        <p>... penjelasan artikel ...</p>
+        <p> ... </p>
+        <p> ... </p>
+    </article>
+
+    Catatan: 
+    Elemen <article> tidak ditampilkan sebagai sesuatu yang istimewa di browser. Namun, Anda dapat menggunakan CSS untuk menata elemen <article>
+
+- Layout Tag Section <section></section>
+    Tag section digunakan untuk memisahkan bagian-bagian dari struktur web. Tag ini bisa digunakan sebagai container untuk kumpulan artikel, gallery, atau bagian lain dari halaman web yang perlu pemisahan. Walaupun tag <section> terkesan "generik", tetapi jika yang kita butuhkan hanya kontainer tanpa makna apa-apa, sebaiknya tetap menggunakan tag <div>. 
+    
+    Bagian utama dimana konten berada bisa dibungkus dengan tag <section>. Dan jika halaman tersebut memiliki banyak bagian yang secara logika bisa dipisah, bisa menggunakan beberapa tag <section>.
+    Contoh :
+    <section>
+        <h1>Judul 1</h1>
+        <p>... Kumpulan dari konten ...</p>
+    </section>
+    <section>
+        <h1>Judul 2</h1>
+        <p>... Kumpulan dari konten ...</p>
+    </section>
+
+    Tips : 
+    Ada banyak perdebatan tentang penggunaan tag section dan tag article, tetapi dari informasi yang didapat, Tag section biasanya digunakan didalam tag article (bukan sebaliknya), karena lebih masuk akal untuk dibaca oleh mesin dan juga manusa (kode lebih mudah dibaca oleh developer).
+
+- Layout Tag Aside <aside></aside>
+    Tag aside berfungsi untuk menandai bagian web yang bukan berisi konten utama, tetapi memiliki kaitan dengan artikel yang saat ini ditampilkan. Bagian paling cocok untuk menggunakan tag <aside> adalah sidebar. Karena pada sidebar bisa terdiri dari beberapa content yang tidak langsung berkaitan dengan content utama, misalnya "10 artikel terbaru", "5 komentar terbaru", "Artikel terkait", dll. Selain untuk sidebar, tag <aside> juga bisa digunakan di dalam artikel untuk menandai bagian tambahan.
+    Contoh :
+    <article>
+        <h2>Judul Artikel</h2>
+        <p>... penjelasan artikel ...</p>
+        <p>...</p>
+        <p>...</p>
+    </article>
+    <aside>
+        <p>... penjelasan tambahan ...</p>
+    </aside>
+
+- Layout Tag Nav <nav></nav>
+    Tag nav berfungsi sebagai 'container' dari menu navigasi. Sebaiknya digunakan untuk menu utama yang dirasa penting seperti pada bagian dalam header.
+    Contoh :
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+- Layout Tag Main <main></main>
+    Tag main cocok digunakan untuk menandai bagian utama dari sebuah halaman. Berbeda dengan tag <section>, tag <main> ummumnya hanya digunakan 1x untuk bagian yang paling penting, yang biasanya berupa konten/artikel utama.
+    Contoh :
+    <main>
+        <h1>Judul Utama</h1>
+        <p>...penjelasan</p>
+        <article>
+        <h2>Judul Artikel 1</h2>
+        <p>... penjelasan artikel 1 ...</p>
+        <p> ... </p>
+        <p> ... </p>
+        </article>
+        <article>
+            <h2>Judul Artikel 2</h2>
+            <p>... penjelasan artikel 2 ...</p>
+            <p> ... </p>
+            <p> ... </p>
+        </article>
+    </main>
+
+    Catatan: 
+    Tidak boleh ada lebih dari satu elemen <main> dalam dokumen. Elemen <main>.TIDAK boleh turunan dari elemen <article>, <aside>, <footer>, <header>, atau <nav>.
+
+CONTOH PENULISAN SEMANTIC ELEMENT
+refer to : https://www.semrush.com/blog/semantic-html5-guide/
+
+Simple :
+<header>
+    <nav></nav>
+</header>
+<main></main>
+<footer></footer>
+
+Menggunakan section dan article :
+<header>
+    <nav></nav>
+</header>
+<main>
+    <article>
+        <h1>Judul</h1>
+        <p>...</p>
+        <section>
+            <h2>Bab</h2>
+            <p>... penjelasan bab ...</p>
+        </section>
+        <section>
+            <h2>Bab</h2>
+            <p>... penjelasan bab ...</p>
+        </section>
+        <section>
+            <h2>Bab</h2>
+            <p>... penjelasan bab ...</p>
+        </section>
+    </article>
+</main>
+<footer>
+    <nav></nav>
+</footer>
+
+Menggunakan directly aside :
+<header>
+    <nav></nav>
+</header>
+<main>
+    <article>
+        <h1>Judul</h1>
+        <p>...</p>
+        <aside></aside>
+        <aside></aside>
+        <section>
+            <h2>Bab</h2>
+            <p>... penjelasan bab ...</p>
+        </section>
+        <section>
+            <h2>Bab</h2>
+            <p>... penjelasan bab ...</p>
+        </section>
+        <section>
+            <h2>Bab</h2>
+            <p>... penjelasan bab ...</p>
+        </section>
+    </article>
+</main>
+<footer>
+    <nav></nav>
+    <nav></nav>
+</footer>
+
+Menggunakan indirectly aside :
+<header>
+    <nav></nav>
+</header>
+<main>
+    <aside></aside>
+    <article>
+        <h1>Judul</h1>
+        <p>...</p>
+        <aside></aside>
+        <aside></aside>
+        <section>
+            <h2>Bab</h2>
+            <p>... penjelasan bab ...</p>
+        </section>
+        <section>
+            <h2>Bab</h2>
+            <p>... penjelasan bab ...</p>
+        </section>
+        <section>
+            <h2>Bab</h2>
+            <p>... penjelasan bab ...</p>
+        </section>
+    </article>
+</main>
+<footer>
+    <nav></nav>
+    <nav></nav>
+</footer>
