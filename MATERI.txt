@@ -1,0 +1,36 @@
+=======================================================================================================
+Pertemuan 1 : Menghubungkan HTML dan CSS
+-------------------------------------------------------------------------------------------------------
+
+HTML    : Elemen-elemen / Bahan yang digunakan untuk membangun sebuah website
+CSS     : Alat untuk mengatur element yang ada
+
+Cara Menghubungkan :
+- Eksternal
+    Membuat sebuah folder baru, yang nantinya diisi oleh file css. Membuat file css pada folder yang sudah dibuat tadi. Menghubungkan dengan menggunakan element link pada bagian head di HTML.
+    Contoh :
+    <link rel="stylesheet" href="style/style.css">
+    * rel : atribut untuk menentukan jenis relasi yang dihubungkan, disini kita menghubungkan css/stylesheet
+    * type : atribut untuk menentukan jenis file yang akan dihubungkan
+    * href : atribut untuk mengidentifikasi lokasi file css kita disimpan
+
+- Internal
+    Menuliskan kode css didalam element <style> yang disisipkan dalam element head pada HTML.
+    Contoh : 
+    <head>
+        <title>Belajar</title>
+        <style>
+            h2{
+                color: orange;
+            }
+        </style>
+    </head>
+
+- InLine
+    Menuliskan langsung atribut style pada tag pembuka dari element yang ingin diberikan style/css nya.
+    Contoh :
+    <h3 style="color:green">Hello HTML H3</h3>
+
+Jika ketiganya ditulis bersamaan, yang akan dibaca oleh sistem adalah yang InLine.
+
+=======================================================================================================
