@@ -66,3 +66,14 @@ Menggunakan class sebagai selector
 
 Note : 
 Perbedaan id dan class, keduanya merupakan penanda pada element html, namun penulisan/penggunaan id harus unik dan tidak boleh terduplikasi dalam 1 html yang sama, sedangkan class boleh ditulis berulang kali (sama).
+
+=======================================================================================================
+Pertemuan 3 : Property dan Color
+-------------------------------------------------------------------------------------------------------
+
+Property adalah kode yang ditulis dalam selector pada css.
+Contoh : 
+#idwarna {color: red;}
+Pada kode diatas, yang merupakan properti adalah color. Properti tersebut diterapkan pada selector #idwarna dengan value red.
+
+Untuk property color, kita dapat menuliskan value dengan 2 cara. Cara pertama yaitu dengan menuliskan langsung warna yang diinginkan, Cara kedua dengan menuliskan hex code dari warna yang diingingkan. Penuliskan dengan hex code lebih spesifik ketimbang menuliskan nama warnanya, dan biasanya cara ini yang akan lebih sering digunakan.
