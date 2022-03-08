@@ -34,3 +34,35 @@ Cara Menghubungkan :
 Jika ketiganya ditulis bersamaan, yang akan dibaca oleh sistem adalah yang InLine.
 
 =======================================================================================================
+Pertemuan 2 : Selector Dengan Nama Element, ID, dan Class
+-------------------------------------------------------------------------------------------------------
+Mengggunakan nama element sebagai selector
+    Kita langsung menuliskan tag html pada css untuk mengatur element tersebut. 
+    Contoh :
+    h1{color: blue;}
+
+    Dengan kode css diatas, maka semua element h1 pada html yang terhubung ke css akan diformat menjadi berwarna biru.
+
+Menggunakan id sebagai selector
+    Kita dapat memformat element html menggunakan css dengan menambahkan attribut id pada tag pembuka di html, lalu mengaturnya di css.
+    Contoh :
+    Pada HTML   => <h1 id="judul">Belajar CSS 2</h1>
+    Pada CSS    => #judul {olor: orange;}
+
+    Dengan kode diatas, maka element yang memiliki id "judul" akan diformat menjadi berwarna orange. Untuk menggunakan selector id pada css, kita harus menggunakan tanda pagar didepan id.
+
+    Jika ada 2 format css yang dilakukan pada suatu element maka yang dilihat adalah yg lebih spesifik. Misalnya diatas, element h1 sudah diformat dengan css menjadi warna biru, tapi dari semua element css ada 1 element h1 yang didalamnya terdapat id dan sudah diformat css, maka yang akan terbaca oleh sistem pada element h1 tersebut adalah css dengan selector id.
+
+Menggunakan class sebagai selector
+    Kita dapat memformat element html menggunakan css dengan menambahkan attribut class pada tag pembuka di html, lalu mengaturnya di css.
+    Contoh :
+    Pada HTML   => <h1 class="belajar">Belajar CSS 3</h1>
+    Pada CSS    => .belajar {color: green;}
+
+    Dengan kode diatas, maka element yang memiliki class "belajar" akan diformat menjadi berwarna orange. Untuk menggunakan selector class pada css, kita harus menggunakan tanda titik (.) didepan class.
+
+    Jika ada 2 format css yang dilakukan pada suatu element maka yang dilihat adalah yg lebih spesifik. Misalnya diatas, element h1 sudah diformat dengan css menjadi warna biru, tapi dari semua element css ada 1 element h1 yang didalamnya terdapat class dan sudah diformat css, maka yang akan terbaca oleh sistem pada element h1 tersebut adalah css dengan selector class.
+    Namun jika class dihadapkan dengan id, maka yang akan terbaca oleh sistem adalah selector id, hal tersebut terjadi karena id sifatnya lebih spesifik (unik).
+
+Note : 
+Perbedaan id dan class, keduanya merupakan penanda pada element html, namun penulisan/penggunaan id harus unik dan tidak boleh terduplikasi dalam 1 html yang sama, sedangkan class boleh ditulis berulang kali (sama).

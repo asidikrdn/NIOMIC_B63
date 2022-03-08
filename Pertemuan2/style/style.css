@@ -1,0 +1,24 @@
+/* Menggunakan nama element sebagai selector */
+h1{
+    color: blue;
+}
+
+/* Menggunakan id sebagai selector */
+#judul {
+    color: orange;
+}
+
+/* Menggunakan class element sebagai selector */
+.belajar {
+    color: green;
+}
+
+/* Memformat class dengan lebih spesifik, yaitu hanya class belajar yang ada di dalam element h2 saja yang dirubah */
+h2.belajar {
+    color: purple;
+}
+
+/* Memformat beberapa element sekaligus */
+h3, h4, h5 {
+    color: red;
+}
