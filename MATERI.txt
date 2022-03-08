@@ -77,3 +77,26 @@ Contoh :
 Pada kode diatas, yang merupakan properti adalah color. Properti tersebut diterapkan pada selector #idwarna dengan value red.
 
 Untuk property color, kita dapat menuliskan value dengan 2 cara. Cara pertama yaitu dengan menuliskan langsung warna yang diinginkan, Cara kedua dengan menuliskan hex code dari warna yang diingingkan. Penuliskan dengan hex code lebih spesifik ketimbang menuliskan nama warnanya, dan biasanya cara ini yang akan lebih sering digunakan.
+
+=======================================================================================================
+Pertemuan 4 : Background Color - Image - Repeat - Position
+-------------------------------------------------------------------------------------------------------
+
+Background Color
+    Property untuk memberikan background warna pada element html
+    Contoh :
+    background-color: orange;
+
+Background Image
+    Property untuk memberikan background gambar pada element html. Value dari property yaitu url yang didalamnya ditulis lokasi gambar (Bisa local bisa internet).
+    Contoh :
+    local       => background-image: url("../img/laut.jpg");
+    internet    => background-image: url("https://cdn.pixabay.com/photo/2018/01/31/12/16/architecture-3121009_960_720.jpg");
+
+Background Repeat
+    Property untuk mengatur perulangan dari background (Biasanya terjadi jika gambar yang digunakan tidak memenuhi layar) baik secara horizontal maupun vertical. Value dari property ini antara lain no-repeat, repeat-x, repeat-y, dan repeat.
+    Contoh : background-repeat: no-repeat;
+
+Background Position
+    Property untuk mengatur posisi dari background (Biasanya digunakan jika gambar yang digunakan tidak memenuhi layar).
+    Contoh : background-position: center top;

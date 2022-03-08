@@ -1,0 +1,26 @@
+#idwarna {
+    color: red;
+    /* Memberikan background warna pada element dengan id idwarna*/
+    /* background-color: orange; */
+}
+
+h2 {
+    color: #8a2be2;
+}
+
+body {
+    /* Memberikan background gambar pada element body dengan gambar lokal */
+    /* background-image: url("../img/laut.jpg"); */
+
+    /* Memberikan background gambar pada element body dengan gambar dari internet */
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/31/12/16/architecture-3121009_960_720.jpg");
+
+    /* Mengatur perulangan pada gambar background agar tidak berulang baik horizontal maupun vertical */
+    background-repeat: no-repeat;
+
+    /* Mengatur posisi background */
+    background-position: center top;
+
+    /* Penulisan satu baris */
+    /* background: orange url("../img/laut.jpg") no-repeat center top; */
+}
