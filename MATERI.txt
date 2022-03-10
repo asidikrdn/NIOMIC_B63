@@ -100,3 +100,49 @@ Background Repeat
 Background Position
     Property untuk mengatur posisi dari background (Biasanya digunakan jika gambar yang digunakan tidak memenuhi layar).
     Contoh : background-position: center top;
+
+=======================================================================================================
+Pertemuan 5 : Border
+-------------------------------------------------------------------------------------------------------
+
+Property Border digunakan untuk memberikan bingkai pada element html.
+Contoh :
+.borderCSS {
+    border-style: dotted;
+}
+
+Value dari property ini cukup beragam tergantung jenis bingkai yang diinginkan, diataranya :
+- dotted : berbentuk titik
+- dashed : berbentuk strip/garis putus-putus
+- solid : berbentuk garis utuh
+- double : berbentuk 2 garis / garis ganda
+- groove : Mendefinisikan batas beralur 3D. Efeknya tergantung pada nilai warna batas
+- ridge : Menentukan batas bergerigi 3D. Efeknya tergantung pada nilai warna batas
+- inset : Mendefinisikan batas inset 3D. Efeknya tergantung pada nilai warna batas
+- outset : Mendefinisikan batas outset 3D. Efeknya tergantung pada nilai warna batas
+- none : Menghilangkan border
+- hidden : Menyembunyikan border
+
+Penulisan value pada property ini ada 3 cara.
+1. Menuliskan 1 value, value ini akan dibaca dan digunakan untuk memformat seluruh sisi pada bingkai.
+Contoh : 
+.borderCSS {
+    border-style: dotted;
+}
+
+2. Menuliskan 2 value, value pertama akan digunakan untuk memformat sisi atas dan bawah border, value kedua akan digunakan untuk memformat sisi kiri dan kanan border.
+Contoh :
+.borderCSS {
+    border-style: dotted dashed;
+}
+
+3. Menuliskan 4 value, value ini akan dibaca dan digunakan untuk masing-masing sisi dengna urutan sebagai berikut :
+value pertama = sisi atas
+value kedua = sisi kanan
+value ketiga = sisi bawah
+value keempat = sisi kiri
+
+Contoh :
+.borderCSS{
+    border-style: dotted dashed none double;
+}

@@ -1,0 +1,22 @@
+.borderCSS {
+    /* Membuat sebuah border untuk semua sisi */
+    /* border-style: dotted; */
+    /* border-style: dashed; */
+    /* border-style: solid; */
+    /* border-style: double; */
+    border-style: groove;
+    /* border-style: ridge; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+
+    /* None untuk menghilangkan, Hidden untuk menyembunyikan */
+    /* border-style: none; */
+    /* border-style: hidden; */
+
+    /* Mendefinisikan border untuk masing-masing sisi pada ke-4 sisi */
+    /* Jika ditulis 4 Urutannya : atas, kanan, bawah, kiri */
+    /* border-style: dotted dashed none double; */
+
+    /* Jika ditulis 2 Urutannya : atas dan bawah, kanan dan kiri */
+    /* border-style: dotted dashed; */
+}
