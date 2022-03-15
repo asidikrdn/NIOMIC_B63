@@ -1,0 +1,19 @@
+/* Mengatur warna pada link yang belum pernah dikunjungi */
+a:link {
+    color: orange;
+}
+
+/* Mengatur warna pada link yang sudah pernah dikunjungi */
+a:visited {
+    color: green;
+}
+
+/* Mengatur warna pada saat link disorot oleh pointer */
+a:hover {
+    color: red;
+}
+
+/* Mengatur warna pada saat link diklik, untuk mencobanya silahkan klik dan tahan */
+a:active {
+    color: yellow;
+}

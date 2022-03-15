@@ -266,3 +266,36 @@ Property Text digunakan untuk memberikan/mengatur banyak hal terkait text dalam 
     word-spacing: 10px;
 
 Dan masih banyak lagi fungsi serta value lainnya.
+
+=======================================================================================================
+Pertemuan 9 : Visited - Link - Hover - Active
+-------------------------------------------------------------------------------------------------------
+
+Property link digunakan untuk mengatur warna pada link, terdapat 4 fungsi yang bisa digunakan, yaitu :
+- Visited 
+    Untuk mengatur warna pada link yang sudah pernah dikunjungi.
+    Contoh : 
+    a:visited {
+        color: green;
+    }
+
+- Link 
+    Untuk mengatur warna pada link yang belum pernah dikunjungi
+    Contoh : 
+    a:link {
+        color: orange;
+    }
+
+- Hover
+    Untuk mengatur warna pada link ketika disorot oleh pointer.
+    Contoh : 
+    a:hover {
+        color: red;
+    }
+
+- Active
+    Untuk mengatur warna pada link ketika diklik. Untuk melihatnya, silahkan coba klik dan tahan mouse.
+    Contoh :
+    a:active {
+        color: yellow;
+    }
