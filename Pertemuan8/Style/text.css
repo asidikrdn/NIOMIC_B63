@@ -1,0 +1,58 @@
+.tengah {
+    /* Mengatur perataan text menjadi rata tengah */
+    text-align: center;
+
+    /* Memberikan dekorasi pada text berupa garis diatas teks */
+    text-decoration: overline;
+
+    /* Mengubah penulisan teks menjadi huruf besar */
+    text-transform: uppercase;
+
+    /* Mengatur jarak antar huruf */
+    letter-spacing: 4px;
+}
+
+.kiri {
+    /* Mengatur perataan text menjadi rata kiri */
+    text-align: left;
+
+    /* Memberikan dekorasi pada text berupa garis mencoret teks */
+    text-decoration: line-through;
+
+    /* Mengubah penulisan teks menjadi huruf kecil */
+    text-transform: lowercase;
+
+    /* Mengatur jarak antar huruf */
+    letter-spacing: -4px;
+}
+
+.kanan {
+    /* Mengatur perataan text menjadi rata kanan */
+    text-align: right;
+
+    /* Memberikan dekorasi pada text berupa garis dibawah teks */
+    text-decoration: underline;
+
+    /* Mengubah penulisan teks menjadi huruf kapital di setiap kata */
+    text-transform: capitalize;
+
+    /* Mengatur jarak antar kata */
+    word-spacing: -4px;
+}
+
+.kanankiri {
+    /* Mengatur perataan text menjadi rata kanan kiri */
+    text-align: justify;
+    
+    /* Memberikan jarak/indentasi pada awal paragraf/kalimat */
+    text-indent: 60px;
+
+    /* Mengatur jarak antar kata */
+    word-spacing: 10px;
+    
+}
+
+a {
+    /* Menghilangkan underline pada link */
+    text-decoration: none;
+}

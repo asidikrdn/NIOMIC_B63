@@ -228,3 +228,41 @@ Selain contoh diatas yang bersifat statis, property ini juga memiliki penulisan 
     {
         max-width: 150px;
     }
+
+=======================================================================================================
+Pertemuan 8 : Text Property
+-------------------------------------------------------------------------------------------------------
+
+Property Text digunakan untuk memberikan/mengatur banyak hal terkait text dalam sebuah element. Diantaranya :
+
+- Text Align
+    Mengatur perataan teks.
+    Contoh :
+    text-align: center;
+
+- Text Decorations
+    Memberikan dekorasi pada teks.
+    Contoh :
+    text-decoration: underline;
+
+- Text Transform
+    Mengubah penulisan pada teks.
+    Contoh :
+    text-transform: uppercase;
+
+- Text Indent
+    Memberikan indentasi pada teks.
+    Contoh :
+    text-indent: 60px;
+
+- Letter Spacing
+    Mengatur jarak spasi antar huruf.
+    Contoh :
+    letter-spacing: 4px;
+
+- Word Spacing
+    Mengatur jarak spasi antar kata.
+    Contoh :
+    word-spacing: 10px;
+
+Dan masih banyak lagi fungsi serta value lainnya.
