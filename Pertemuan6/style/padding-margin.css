@@ -1,0 +1,48 @@
+.paddingmargin {
+  background-color: orange;
+}
+
+#id-paddingmargin {
+  /* Membuat padding pada masing-masing sisi */
+  /* padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 30px; */
+
+  /* Membuat padding dengan 1 value untuk seluruh sisi sekaligus */
+  /* padding: 50px;  */
+
+  /* Membuat padding dengan 2 value, 
+  value pertama untuk sisi atas bawah, value kedua untuk sisi kanan kiri */
+  /* padding: 50px 100px; */
+
+  /* 
+  Membuat padding dengan 2 value, 
+  value pertama untuk sisi atas, 
+  value kedua untuk sisi kanan
+  value ketiga untuk sisi bawah, 
+  value keempat untuk sisi kiri
+  */
+  padding: 50px 100px 0px 20px;
+
+  /* Membuat margin pada masing-masing sisi */
+  /* margin-left: 40px;
+  margin-right: 50px;
+  margin-bottom: 80px;
+  margin-top: 100px; */
+
+  /* Membuat margin dengan 1 value untuk seluruh sisi sekaligus */
+  /* margin: 50px;  */
+
+  /* Membuat margin dengan 2 value, 
+  value pertama untuk sisi atas bawah, value kedua untuk sisi kanan kiri */
+  /* margin: 50px 100px; */
+
+  /* 
+  Membuat margin dengan 2 value, 
+  value pertama untuk sisi atas, 
+  value kedua untuk sisi kanan
+  value ketiga untuk sisi bawah, 
+  value keempat untuk sisi kiri
+  */
+  margin: 50px 100px 0px 20px;
+}

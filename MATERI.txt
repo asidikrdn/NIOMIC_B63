@@ -136,7 +136,7 @@ Contoh :
     border-style: dotted dashed;
 }
 
-3. Menuliskan 4 value, value ini akan dibaca dan digunakan untuk masing-masing sisi dengna urutan sebagai berikut :
+3. Menuliskan 4 value, value ini akan dibaca dan digunakan untuk masing-masing sisi dengan urutan sebagai berikut :
 value pertama = sisi atas
 value kedua = sisi kanan
 value ketiga = sisi bawah
@@ -146,3 +146,59 @@ Contoh :
 .borderCSS{
     border-style: dotted dashed none double;
 }
+
+=======================================================================================================
+Pertemuan 6 : Padding dan Margin
+-------------------------------------------------------------------------------------------------------
+
+PADDING
+Property padding digunakan untuk memberikan jarak pada sisi dalam element itu sendiri.
+Contoh :
+padding-top: 50px;
+
+MARGIN
+Property margin digunakan untuk memberikan jarak pada sisi luar antar element.
+Contoh :
+margin: 50px 100px 0px 20px;
+
+Penulisan padding dan margin dapat dilakukan dengan 4 cara, yaitu
+1. Membuat pada masing-masing sisi
+    Contoh :
+    {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+
+        margin-left: 40px;
+        margin-right: 50px;
+        margin-bottom: 80px;
+        margin-top: 100px;
+    }
+
+2. Menuliskan 1 value untuk seluruh sisi, value ini akan dibaca dan digunakan untuk memformat seluruh 
+    Contoh :
+    {
+        padding: 50px;
+
+        margin: 50px;
+    }
+
+3. Menuliskan 2 value, value pertama akan digunakan untuk memformat sisi atas dan bawah, value kedua akan digunakan untuk memformat sisi kiri dan kanan.
+    Contoh :
+    {
+        padding: 50px 100px;
+
+        margin: 50px 100px;
+    }
+
+4. Menuliskan 4 value, value ini akan dibaca dan digunakan untuk masing-masing sisi dengan urutan sebagai berikut :
+    value pertama = sisi atas
+    value kedua = sisi kanan
+    value ketiga = sisi bawah
+    value keempat = sisi kiri
+
+    Contoh:
+    {
+        padding: 50px 100px 0px 20px;
+        margin: 50px 100px 0px 20px;
+    }

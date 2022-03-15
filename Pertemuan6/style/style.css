@@ -1,0 +1,11 @@
+#idwarna {
+    color: red;
+}
+
+h2 {
+    color: #8a2be2;
+}
+
+body {
+    background: orange url("../img/laut.jpg") no-repeat center top;
+}
