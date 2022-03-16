@@ -1,0 +1,59 @@
+/* Secara default, position pada element html adalah static */
+
+.kotak {
+    position: relative;
+    top: 120px;
+    background-color: orange;
+}
+
+.belajar2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0px;
+    background-color: blue;
+}
+
+div {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.fix {
+    /* Mengatur warna background*/
+    background-color: green;
+    
+    /* Mengatur tipe posisi bersifat fixed */
+    position: fixed;
+
+    /* Menentukan jarak posisi dari atas dan kiri halaman */
+    top: 40px;
+    left: 80px;
+}
+
+.fix2 {
+    /* Mengatur warna background*/
+    background-color: green;
+    
+    /* Mengatur tipe posisi bersifat fixed */
+    position: fixed;
+
+    top: 60px;
+    left: 250px;
+}
+
+.stic {
+    /* Mengatur warna background*/
+    background-color: pink;
+
+    /* Mengatur tipe posisi bersifat sticky */
+    position: sticky;
+
+    /* Menentukan batas jarak posisi dari atas, 
+    element dengan posisi ini bisa berjarak lebih dari 140px dari atas halaman, 
+    namun ketika sampai pada posisi 140px ia akan terhenti,
+    sehingga jarak posisinya tidak akan kurang dari 140px dari atas halaman */
+    top: 140px;
+}

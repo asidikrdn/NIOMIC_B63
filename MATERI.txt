@@ -374,3 +374,40 @@ Posisinya akan bergerak berdasarkan posisi semula. Misal kita menambahkan proper
 Posisi Absolute 
 Posisinya akan bergerak berdasarkan posisi parentnya (element yang membungkus dirinya). Parent dari posisi absolute harus bersifat relative.
 Misal kita menambahkan properti bottom sebesar 10px, maka element akan digeser dari bagian terbawah pada element pembungkusnya sejauh 10px
+
+=======================================================================================================
+Pertemuan 14 : Position Fixed dan Sticky
+-------------------------------------------------------------------------------------------------------
+
+Kegunaan position pada CSS
+Pada CSS sendiri Anda bisa mengatur letak posisi setiap elemen, ini sangat berguna untuk desain tata letak yang baik. Didalam CSS ada beberapa metode yang bisa Anda gunakan untuk menentukan posisi elemen dengan properti position. Pada properti position Ada lima nilai yang bisa Anda gunakan:
+- static
+- relative
+- absolute
+- fixed
+- sticky
+
+Agar berfungsi Anda juga perlu mengatur arah posisi yang lebih spesifik dengan properti: top, right, bottom dan left, mereka juga bekerja secara berbeda tergantung pada nilai posisi.
+
+
+POSISI FIXED
+Elemen dengan posisi fixed digunakan untuk memberikan posisi tetap bahkan jika halaman tersebut digulir. Dengan posisi fixed Anda bisa mengatur letak posisi dengan properti top, right, bottom dan left. Elemen yang diposisikan fixed dapat tumpang tindih dengan elemen lain, dan tidak menjaga ruang yang awalnya disediakan dalam aliran normal.
+
+
+POSISI STICKY
+Elemen dengan posisi sticky digunakan untuk toggle posisi relative dan posisi fixed. Ini diposisikan relatif sampai posisi offset yang diberikan bertemu di viewport – kemudian “sticky” di tempatnya. Dengan posisi sticky Anda bisa mengatur letak posisi dengan properti top, right, bottom dan left. Elemen yang diposisikan sticky dapat tumpang tindih dengan elemen lain, dan tidak menjaga ruang yang awalnya disediakan dalam aliran normal.
+
+Jangan lupa menentukan properti position, jika tidak sticky tidak akan berjalan.
+
+Informasi: 
+Internet Explorer, Edge 15 dan browser versi yang lebih lama tidak mendukung penentuan posisi sticky. Safari membutuhkan awalan -webkit- agar berfungsi.
+
+
+Simpelnya :
+
+POSISI FIXED
+Ciri yang paling terlihat adalah element dengan posisi fixed akan benar-benar tetap diam, bahkan ketika halaman di scroll. Acuan posisi dari tipe fixed ialah element body, iya tidak bergantung pada element pembungkus lainnya walaupun sudah dibungkus.
+
+POSISI STICKY
+Ciri yang paling terlihat untuk posisi sticky ialah ia akan bersifat relative, sampai ketika menemukan posisi yang sesuai dengan properti yang diset maka ia akan berubah menjadi fixed. Misal pada awalnya element itu ada di posisi bagian tengah dari halaman, lalu diberi properti top senilai 40, maka ketika kita scroll halaman webnya sampai ia berada di posisi 40px dari atas layar, dia akan berhenti walaupun halaman websitenya masih terus kita scroll.
+Sama seperti tipe fixed, acuan posisi dari tipe sticky ialah element body, iya tidak bergantung pada element pembungkus lainnya walaupun sudah dibungkus.
