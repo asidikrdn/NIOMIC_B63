@@ -1,0 +1,41 @@
+/* Secara default, position pada element html adalah static */
+
+
+.kotak {
+    /* Mengatur posisi menjadi relative */
+    position: relative;
+    
+    /* Memberikan jarak pada bagian atas dari posisi default element, element harus dengan sifat relative */
+    top: 120px;
+
+    /* Mengatur warna background */
+    background-color: orange;
+}
+
+.belajar2 {
+    /* Mengatur tipe posisi menjadi absolute */
+    position: absolute;
+    
+    /* memposisikan element dengan class belajar2 pada posisi bawah dengan jarak 0 pada element div */
+    bottom: 0;
+
+    /* memposisikan element dengan class belajar2 pada posisi kanan dengan jarak 0 pada element div */
+    right: 0;
+
+    /* Element p pada dasarnya memiliki margin sebesar 16px, 
+    oleh karenanya ketika kita menggunakan bottom/top dengan nilai 0, 
+    element tersebut tidak akan benar" berada di posisi bawah/atas.
+    Untuk menghilangkannya maka kita perlu mengatur marginnya. */
+    margin: 0px;
+
+    background-color: blue;
+}
+
+/* Membuat element untuk membungkus element dengan position absolute
+Element ini harus memiliki tipe posisi bersifat relative */
+div {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

@@ -336,3 +336,41 @@ Pertemuan 12 : Memahami Property Margin Top dan Property Top
 Perbedaan Margin Top dan Top :
 Margin Top berfungsi mengatur jarak antara element tersebut dengan element diatasnya.
 Top berfungsi mengatur jarak pada sisi atas element tersebut dari posisi defaultnya, hampir mirip seperti padding, bedanya jika padding hanya menggeser isi elementnya sedangkan top menggeser keseluruhan element dengan jarak yang bersifat transparan seperti margin.
+
+=======================================================================================================
+Pertemuan 13 : Position Relative dan Absolute
+-------------------------------------------------------------------------------------------------------
+
+Kegunaan position pada CSS
+Pada CSS sendiri Anda bisa mengatur letak posisi setiap elemen, ini sangat berguna untuk desain tata letak yang baik. Didalam CSS ada beberapa metode yang bisa Anda gunakan untuk menentukan posisi elemen dengan properti position. Pada properti position Ada lima nilai yang bisa Anda gunakan:
+- static
+- relative
+- absolute
+- fixed
+- sticky
+
+Agar berfungsi Anda juga perlu mengatur arah posisi yang lebih spesifik dengan properti: top, right, bottom dan left, mereka juga bekerja secara berbeda tergantung pada nilai posisi.
+
+
+POSISI STATIC
+Elemen HTML secara default diposisikan static. Posisi static tidak diposisikan dengan cara khusus apa pun, melainkan diposisikan sesuai dengan aliran normal halaman. Elemen posisi static tidak bisa dipengaruhi oleh properti top, right, bottom dan left.
+
+
+POSISI RELATIVE
+Elemen dengan posisi relative diposisikan relative terhadap posisi normalnya. Dengan posisi relative Anda bisa mengatur letak posisi dengan properti top, right, bottom dan left. Elemen yang diposisikan relative dapat tumpang tindih dengan elemen lain, dan menjaga ruang yang awalnya disediakan dalam aliran normal.
+
+
+POSISI ABSOLUTE
+Elemen dengan posisi absolute diposisikan sepenuhnya keluar dari aliran normalnya. Dengan posisi absolute Anda bisa mengatur letak posisi dengan properti top, right, bottom dan left. Elemen yang diposisikan absolute dapat tumpang tindih dengan elemen lain, dan tidak menjaga ruang yang awalnya disediakan dalam aliran normal.
+
+Jika posisi absolute dibungkus dengan posisi relative, maka akan mengikuti posisi kordinat dari pembungkusnya (relative). Namun jika posisi absolute tidak memiliki pembungkus yang mempunyai posisi relative, maka ia menggunakan elemen <body> sebagai kordinatnya.
+
+
+Simpelnya ialah :
+
+Posisi Relative 
+Posisinya akan bergerak berdasarkan posisi semula. Misal kita menambahkan properti top sebesar 10px, maka element akan digeser pada bagian atasnya sebesar 10px dari posisi semula.
+
+Posisi Absolute 
+Posisinya akan bergerak berdasarkan posisi parentnya (element yang membungkus dirinya). Parent dari posisi absolute harus bersifat relative.
+Misal kita menambahkan properti bottom sebesar 10px, maka element akan digeser dari bagian terbawah pada element pembungkusnya sejauh 10px
