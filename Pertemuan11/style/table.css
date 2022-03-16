@@ -1,0 +1,37 @@
+table, th, td {
+    /* Memberikan garis bingkai pada table, th, dan td */
+    border: 1px solid black;
+}
+
+table {
+    /* Menggabungkan garis table dengan td dan th */
+    border-collapse: collapse;
+
+    /* Mengatur lebar pada element table */
+    width: 100%;
+}
+
+th {
+    /* Mengatur tinggi element th*/
+    height: 60px;
+
+    /* Mengatur perataan teks rata kiri */
+    text-align: left;
+
+    /* Mengatur perataan teks secara vertikal */
+    vertical-align: middle;
+
+    /* Mengatur warna background pada element th */
+    background-color: blue;
+}
+
+
+.hov:hover {
+    /* Mengatur warna background ketika element dengan class hov disorot oleh pointer */
+    background-color: orange;
+}
+
+th, td {
+    /* Mengatur garis bingkai pada bagian bawah dari element th dan td */
+    border-bottom: 5px groove red;
+}

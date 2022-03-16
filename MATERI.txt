@@ -317,3 +317,14 @@ Beberapa property outline :
 - Outline-offset    : Mengatur ruang/jarak antara outline dengan tepian element
 
 Referensi : https://hendky.com/outline-css/
+
+=======================================================================================================
+Pertemuan 11 : Table
+-------------------------------------------------------------------------------------------------------
+
+Ada banyak properti yang dapat digunakan dalam memanipulasi table, diantaranya :
+- border
+- width & height
+- text
+- vertical-align
+- background-color
