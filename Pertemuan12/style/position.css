@@ -1,0 +1,13 @@
+/* Secara default, position pada element html adalah static */
+
+
+.kotak {
+    /* Mengatur posisi menjadi relative */
+    position: relative;
+    
+    /* Memberikan jarak pada bagian atas dari posisi default element, element harus dengan sifat relative */
+    top: 120px;
+
+    /* Mengatur warna background */
+    background-color: orange;
+}

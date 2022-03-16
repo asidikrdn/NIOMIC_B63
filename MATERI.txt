@@ -328,3 +328,11 @@ Ada banyak properti yang dapat digunakan dalam memanipulasi table, diantaranya :
 - text
 - vertical-align
 - background-color
+
+=======================================================================================================
+Pertemuan 12 : Memahami Property Margin Top dan Property Top
+-------------------------------------------------------------------------------------------------------
+
+Perbedaan Margin Top dan Top :
+Margin Top berfungsi mengatur jarak antara element tersebut dengan element diatasnya.
+Top berfungsi mengatur jarak pada sisi atas element tersebut dari posisi defaultnya, hampir mirip seperti padding, bedanya jika padding hanya menggeser isi elementnya sedangkan top menggeser keseluruhan element dengan jarak yang bersifat transparan seperti margin.
