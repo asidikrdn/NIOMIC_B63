@@ -299,3 +299,21 @@ Property link digunakan untuk mengatur warna pada link, terdapat 4 fungsi yang b
     a:active {
         color: yellow;
     }
+
+=======================================================================================================
+Pertemuan 10 : Outline
+-------------------------------------------------------------------------------------------------------
+
+Outline pada CSS umumnya digunakan untuk menambahkan garis disekitar elemen. Sekilas outline tampak sangat mirip dengan border, tetapi berbeda dengan border. Berikut perbedaannya:
+- Outline tidak memakan ruang dan bukan termasuk penghitungan box model. Outline selalu ditempatkan di atas kotak elemen yang dapat menyebabkan mereka tumpang tindih dengan elemen lain.
+- Tidak seperti border, outline tidak bisa mengatur setiap sudut secara individu. Outline hanya bisa mengatur semua sudur sekaligus
+- Tidak seperti border, outline tidak mengubah ukuran atau posisi elemen.
+
+Beberapa property outline :
+- Outline           : Mengatur semua properti outline dalam satu deklarasi
+- Outline-style     : Mengatur model outline
+- Outline-width     : Mengatur lebar outline
+- Outline-color     : Mengatur warna outline
+- Outline-offset    : Mengatur ruang/jarak antara outline dengan tepian element
+
+Referensi : https://hendky.com/outline-css/

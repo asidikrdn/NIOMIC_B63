@@ -1,0 +1,21 @@
+.outlineCSS {
+    margin: 50px;
+
+    /* Mengatur model, warna, dan lebar outline */
+    /* outline-style: solid;
+    outline-color: blue;
+    outline-width: 20px; */
+    
+    /* Mengatur jarak ruang antara outline dengan tepian element */
+    outline-offset: 25px;
+
+    /* Mengatur semua properti outline dalam 1 deklarasi */
+    outline: 20px solid red;
+
+    /* border-style: dashed;
+    border-color: orange;
+    border-width: 10px; */
+
+    border: dashed green 10px;
+
+}
