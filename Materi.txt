@@ -118,3 +118,27 @@ White Space
         Contoh :
         p {font-size : 18px;}   --> Dapat digunakan
         p {font-size : 18 px}   --> Tidak dapat digunakan
+
+===================================================================================================================
+Pertemuan 5 : Membuat Komentar
+-------------------------------------------------------------------------------------------------------------------
+
+Komentar (Comment) adalah bagian dari kode yang tidak diproses ketika program berjalan (akan diabaikan). Sesuai namanya, komentar digunakan untuk membuat catatan tentang kode tersebut. CSS hanya mendukung 1 cara penulisan komentar, yaitu dibuka dengan karakter '/*' dan diakhiri dengan karakter '*/'.
+Contoh :
+/* Ini adalah style untuk h1 dan h2 */
+h1, h2 {
+    color:red;                  /* Mengatur warna konten menjadi merah */
+    background-color: blue;     /* Mengatur warna background menjadi biru */
+}
+
+Karena tidak akan diproses, komentar juga digunakan untuk "mematikan" beberapa kode CSS. Teknik ini sangat berguna saat proses debugging (mencari kesalahan kode program), atau kita ingin mencoba-coba kombinasi style baru tapi tidak ingin menghapus kode lama.
+Contoh :
+/* Dimatikan sementara */
+/* body
+{
+    BackGround-Color: #F7F7F7;
+} */
+body
+{
+    BackGround-Color: lightblue;
+}
