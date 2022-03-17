@@ -1,0 +1,10 @@
+/* Menggunakan element selector untuk memformat element h1 */
+h1 {
+    color: green;
+    text-decoration: underline;
+}
+
+/* Menggunakan element selector untuk memformat element p */
+p {
+    font-size: 14px;
+}

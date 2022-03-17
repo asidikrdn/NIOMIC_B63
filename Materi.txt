@@ -213,3 +213,16 @@ Contoh :
   color: blue;
   background-color: lightyellow;
 }
+
+===================================================================================================================
+Pertemuan 10 : Element Selector
+-------------------------------------------------------------------------------------------------------------------
+
+Element Selector / Tag Selector / Type Selector adalah selector yang nilainya merupakan tag HTML itu sendiri. Semua tag pada HTML dapat digunakan sebagai selector.
+Contoh :
+h1 {
+    color: green;
+    text-decoration: underline;
+}
+
+Dengan kode diatas maka seluruh element h1 beserta semua isinya (dari tag pembuka sampai tag penutup) akan diformat menjadi berwarna hijau dan digarisbawahi. Jika di dalam element h1 ada element lain, maka element tersebut akan ikut terformat.
