@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Eksternal CSS dengan metode link -->
+    <link rel="stylesheet" href="style1.css">
+
+    <style>
+      /* Eksternal CSS dengan metode @import, harus berada di posisi teratas didalam style */
+      @import url("style2.css");
+      
+      /* Internal CSS / Embed CSS */
+      .pertama {
+        color: blue;
+      }      
+    </style>
+
+    <title>Contoh Penerapan CSS</title>
+  </head>
+
+  <body>
+    <!-- Inline CSS -->
+    <h1 style="color : red">Sedang Belajar CSS</h1>
+
+    <p class="pertama">Mohon jangan diganggu, lagi serius implementasi CSS.</p>
+
+    <h2>Belajar Web Design Bersama Niomic</h2>
+
+    <p class="kedua">
+      CSS adalah dunianya web design. Jika anda ingin mempelajari cara mendesain
+      web, CSS mutlak harus dikuasai.
+    </p>
+  </body>
+</html>

@@ -142,3 +142,44 @@ body
 {
     BackGround-Color: lightblue;
 }
+
+===================================================================================================================
+Pertemuan 6 : Cara Menginput (Menghubungkan) Kode CSS Pada File HTML
+-------------------------------------------------------------------------------------------------------------------
+
+Untuk menghubungkan kode CSS dengan HTML terdapat 3 cara :
+- Inline CSS
+    Menempatkan kode css langsung pada element dalam html yang ingin diberikan css dengan menambahkan atribut style. Dengan metode ini kita tidak perlu menggunakan selector.
+    Contoh : 
+    <h1 style="color : red">Sedang Belajar CSS</h1>
+
+- Internal CSS
+    Menempatkan kode css pada dokumen html namun tidak langsung dituliskan pada element, kode css dituliskan didalam element head dengan menambahkan tag style. Dengan metode ini kita perlu menggunakan selector.
+    Contoh : 
+    <head>
+        <style>
+        /* Internal CSS / Embed CSS */
+        .pertama {
+            color: blue;
+        }      
+        </style>
+    </head>
+
+- Eksternal CSS
+    Menempatkan seluruh kode CSS pada file terpisah kemudian memanggilnya di dalam kode html. Metode ini paling disarankan karena sangat fleksibel dan dapat digunakan untuk beberapa file html sekaligus.
+    Untuk memanggil eksternal css, terdapat 2 metode :
+    - Menggunakan tag <link>
+        Kita dapat memanggil kode css eksternal ke dalam file html menggunakan tag <link> yang dituliskan didalam element head.
+        Contoh :
+        <link rel="stylesheet" href="style1.css">
+    
+    - Menggunakan @import
+        Kita juga dapat memanggil eksternal css dengan perintah @import yang dituliskan didalam element style (tempat menulis css internal) dalam html. Perintah @import harus berada paling atas dalam element style.
+        Contoh :
+        <head>
+            <style>
+            /* Eksternal CSS dengan metode @import, harus berada di posisi teratas didalam style */
+            @import url("style2.css");
+            </style>
+        </head>
+
