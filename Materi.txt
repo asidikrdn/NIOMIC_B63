@@ -183,3 +183,18 @@ Untuk menghubungkan kode CSS dengan HTML terdapat 3 cara :
             </style>
         </head>
 
+===================================================================================================================
+Pertemuan 7 : CSS Media Type
+-------------------------------------------------------------------------------------------------------------------
+
+Dengan atribut media type, kita dapat mengatur di media/perangkat manakah kode CSS akan berjalan. Atribut ini dituliskan dalam tag pembuka <link>. Secara default value dari atribut media adalah "all" dimana kode css akan berjalan baik pada saat ditampilkan di layar maupun saat akan dicetak. Value lain yang dapat digunakan pada atribut media adalah :
+
+- Screen
+    Value ini digunakan untuk mengatur kode css agar berjalan hanya pada saat halaman web ditampilkan di layar. Pada saat dicetak, kode css tersebut tidak akan berfungsi.
+    Contoh :
+    <link rel="stylesheet" href="style1.css" media="screen">
+
+- Print
+    Value ini digunakan untuk mengatur kode css agar berjalan hanya pada saat halaman web dicetak. Pada tampilan layar, kode css tersebut tidak akan berjalan.
+    Contoh :
+    <link rel="stylesheet" href="style2.css" media="print">
