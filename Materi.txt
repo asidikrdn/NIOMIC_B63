@@ -63,3 +63,58 @@ body {
 }
 
 Pada akhir dari property dan value, kita harus menuliskan tanda titik koma ";", tanda tersebut juga digunakan untuk memisahkan properti satu dengan property lainnya.
+
+===================================================================================================================
+Pertemuan 4 : Case Sensitivity dan Whitespace
+-------------------------------------------------------------------------------------------------------------------
+
+Case Sensitivity
+    Istilah yang membahas apakah sebuah bahasa pemrograman membedakan penulisan huruf kecil dan huruf besar. Secara umum, CSS bersifat insensitive, yang berarti tidak membedakan huruf besar dan huruf kecil.
+    Contoh : 
+    p {
+        font-size : 18px;
+    }
+    p {
+        font-SiZe : 18PX;
+    }
+
+    Kedua kode CSS diatas akan dianggap sama, walaupun yang satu ditulis dengan huruf kecil, yang satunya lagi ditulis dengan kombinasi huruf besar.
+
+
+White Space
+    Istilah yang merujuk pada karakter 'spasi' yang tidak tampil di layar, contohnya seperti karakter spasi, tab, dan karakter enter (dikenal juga dengan karakter carriage returns).
+
+    Whitespace pada CSS akan diabaikan pada beberapa kondisi, diantaranya :
+    - Jarak antara selector dan deklarasi
+        Contoh :
+        p {}
+        p       {}
+    - Jarak antara property dan value
+        Contoh :
+        p {
+            font-size: 18px;
+            color                   : white;
+
+        }
+    - Jarak antar properti-value yang satu dengan yang lainnya
+        Contoh :
+        p {
+            font-size: 18px;
+            color                   : white;
+
+        }
+        p {
+            font-size: 18px; color : white;
+        }
+    
+    Whitespace pada CSS akan dianggap pada beberapa kondisi, yaitu :
+    - Penulisan Selector
+        Contoh :
+        p.pertama {}
+        p .pertama {}
+        Pada baris pertama, css akan mencari seluruh element paragraf yang memiliki atribut class="pertama".
+        Pada baris kedua, css akan mencari seluruh element yang memiliki class="pertama" yang berada didalam element paragraf (menginduk ke paragraf).
+    - Penulisan angka dan satuannya pada value
+        Contoh :
+        p {font-size : 18px;}   --> Dapat digunakan
+        p {font-size : 18 px}   --> Tidak dapat digunakan
