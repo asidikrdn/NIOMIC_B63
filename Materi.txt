@@ -1,0 +1,12 @@
+===================================================================================================================
+Pertemuan 1 : Pengenalan CSS
+-------------------------------------------------------------------------------------------------------------------
+
+Pengertian & Fungsi
+
+CSS (Cascading Style Sheet) digunakan untuk mengubah tampilan (style) dari halaman web. Halaman web modern terdiri dari 3 komponen dasar
+- HTML : membuat struktur
+- CSS : untuk tampilan
+- Javascript : untuk interaksi
+
+CSS berfungsi untuk mengatur tampilan (style) dari sebuah dokumen, disini dokumen yang digunakan ialah HTML. Dengan menggunakan CSS kita dapat mengatur hampir seluruh tampilan dari HTML, seperti warna, background, ukuran font, posisi judul, tampilan layout, dan masih banyak lagi. Ditambah dengan banyak fitur lanjutan seperti color gradient, transition, dan animation.
