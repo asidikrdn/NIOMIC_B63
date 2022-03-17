@@ -10,3 +10,30 @@ CSS (Cascading Style Sheet) digunakan untuk mengubah tampilan (style) dari halam
 - Javascript : untuk interaksi
 
 CSS berfungsi untuk mengatur tampilan (style) dari sebuah dokumen, disini dokumen yang digunakan ialah HTML. Dengan menggunakan CSS kita dapat mengatur hampir seluruh tampilan dari HTML, seperti warna, background, ukuran font, posisi judul, tampilan layout, dan masih banyak lagi. Ditambah dengan banyak fitur lanjutan seperti color gradient, transition, dan animation.
+
+===================================================================================================================
+Pertemuan 2 : Selector, Declaration, Property dan Value
+-------------------------------------------------------------------------------------------------------------------
+
+Selector
+    Berfungsi untuk mencari bagian mana dari HTML yang ingin disisipi kode CSS. CSS menyediakan berbagai macam jenis Selector, dari yang sederhana seperti element selector, hingga yang cukup rumit seperti pseudo selector.
+
+Declaration
+    Bagian yang berada diantara tanda kurung kurawal, bagian ini menjadi tempat menyimpan kode-kode CSS (Property dan Value).
+
+Property
+    Atribut yang dibutuhkan untuk mengatur jenis style CSS atau bagian apa yang akan dirubah dari sebuah element HTML. Misalnya jenis font, ukuran huruf, background, lebar tabel, dan hal yang berkaitan dengan komponen HTML lainnya. Atribut property harus memiliki value.
+
+Value
+     Value sangat bergantung kepada property, misal untuk ukuran font bisa menggunakan satuan pixel(px), point, dll. Tapi untuk property warna (color) kita harus menggunakan value berupa nama warna, kode RGB, atau kode Hexa.
+
+Contoh :
+h1 {
+    font-size: 18px;
+    color : green;
+}
+
+Dari kode diatas yang merupakan
+- Selector yaitu : h1
+- Property yaitu : font-size dan color
+- Value yaitu : 18px dan green
