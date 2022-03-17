@@ -1,0 +1,5 @@
+/* Menggunakan universal selector untuk mengatur style seluruh bagian pada kode html */
+* {
+  color: blue;
+  background-color: lightyellow;
+}

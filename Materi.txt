@@ -198,3 +198,18 @@ Dengan atribut media type, kita dapat mengatur di media/perangkat manakah kode C
     Value ini digunakan untuk mengatur kode css agar berjalan hanya pada saat halaman web dicetak. Pada tampilan layar, kode css tersebut tidak akan berjalan.
     Contoh :
     <link rel="stylesheet" href="style2.css" media="print">
+
+===================================================================================================================
+Pertemuan 8 : Tugas 1 CSS
+-------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 9 : Universal Selector
+-------------------------------------------------------------------------------------------------------------------
+
+Universal selector adalah jenis selector yang melakukan seleksi pada seluruh tag dalam file html yang terhubung. Universal selector hanya ada 1, yaitu tanda bintang "*" yang akan berguna untuk melakukan seleksi secara keseluruhan.
+Contoh :
+* {
+  color: blue;
+  background-color: lightyellow;
+}
