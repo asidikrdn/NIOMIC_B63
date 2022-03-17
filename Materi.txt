@@ -37,3 +37,29 @@ Dari kode diatas yang merupakan
 - Selector yaitu : h1
 - Property yaitu : font-size dan color
 - Value yaitu : 18px dan green
+
+===================================================================================================================
+Pertemuan 3 : Cara penulisan Selector, Property dan Value
+-------------------------------------------------------------------------------------------------------------------
+
+Sebuah style di dalam CSS diawali dengan penulisan selector, yakni bagian apa pada HTML yang ingin diubah tampilannya. Cara menuliskan selector dengan menuliskan atribut HTML mana yang akan diberikan CSS.
+Contohnya kita mau memformat element body :
+body
+
+Setelah menuliskan selector, kita harus menuliskan deklarasi untuk property dan value dari selector tersebut. Penulisan deklarasi dilakukan dengan cara memberi tanda kurung kurawal setelah selector.
+Contoh : 
+body {}
+
+Penulisan property dilakukan dengan menuliskan property apa yang akan digunakan di dalam deklarasi, misalnya kita akan menuliskan property background-color untuk element body, maka kita cukup menuliskannya didalam tanda kurung kurawal.
+Contoh : 
+body {
+    background-color :
+}
+
+Setelah menuliskan property, kita dapat menuliskan value setelah tanda titik dua.
+Contoh : 
+body {
+    background-color :  #F7F7F7;
+}
+
+Pada akhir dari property dan value, kita harus menuliskan tanda titik koma ";", tanda tersebut juga digunakan untuk memisahkan properti satu dengan property lainnya.
