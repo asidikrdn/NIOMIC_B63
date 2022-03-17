@@ -1,0 +1,46 @@
+/* Nilai overflow secara default adalah visible */
+
+.visible {
+    height: 250px;
+    width: 300px;
+    background-color: orange;
+
+    /* Men-set overflow menjadi visible, isi kontent yang melebihi dimensi element akan tetap ditampilkan */
+    overflow: visible;
+}
+
+.hidden {
+    height: 150px;
+    width: 150px;
+    background-color: lightgreen;
+
+    /* Men-set overflow menjadi hidden, isi kontent yang melebihi dimensi element akan disembunyikan */
+    overflow: hidden;
+}
+
+.scroll {
+    height: 150px;
+    width: 150px;
+    background-color: lightblue;
+
+    /* Men-set overflow menjadi scroll, menampilkan fitur scroll pada element (horizontal dan vertical) */
+    overflow: scroll;
+}
+
+.auto {
+    height: 150px;
+    width: 150px;
+    background-color: lightcoral;
+
+    /* Men-set overflow menjadi auto, otomatis akan menampilkan fitur scroll pada element (horizontal dan vertical) jika ada isi konten yang melebihi dimensi element */
+    overflow: auto;
+}
+
+.scroll-y {
+    height: 150px;
+    width: 150px;
+    background-color: lightblue;
+
+    /* Men-set overflow menjadi scroll, menampilkan fitur scroll pada element (hanya pada bidang vertical [y]) */
+    overflow: scroll;
+}

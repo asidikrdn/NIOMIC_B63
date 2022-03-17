@@ -411,3 +411,31 @@ Ciri yang paling terlihat adalah element dengan posisi fixed akan benar-benar te
 POSISI STICKY
 Ciri yang paling terlihat untuk posisi sticky ialah ia akan bersifat relative, sampai ketika menemukan posisi yang sesuai dengan properti yang diset maka ia akan berubah menjadi fixed. Misal pada awalnya element itu ada di posisi bagian tengah dari halaman, lalu diberi properti top senilai 40, maka ketika kita scroll halaman webnya sampai ia berada di posisi 40px dari atas layar, dia akan berhenti walaupun halaman websitenya masih terus kita scroll.
 Sama seperti tipe fixed, acuan posisi dari tipe sticky ialah element body, iya tidak bergantung pada element pembungkus lainnya walaupun sudah dibungkus.
+
+=======================================================================================================
+Pertemuan 15 : Overflow
+-------------------------------------------------------------------------------------------------------
+
+Properti Overflow digunakan untuk mengatur apa yang akan dilakukan oleh sistem ketika konten melebihi dari dimensi element, apakah konten akan dipotong, membuat menu scrooll, atau tetap menampilkan konten diluar dimensi element.
+
+Ada 4 value yang dapat digunakan pada properti overflow, yaitu :
+
+- Visible
+    Visible merupakan nilai default dari properti overflow, jika kita menggunakan value ini maka konten yang melebihi dimensi akan tetap ditampilkan dan dibiarkan meluber keluar dimensi tanpa dipotong
+
+- Hidden
+    Jika kita menggunakan value hidden, maka konten yang melewati batas dari dimensi element akan dipotong dan disembunyikan, sehingga kita tidak akan bisa melihat konten yang melebihi dimensi wadahnya jika menggunakan nilai ini.
+
+- Scroll
+    Value Scroll berfungsi menampilkan scroll bar pada element (ada ataupun tidak ada kontek yang melebihi dimensi). Dengan adanya scroll bar pada element, maka konten yang melebihi dimensi dapat tetap kita lihat.
+
+- Auto
+    Value ini mirip dengan value scroll, bedanya adalah dengan menggunakan value auto, sistem hanya akan menampilkan/menambahkan scroll bar ketika ada konten yang melebihi dimensi.
+
+Penulisan pada property overflow ada 2 cara, yaitu :
+
+- overflow
+    Penulisan ini digunakan untuk mengatur secara horizontal dan vertical sekaligus
+
+- overflow-x / overflow-y
+    Penulisan ini digunakan untuk mengatur secara terpisah, baik horizontal saja (overflow-x) ataupun secara vertical saja (overflow-y)
