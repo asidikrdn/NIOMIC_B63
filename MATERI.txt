@@ -439,3 +439,34 @@ Penulisan pada property overflow ada 2 cara, yaitu :
 
 - overflow-x / overflow-y
     Penulisan ini digunakan untuk mengatur secara terpisah, baik horizontal saja (overflow-x) ataupun secara vertical saja (overflow-y)
+
+=======================================================================================================
+Pertemuan 16 : Float dan InLine Block
+-------------------------------------------------------------------------------------------------------
+
+Properti Float digunakan untuk mengatur posisi element agar bisa "mengapung" ke kiri atau ke kanan. Properti float sangat berguna untuk mengatur design tata letak pada halaman web.
+
+Ketika sebuah element menggunakan properti float, maka element tersebut keluar dari normal flow (block), sehingga element dibawahnya dapat naik ke atas mengisi posisi element yang bersifat float tersebut.Sehingga elemen yang mempunyai position: absolute; tidak akan bekerja jika diberi style dengan properti float, karena elemen “mengapung” sudah dikeluarkan dari aliran normal (normal-flow).
+
+Jika beberapa elemen “float atau mengapung” ditempatkan bersebelahan, maka elemen yang lainnya akan ikut “mengapung” bersebelahan mengisi ruang horizontal yang tersisa. Jika tidak ada cukup ruang untuk “mengapung”, itu akan digeser ke bawah sampai tidak ada lagi elemen “mengapung” tersisa. Hal ini berguna untuk membuat image gallery, dimana gambar akan mengisi ruang secara horizontal (kesamping) terlebih dahulu sampai tidak ada ruang lagi baru lah akan membuat baris baru.
+
+Value dari properti ini adalah :
+- none : value ini adalah value default, berguna untuk menonaktifkan properti float
+- left : value ini digunakan untuk mengatur element mengapung ke kiri
+- right : value ini digunakan untuk mengatur element mengapung ke kanan
+
+Kapan menggunakan float :
+- Text Wrapping
+    membuat teks mengelilingi gambar/element lain
+- Image Gallery 
+    membuat serangkaian gambar menadi galeri
+- Multi-column Layout
+    membuat halaman memiliki beberapa kolom
+- Dll
+----------------------------------------------
+Display inline-block
+Jika dibandingkan dengan display: inline, perbedaan display: inline-block memungkinkan untuk mengatur lebar dan tinggi pada elemen.
+
+Juga jika dibandingkan dengan display: inline-block, Anda bisa memberikan style margin dan padding pada elemen, tetapi dengan display: inline mereka tidak.
+
+Jika dibandingkan dengan display: block, perbedaan display: inline-block tidak menambahkan baris-break setelah elemen, sehingga elemen dapat menyamping.

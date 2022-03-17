@@ -1,0 +1,15 @@
+/* Secara default nilai float adalah none */
+
+.img-description {
+    width: 150px;
+    height: 150px;
+
+    /* Mengatur element agar mengapung ke kiri */
+    float: left;
+}
+
+h1 {
+    /* Mengatur display menjadi inline-block, 
+    sehingga element nya dapat megisi ruang secara horizontal terlebih dahulu */
+    display: inline-block;
+}
