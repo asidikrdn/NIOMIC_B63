@@ -1,0 +1,20 @@
+.judul {
+    color: green;
+    text-decoration: underline;
+}
+
+.penting {
+    color: red;
+}
+
+/* Menggunakan id selector untuk memformat element 
+yang memiliki atribut id dengan value "paragraf_pertama" */
+#paragraf_pertama {
+    font-size: 20px;
+}
+
+/* Menggunakan id selector untuk memformat element 
+yang memiliki atribut id dengan value "paragraf_kedua" */
+#paragraf_kedua {
+    font-size: 12px;
+}

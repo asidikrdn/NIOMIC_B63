@@ -239,3 +239,14 @@ Class selector merupakan salah satu selector yang paling umum dan paling sering 
         Contoh : ".content" berbeda dengan ".Content" karena perbedaan huruf C pada awal karakter.
 
 Class selector biasanya digunakan untuk memberikan style pada element berdasarkan group tertentu. Satu nama class bisa disisipkan pada beberapa element agar memiliki style yang sama.
+
+===================================================================================================================
+Pertemuan 12 : ID Selector
+-------------------------------------------------------------------------------------------------------------------
+
+ID selector merupakan selector yang juga sering digunakan seperti class selector. Cara kerjanya pun sama, yaitu akan mencari seluruh tag pada html yang memiliki atribut id dengan nilai yang sesuai. Perbedaan antara class selector dan id selector ada 2 yaitu :
+- Penulisan
+    Id selector diawali dengan tanda pagar "#", berbeda dengan class selector yang menggunakan tanda titik.
+
+- Unik
+    Id selektor bersifat unik, sehingga tidak diperbolehkan ada beberapa tag html yang menggunakan atribut id dengan value yang sama. Berbeda dengan class yang dapat digunakan dibeberapa tag html dengan nama class yang sama.
