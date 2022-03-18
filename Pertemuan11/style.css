@@ -1,0 +1,18 @@
+/* Menggunakan class selector untuk memformat element 
+yang memiliki atribut class dengan value "judul" */
+.judul {
+    color: green;
+    text-decoration: underline;
+}
+
+/* Menggunakan class selector untuk memformat element 
+yang memiliki atribut class dengan value "paragraf" */
+.paragraf {
+    font-size: 14px;
+}
+
+/* Menggunakan class selector untuk memformat element 
+yang memiliki atribut class dengan value "penting" */
+.penting {
+    color: red;
+}

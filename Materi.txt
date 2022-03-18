@@ -226,3 +226,16 @@ h1 {
 }
 
 Dengan kode diatas maka seluruh element h1 beserta semua isinya (dari tag pembuka sampai tag penutup) akan diformat menjadi berwarna hijau dan digarisbawahi. Jika di dalam element h1 ada element lain, maka element tersebut akan ikut terformat.
+
+===================================================================================================================
+Pertemuan 11 : Class Selector
+-------------------------------------------------------------------------------------------------------------------
+
+Class selector merupakan salah satu selector yang paling umum dan paling sering digunakan. Class selector akan mencari seluruh tag pada html yang memiliki atribut class dengan nilai yang sesuai. Untuk menggunakan class selector pada css, diawali dengan tanda titik "." yang diikuti nama class (Contoh : .judul). Class selector memiliki beberapa aturan penulisan, yaitu :
+    - Nama Class hanya bisa ditulis dengan letters (abjad), numbers (angka), hyphens (tanda penghubung), dan underscores (garis bawah).
+    - Setelah "." nama class harus diawali dengan letters (huruf alfabet) pada awal karakter. 
+        Contoh : ".wali9" adalah benar, namun ".9wali" adalah salah.
+    - Nama Class memiliki sifat case-sensitive. Artinya perbedaan huruf besar dan kecil akan berpengaruh.
+        Contoh : ".content" berbeda dengan ".Content" karena perbedaan huruf C pada awal karakter.
+
+Class selector biasanya digunakan untuk memberikan style pada element berdasarkan group tertentu. Satu nama class bisa disisipkan pada beberapa element agar memiliki style yang sama.
