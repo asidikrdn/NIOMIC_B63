@@ -250,3 +250,12 @@ ID selector merupakan selector yang juga sering digunakan seperti class selector
 
 - Unik
     Id selektor bersifat unik, sehingga tidak diperbolehkan ada beberapa tag html yang menggunakan atribut id dengan value yang sama. Berbeda dengan class yang dapat digunakan dibeberapa tag html dengan nama class yang sama.
+
+===================================================================================================================
+Pertemuan 13 : Attribute Selector
+-------------------------------------------------------------------------------------------------------------------
+
+Atribut selector merupakan sebuah selektor yang digunakan untuk mencari tag HTML berdasarkan ada atau tidaknya sebuah atribut. Mirip seperti class dan id selector, namun bersifat lebi global karena tidak terbatas pada atribut class dan id saja. Untuk menggunakan atribut selector, kita cukup menuliskan nama atribut beserta valuenya didalam tanda kurung siku. Contoh :
+[type=submit] {
+    background-color: orange;
+}

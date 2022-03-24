@@ -1,0 +1,5 @@
+/* Menggunakan attribute selector untuk menyeleksi element
+   Yang memiliki atribut "type" dengan value "submit" */
+[type=submit] {
+    background-color: orange;
+}
