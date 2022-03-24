@@ -1,0 +1,5 @@
+/* Menyeleksi seluruh element h2 
+    yang memiliki atribut "class" dengan value "judul" */
+h2.judul {
+    color: silver;
+}

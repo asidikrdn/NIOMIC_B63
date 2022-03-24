@@ -270,3 +270,13 @@ h1, h2, p {
     text-align: center;
     color: red;
 }
+
+===================================================================================================================
+Pertemuan 15 : Element Spesific Selector
+-------------------------------------------------------------------------------------------------------------------
+
+Element Spesific Selector mirip seperti group selector, bedanya ialah element Spesific selector lebih fokus kepada class id nya. Misalnya kita akan menyeleksi seluruh element h2 tetapi hanya element h2 yang memiliki atribut class dengan value judul, maka contoh penulisannya adalah element selector dan class selector digabungkan dan ditulis tanpa menggunakan spasi.
+Contoh :
+h2.judul {
+    color: silver;
+}
