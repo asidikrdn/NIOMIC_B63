@@ -1,0 +1,6 @@
+/* Menyeleksi beberapa selector sekaligus (Group Selector)
+    Menuliskan semua selector yang ingin digunakan, dan dipisahkan dengan tanda koma "," */
+h1, h2, p {
+    text-align: center;
+    color: red;
+}

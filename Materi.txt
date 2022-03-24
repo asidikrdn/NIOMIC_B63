@@ -259,3 +259,14 @@ Atribut selector merupakan sebuah selektor yang digunakan untuk mencari tag HTML
 [type=submit] {
     background-color: orange;
 }
+
+===================================================================================================================
+Pertemuan 14 : Group Selector
+-------------------------------------------------------------------------------------------------------------------
+
+Group Selector adalah penggabungan beberapa selector dalam satu perintah. Cara menggunakannya ialah dengan menuliskan beberapa selector sekaligus dan memisahkannya dengan tanda koma ",".
+Contoh :
+h1, h2, p {
+    text-align: center;
+    color: red;
+}
