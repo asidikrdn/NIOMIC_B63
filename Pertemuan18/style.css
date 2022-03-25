@@ -1,0 +1,22 @@
+/* Memberikan style pada element body dan seisinya */
+body {
+    color: green;
+}
+
+/* Memberikan style pada element strong, sehingga warnanya tidak mengikuti style dari element body */
+strong {
+    color: red;
+}
+
+/* Memberikan style pada element h1, sehingga warnanya tidak mengikuti style dari element body */
+h1 {
+    color: blue;
+}
+
+/* karena tidak mendefinisikan properti color, maka warna teks dalam element div tetap akan mengikuti style pada element body */
+div {
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}

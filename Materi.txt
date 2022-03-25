@@ -305,3 +305,22 @@ Contohnya, semisal kode css pada contoh diatas sama-sama ditulis dalam internal 
 Namun, jika internal vs eksternal css, maka tergantung bagaimana penulisannya pada tag head. Jika element <link> ditulis lebih dulu ketimbang element <style> maka yang akan terbaca adalah internal css (css pada element style), tetapi jika element <style> ditulis lebih dulu sebelum element <link> maka yang akan terbaca adalah eksternal css (css eksternal yang dihubungkan dengan element link).
 
 Selanjutnya eksternal/internal css vs inline css, maka yang akan terbaca adalah inline css. Hal tersebut disebabkan inline css ditulis pada element body, sedangkan internal dan eksternal css ditulis pada element head. Hal ini sangat berpengaruh karena element head selalu dituliskan diatas element body.
+
+===================================================================================================================
+Pertemuan 18 : Inheritance pada CSS
+-------------------------------------------------------------------------------------------------------------------
+
+Inheritance merupakan sifat pada css yaitu proses pewarisan dari induk element ke child element. Misalnya kita memberikan style pada element body, maka style tersebut juga akan diterapkan pada element-element lain yang menjadi child dari element body (berada didalam element body). 
+Contoh :
+<body style="color: red;">
+    <h1>Judul</h1>
+    <p>Isi Artikel</p>
+</body>
+
+Inheritance dapat dihentikan jika kita menuliskan style pada element tertentu yang ada di dalam element body tersebut.
+Contoh :
+<body style="color: red;">
+    <h1 style="color: green;">Judul</h1>
+    <p style="color: blue;">Isi Artikel</p>
+</body>
+
