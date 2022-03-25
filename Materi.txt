@@ -284,3 +284,24 @@ h2.judul {
 ===================================================================================================================
 Pertemuan 16 : Tugas 2 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 17 : Cascade pada CSS
+-------------------------------------------------------------------------------------------------------------------
+
+Cascade pada CSS adalah aturan prioritas dimana jika terjadi "bentrok" antara beberapa kode css, maka css akan memilih mana yang dibaca/digunakan oleh sistem. "Bentrok" yg dimaksud disini ialah ketika ada kode css dengan selector dan property yang sama namun valuenya berbeda.
+Contoh :
+p {
+    color: red;
+}
+p {
+    color: green;
+}
+
+Jika terjadi seperti diatas, maka hanya 1 kode css yang akan diterapkan. Urutan penerapannya sendiri, css akan memprioritaskan kode yang paling akhir (paling bawah dalam penulisan).
+
+Contohnya, semisal kode css pada contoh diatas sama-sama ditulis dalam internal css, maka yang akan terbaca oleh sistem adalah yang berwarna hijau.
+
+Namun, jika internal vs eksternal css, maka tergantung bagaimana penulisannya pada tag head. Jika element <link> ditulis lebih dulu ketimbang element <style> maka yang akan terbaca adalah internal css (css pada element style), tetapi jika element <style> ditulis lebih dulu sebelum element <link> maka yang akan terbaca adalah eksternal css (css eksternal yang dihubungkan dengan element link).
+
+Selanjutnya eksternal/internal css vs inline css, maka yang akan terbaca adalah inline css. Hal tersebut disebabkan inline css ditulis pada element body, sedangkan internal dan eksternal css ditulis pada element head. Hal ini sangat berpengaruh karena element head selalu dituliskan diatas element body.

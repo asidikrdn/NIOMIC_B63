@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .p_satu {
+            color: red;
+        }
+
+        .p_dua {
+            color: purple;
+        }
+
+        .p_tiga {
+            color: grey;
+        }
+    </style>
+    <link rel="stylesheet" href="style2.css">
+    
+    <title>Belajar CSS - Niomic</title>
+</head>
+<body>
+    <h1>Judul 1</h1>
+    
+    <!-- Pada p_satu kita akan bandingkan eksternal css vs internal css dengan posisi eksternal css (element link) ditulis diatas (lebih dulu) dari internal css (element style) -->
+    <p class="p_satu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, autem quas? Excepturi autem adipisci odit distinctio sed atque est, deleniti mollitia sunt laboriosam voluptatum quaerat.</p>
+    <!-- hasil yang tampil adalah teks warna merah -->
+    
+    <!-- Pada p_dua kita akan bandingkan eksternal css vs internal css dengan posisi internal css (element style) ditulis diatas (lebih dulu) dari eksternal css (element link) -->
+    <p class="p_dua">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptas, soluta est inventore perspiciatis dolore a, consectetur iste cumque enim quae.</p>
+    <!-- Hasil yang tampil adalah teks warna orange -->
+
+    <!-- Pada p_tiga kita aakan bandingkan internal dan eksternal css vs inline css -->
+    <p class="p_tiga" style="color:orangered;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos sed labore maxime deserunt voluptate ad ipsam dolor aliquid dicta laborum nulla illo placeat molestiae, porro repellendus fuga suscipit eaque.</p>
+    <!-- Hasil yang tampil adalah teks warna orange kemerah"an -->
+
+</body>
+</html>
