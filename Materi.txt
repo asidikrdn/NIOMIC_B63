@@ -345,3 +345,24 @@ h1 {
 }
 
 Namun keyword !important tidak berguna jika bertemu dengan selector yang memiliki nilai specificity lebih tinggi dan sama-sama menggunakan keyword !important juga.
+
+===================================================================================================================
+Pertemuan 21 : Merencanakan Kode CSS
+-------------------------------------------------------------------------------------------------------------------
+
+Tips membuat kode css lebih efisien :
+
+- Hindari penggunaan inline style
+    Memiliki prioritas yang tinggi dan sulit di timpa, inline style juga sulit dideteksi. Jika memiliki banyak halaman maka mengubah inline style sangat tidak efisien.
+
+- Jika memungkinkan, kurangin penggunaan internal/embed style
+    Tidak efisien, khususnya jika sudah memiliki banyak halaman.
+
+- Rencanakan Struktur HTML yang akan dibangun
+    Rencanakan struktur HTML sebaik mungkin dengan konsisten, gunakan struktur yg sama pada setiap halaman berbeda. Hal ini akan membuat efisien, karena satu kode css eksternal dapat berjalan di semua halaman.
+
+- Pertimbangkan jika ingin menggunakan ID Selector
+    Alasannya sama seperti inline style, yaitu kurang efisien karena memiliki prioritas yang tinggi dan sulit ditimpa.
+
+- Manfaatkan fitur inheritance
+    Berhubungan dengan struktur html yang baik, kita dapat membuat format css yang bersifat global, misalnya mengatur ukuran font pada element body sehingga child element dari body akan ikut terformat.
