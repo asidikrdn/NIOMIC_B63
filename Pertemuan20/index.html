@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Belajar CSS - Niomic</title>
+</head>
+<body>
+    <h1>Judul</h1>
+
+    <p>Menggunakan Element Selector</p>
+
+    <p class="paragraf">Menggunakan Class Selector</p>
+
+    <!-- Element p dibawah harusnya akan menggunakan stye pada id p_satu, namun akan tertimpa oleh style pada class paragraf karena menggunakan keyword important -->
+    <p class="paragraf" id="p_satu">
+        Menggunakan Class Selector dan ID Selector
+    </p>
+
+    <!-- Element p dibawah harusnya akan menggunakan stye inline, namun akan tertimpa oleh style pada class paragraf karena menggunakan keyword important -->
+    <p class="paragraf" id="p_satu" style="color: red;">
+        Menggunakan Class Selector, ID Selector, dan Inline CSS
+    </p>
+
+</body>
+</html>

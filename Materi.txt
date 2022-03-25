@@ -333,3 +333,15 @@ Specificity Selector mirip seperti Cascade, yaitu merupakaan aturan skala priori
 - Class/Atribut Selector    bernilai        10
 - ID Selector               bernilai        100
 - Inline Style              bernilai        1000
+
+===================================================================================================================
+Pertemuan 20 : Keyword CSS - !important
+-------------------------------------------------------------------------------------------------------------------
+
+!important adalah senjata pamungkas yangg digunakan untuk memberikan tanda prioritas utama, walaupun nilai specificity selectornya kecil dan cascadenya bukan prioritas utma, ketika menggunakan keyword !important maka akan mengambil alih urutan prioritas. Cara menggunakannya ialah dengan menuliskan "!important" pada bagian belakang value.
+Contoh : 
+h1 {
+    color: red !important;
+}
+
+Namun keyword !important tidak berguna jika bertemu dengan selector yang memiliki nilai specificity lebih tinggi dan sama-sama menggunakan keyword !important juga.
