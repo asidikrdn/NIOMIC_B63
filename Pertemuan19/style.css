@@ -1,0 +1,25 @@
+/* Menggunakan tag selector (Bernilai 1) */
+p {
+    color: blue;
+}
+
+/* Menggunakan 2 tag selector (Bernilai 2) */
+body p {
+    color: lightblue;
+}
+
+/* Menggunakan Class Selector (Bernilai 10)*/
+.paragraf {
+    color: green;
+}
+
+/* Menggunakan ID Selector (Bernilai 100) */
+#p_satu {
+    color: orange;
+}
+
+/* Mencoba menggabungkan selector tag dan class (Bernilai 102) */
+body p.paragraf {
+    color: yellowgreen;
+}
+/* Ternyata tidak berhasil mengalahkan id selector*/

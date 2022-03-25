@@ -324,3 +324,12 @@ Contoh :
     <p style="color: blue;">Isi Artikel</p>
 </body>
 
+===================================================================================================================
+Pertemuan 19 : Specificity Selector
+-------------------------------------------------------------------------------------------------------------------
+
+Specificity Selector mirip seperti Cascade, yaitu merupakaan aturan skala prioritas dalam CSS. Perbedaannya adalah pada cascade berdasarkan posisi/urutan penulisan, sedangkan pada specificity berdasarkan nilai selector. Adapun nilai tiap selector pada css adalah sebagai berikut : 
+- Element/Tag Selector      bernilai        1
+- Class/Atribut Selector    bernilai        10
+- ID Selector               bernilai        100
+- Inline Style              bernilai        1000
