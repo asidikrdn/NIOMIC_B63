@@ -450,3 +450,13 @@ Pertemuan 25 : Property Font-Weight
 -------------------------------------------------------------------------------------------------------------------
 
 Property Font-Weight digunakan untuk menebalkan huruf pada halaman web. Value dari property ini dapat berupa angka ataupun keyword. Value angka dapat menggunakan angka 100 s/d 900. Value keyword dapat menggunakan normal, bold, bolder, dan lighter. Selain itu ada juga 2 value lagi, "initial" mengatur property font-weight ke nilai default dan "inherit" mewarisi dari elemen atau tag di atasnya.
+
+===================================================================================================================
+Pertemuan 26 : Property Font-Style
+-------------------------------------------------------------------------------------------------------------------
+
+Property Font-Style digunakan untuk membuat teks pada halaman web tercetak miring.
+Property Font-Style memiliki 3 value, yaitu :
+- normal        : Teks ditampilkan normal
+- italic        : Teks ditampilkan dengan huruf miring
+- oblique       : Teks ditampilkan "condong" (Sangat mirip dengan italic namun jarang digunakan)
