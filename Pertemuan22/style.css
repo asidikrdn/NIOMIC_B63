@@ -1,0 +1,31 @@
+.p_satu {
+  font-family: Arial;
+}
+
+.p_dua {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p_tiga {
+  font-family: "Times New Roman", Georgia, serif;
+}
+
+.p_empat {
+  font-family: serif;
+}
+
+.p_lima {
+  font-family: sans-serif;
+}
+
+.p_enam {
+  font-family: monospace;
+}
+
+.p_tujuh {
+  font-family: cursive;
+}
+
+.p_delapan {
+  font-family: fantasy;
+}

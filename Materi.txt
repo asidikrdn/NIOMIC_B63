@@ -366,3 +366,40 @@ Tips membuat kode css lebih efisien :
 
 - Manfaatkan fitur inheritance
     Berhubungan dengan struktur html yang baik, kita dapat membuat format css yang bersifat global, misalnya mengatur ukuran font pada element body sehingga child element dari body akan ikut terformat.
+
+===================================================================================================================
+Pertemuan 22 : Property Font-Family
+-------------------------------------------------------------------------------------------------------------------
+
+Property Font-Family digunakan untuk mengatur/menentukan jenis font yang digunakan. Nilai dari property font-family adalah nama font yang digunakan. CSS akan mendeteksi jenis font yang diberikan dalam kode css pada komputer client yang mengakses web. 
+Contoh :
+p {
+    font-family: Arial;
+}
+
+Kita juga bisa memberikan beberapa jenis font sebagai cadangan apabila jenis font pertama tidak tersedia.
+Contoh :
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+Untuk nama font yang memiliki spasi, kita bisa memberikan kutip dua (") di awal dan akhir nama font.
+Contoh :
+p {
+    font-family: "Times New Roman";
+}
+
+Generik font bukan berupa nama font, melainkan sebuah jenis font. Generik font berfungsi sebagai alternatif jika font yang diinginkan tidak tersedia. CSS menyediaakan 5 jenis generik font, yaitu :
+- serif             : Memberikan kaki / garis tambahan di setiap ujung/akhir huruf
+- sans-serif        : Tanpa kaki
+- monospace         : Tipe font khusus dimana lebar setiap karakter sama panjang
+- cursive           : Jenis font yang meniru tulisan tangan / kaligrafi (Relatif jarang digunakan pada text utama)
+- fantasy           : Bersifat visual dengan karakter font khusus (Relatif jarang digunakan pada text utama)
+
+Kelima jenis font diatas akan menjadi patokan seperti apa jenis font yang ingin digunakan. Penggunaannya biasanya dituliskan pada opsi paling akhir, 
+Contoh :
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+Dari kode css diatas, sistem akan mencari font arial pada komputer client yang ingin menampilkan halaman web, jika tidak tersedia maka sistem akan mencari font helvetica, namun jika tidak tersedia juga maka sistem akan mencari font lain dengan jenis sans-serif (yang sejenis dengan arial dan helvetica).
