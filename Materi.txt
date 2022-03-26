@@ -423,3 +423,24 @@ Value dari property ini dapat menggunakan tiga jenis satuan, yaitu :
 
 - satuan rem (rem)
     Satuan ini sama seperti em, bedanya "r" disini bermakna root yang artinya parent element yang digunakan adalah tag <html>. Jadi, semisal kita menggunakan satuan rem pada font-size tag <p> yang berada dalam tag <body>, maka ukuran font-size pada tag <p> akan tetap mengacu pada ukuran font-size dari tag <html>, 
+
+===================================================================================================================
+Pertemuan 24 : Property Color
+-------------------------------------------------------------------------------------------------------------------
+
+Property Color digunakan untuk merubah warna font pada halaman web. Value dari property color bisa langsung menggunakan nama warna, nilai hexa, dan nilai rgb.
+
+Menggunakan nama warna, Contohnya :
+.nama_warna {
+    color: green;
+}
+
+Menggunakan kode hexa, Contohnya :
+.hexa {
+    color: #8a5ae4c4;
+}
+
+Menggunakan kode rgb, Contohnya :
+.rgb {
+    color: rgb(155, 53, 53);
+}
