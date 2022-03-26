@@ -403,3 +403,23 @@ p {
 }
 
 Dari kode css diatas, sistem akan mencari font arial pada komputer client yang ingin menampilkan halaman web, jika tidak tersedia maka sistem akan mencari font helvetica, namun jika tidak tersedia juga maka sistem akan mencari font lain dengan jenis sans-serif (yang sejenis dengan arial dan helvetica).
+
+===================================================================================================================
+Pertemuan 23 : Property Font-Size
+-------------------------------------------------------------------------------------------------------------------
+
+Property Font-Size berguna untuk mengatur/menentukan ukuran font yang digunakan pada halaman web.
+
+Value dari property ini dapat menggunakan tiga jenis satuan, yaitu :
+- satuan pixel (px)
+    Satuan ini relatif lebih mudah dipahami karena tidak terikat dengan settingan browser. Semisal kita menggunakan 20px, maka web browser akan menampilkan font sebesar 20px.
+    Satuan ini sering digunakan karena ditampilkan secara konsisten di dalam berbagai web browser.
+
+- satuan persen (%)
+    Satuan persen merupakan satuan yang nilainya bersifat relatif. Perhitungan ukuran persen bergantung pada settingan dari parent element. Semisal kita mengatur font-size pada tag <p> senilai 80%, tag <p> berada di dalam tag <body> dan tag <body> memiliki syle font-size sebesar 14px. Maka nilai font-size pada tag <p> adalah 80% x 14px yaitu 11,2px.
+
+- satuan em (em)
+    Aturan pada satuan ini sama persis dengan satuan persen, hanya ada perbedaan pada penulisannya saja. "1em" pada css bernilai 100%, "0.5em" bernilai 50%, begitu juga seterusnya. Selain itu, penulisannya juga dapat disingkat, "0.5em" dapat ditulis ".5em".
+
+- satuan rem (rem)
+    Satuan ini sama seperti em, bedanya "r" disini bermakna root yang artinya parent element yang digunakan adalah tag <html>. Jadi, semisal kita menggunakan satuan rem pada font-size tag <p> yang berada dalam tag <body>, maka ukuran font-size pada tag <p> akan tetap mengacu pada ukuran font-size dari tag <html>, 

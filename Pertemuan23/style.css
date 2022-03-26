@@ -1,0 +1,19 @@
+body {
+    font-size: 10px;
+}
+
+.p_satu {
+    font-size: 20px;
+}
+
+.p_dua {
+    font-size: 150%;
+}
+
+.p_tiga {
+    font-size: 1.5em;
+}
+
+.p_empat {
+    font-size: 1.4rem;
+}
