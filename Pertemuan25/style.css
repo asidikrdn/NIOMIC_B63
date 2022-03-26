@@ -1,0 +1,59 @@
+.angka {
+    font-weight: 600;
+}
+
+.keyword {
+    font-weight: bold;
+}
+
+.satu {
+    font-weight: normal;
+}
+
+.dua {
+    font-weight: lighter;
+}
+
+.tiga {
+    font-weight: bold;
+}
+
+.empat {
+    font-weight: bolder;
+}
+
+.lima {
+    font-weight: 100;
+}
+
+.enam {
+    font-weight: 200;
+}
+
+.tujuh {
+    font-weight: 300;
+}
+
+.delapan {
+    font-weight: 400;
+}
+
+.sembilan {
+    font-weight: 500;
+}
+
+.sepuluh {
+    font-weight: 600;
+}
+
+.sebelas {
+    font-weight: 700;
+}
+
+.duabelas {
+    font-weight: 800;
+}
+
+.tigabelas {
+    font-weight: 900;
+}
