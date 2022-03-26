@@ -460,3 +460,7 @@ Property Font-Style memiliki 3 value, yaitu :
 - normal        : Teks ditampilkan normal
 - italic        : Teks ditampilkan dengan huruf miring
 - oblique       : Teks ditampilkan "condong" (Sangat mirip dengan italic namun jarang digunakan)
+
+===================================================================================================================
+Pertemuan 17 : Tugas 3 CSS
+-------------------------------------------------------------------------------------------------------------------
