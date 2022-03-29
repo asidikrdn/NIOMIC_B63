@@ -479,3 +479,16 @@ Value pada property text-decoration :
 - Underline     : untuk membuat garis bawah
 - overline      : untuk membuat garis atas
 - line-through  : untuk membuat teks tercoret
+
+===================================================================================================================
+Pertemuan 30 : Property Text-Transform
+-------------------------------------------------------------------------------------------------------------------
+
+Property Text-Transform digunakan untuk mengatur kapitalisasi huruf pada html mengguakan kode css.
+
+Value dari property text-transform :
+- capitalize        : untuk mengatur setiap teks menggunakan huruf kapital pada awal kata.
+- lowercase         : untuk mengatur setiap teks menggunakan huruf kecil.
+- uppercase         : untuk mengatur setiap teks menggunakan huruf besar. 
+- full-width        : untuk mengatur penulisan karakter, terutama ideogram dan skrip Latin di dalam bujur sangkar, memungkinkan mereka untuk disejajarkan dengan skrip Asia Timur yang biasa (seperti Cina atau Jepang). Value ini jarang digunakan.
+- none              : untuk menonaktifkan property text-transform. Value ini merupakan value default yang digunakan property text-transform.

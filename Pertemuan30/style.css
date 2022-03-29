@@ -1,0 +1,19 @@
+.capitalize {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.full-width {
+    text-transform: full-width;
+}
+
+.none {
+    text-transform: none;
+}
