@@ -468,3 +468,14 @@ Pertemuan 27 : Tugas 3 CSS
 ===================================================================================================================
 Pertemuan 28 : Tugas 4 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 29 : Property Text-Decoration
+-------------------------------------------------------------------------------------------------------------------
+
+Property Text-Decoration digunakan untuk membuat dekorasi teks seperti garis bawah, garis atas, atau teks tercoret.
+
+Value pada property text-decoration :
+- Underline     : untuk membuat garis bawah
+- overline      : untuk membuat garis atas
+- line-through  : untuk membuat teks tercoret
