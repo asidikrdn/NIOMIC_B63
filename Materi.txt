@@ -501,3 +501,15 @@ Property Font-Variant digunakan untuk membuat variasi font, tetapi nilai yg didu
 
 - small-caps    : untuk membuat bentuk teks menjadi bervariasi. Hurufnya akan menjadi semua besar semua, namun tinggi rendah hurufnya bervariasi dan ukurannya kecil ketimbang value uppercase pada property text-transform.
 - normal        : untuk membuat teks menjadi normal (default)
+
+===================================================================================================================
+Pertemuan 32 : Property Text-Align
+-------------------------------------------------------------------------------------------------------------------
+
+Property Text-Align digunakan untuk mengatur perataan teks pada halaman web.
+
+Value pada property text-align
+- left      : untuk mengatur teks rata kiri
+- right     : untuk mengatur teks rata kanan
+- justify   : untuk mengatur teks rata kanan kiri
+- center    : untuk mengatur teks rata tengah
