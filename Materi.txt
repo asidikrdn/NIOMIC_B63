@@ -492,3 +492,12 @@ Value dari property text-transform :
 - uppercase         : untuk mengatur setiap teks menggunakan huruf besar. 
 - full-width        : untuk mengatur penulisan karakter, terutama ideogram dan skrip Latin di dalam bujur sangkar, memungkinkan mereka untuk disejajarkan dengan skrip Asia Timur yang biasa (seperti Cina atau Jepang). Value ini jarang digunakan.
 - none              : untuk menonaktifkan property text-transform. Value ini merupakan value default yang digunakan property text-transform.
+
+===================================================================================================================
+Pertemuan 31 : Property Font-Variant
+-------------------------------------------------------------------------------------------------------------------
+
+Property Font-Variant digunakan untuk membuat variasi font, tetapi nilai yg didukung saat ini baru ada 2, small caps dan normal.
+
+- small-caps    : untuk membuat bentuk teks menjadi bervariasi. Hurufnya akan menjadi semua besar semua, namun tinggi rendah hurufnya bervariasi dan ukurannya kecil ketimbang value uppercase pada property text-transform.
+- normal        : untuk membuat teks menjadi normal (default)
