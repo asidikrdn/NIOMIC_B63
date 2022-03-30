@@ -1,0 +1,9 @@
+.satu {
+    /* Menggabungkan font-size dan font-family */
+    font : 20px "Open Sans", sans-serif;
+}
+
+.dua {
+    /* style | variant | weight | size/line-height | family */
+    font: italic small-caps bolder 16px/25px cursive;
+}

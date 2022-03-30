@@ -563,3 +563,24 @@ Value dari property text-indent berupa angka dengan satuan :
 - em
 - %
 - rem
+
+===================================================================================================================
+Pertemuan 37 : Font Shorthand Notation
+-------------------------------------------------------------------------------------------------------------------
+
+Shorthand notation merupakan property yang digunakan untuk menyingkat penulisan beberpa property menjadi satu. Pada pembeajaran kali ini kita akan fokus ke property font.
+
+Property font terdiri dari beberapa property, seperti :
+- font-size
+- font-weight
+- font-style
+- font-variant
+- font-family
+- font-height
+- dll
+
+Dari banyaknya property font tersebut, kita dapat menuliskan semuanya hanya menggunakan satu property saja, yaitu font.
+Contoh, misalnya disini kita gabungkan penulisan font-size dan font-family :
+p {
+    font : 13px "Open Sans", sans-serif;
+}
