@@ -608,3 +608,15 @@ dari contoh tersebut, maka pada element dengan class "satu" setiap teksnya akan 
 ===================================================================================================================
 Pertemuan 39 : Tugas 5 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 40 : Pengertian CSS Box Model
+-------------------------------------------------------------------------------------------------------------------
+
+CSS Box Model adalah sebuah konsep dimana setiap element yang terdapat pada halaman web diproses sebagai kotak. Setiap kotak dibangun dengan content, padding, border, dan margin.
+
+Content     : tempat menyimnpan isi element. Content bisa kita atur tinggi dan lebarnya.
+Padding     : jarak antara content dengan garis tepi(border).
+Border      : Garis tepi / Pembatas element. Border bisa kita atur warna, ketebalan, dan garis yang digunakan.
+Margin      : Jarak antar element, margin bersifat transparant dan digunakan agar antar element tidak saling menempel.
+
