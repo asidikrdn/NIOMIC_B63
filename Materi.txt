@@ -705,4 +705,57 @@ Penggunaan padding ada beberapa cara :
     - 3 nilai   : nilai pertama untuk atas, nilai kedua untuk kanan kiri, nilai ketiga untuk sisi bawah
     - 4 nilai   : masing masing nilai berfungsi untuk masing-masing sisi secara berurutan (atas kanan bawah kiri)
 
+===================================================================================================================
+Pertemuan 44 : Property Border
+-------------------------------------------------------------------------------------------------------------------
+
+Property Border diguakan untuk memberikan garis batas pada sisi luar element.
+
+Border Positioning
+Sama seperti padding, border juga bisa diatur menurut arah posisinya.
+- border-top
+- border-bottom
+- border-left
+- border-right
+
+Border Longhand Notation
+Longhand notation adalah kebalikan dari shorthand notation. Longhand notation merupakan cara penulisan property yang lebih detail dan panjang.
+
+Dengan longhand notation kita bisa mengatur 3 aspek pada border, yaitu 
+- width     : untuk mengatur ketebalan border (valuenya bisa menggunakan angka dengan satuan px,em,rem,dan persen atau menggunakan keyword "thick", "thin", dan "medium")
+- style     : untuk menentukan jenis tampilan/bentuk dari border. Valuenya berupa salah satu dari keyword :
+                - dotted    : berbentuk titik
+                - dashed    : berbentuk strip/garis putus-putus
+                - solid     : berbentuk garis utuh
+                - double    : berbentuk 2 garis / garis ganda
+                - groove    : Mendefinisikan batas beralur 3D. Efeknya tergantung pada nilai warna batas
+                - ridge     : Menentukan batas bergerigi 3D. Efeknya tergantung pada nilai warna batas
+                - inset     : Mendefinisikan batas inset 3D. Efeknya tergantung pada nilai warna batas
+                - outset    : Mendefinisikan batas outset 3D. Efeknya tergantung pada nilai warna batas
+                - none      : Menghilangkan border
+                - hidden    : Menyembunyikan border
+- color     : untuk mengatur warna pada border.
+
+Pada longhand notation, penulisan border dibuat terpisah berdasarkan arah dan juga aspek yang diatur.
+Contoh :
+border-top-width
+border-top-style
+border-top-color
+
+Hal tersebut akan cukup panjang jika kita ingin menuliskan border untuk ke empat sisi.
+
+Border Shorthand Notation
+Terdapat 2 jenis shorthand notation pada border di css. 
+1. Shorthand Pertama
+    Menyingkat 3 jenis property border untuk setiap arah.
+    Contoh, misalnya ingin membuat border-top dengan ukuran 5px, berwarna hijau, dan berbentuk dotted :
+    border-top : 5px dotted green
+
+2. Shorthand Kedua
+    Menyingkat aspek dan juga arah border.
+    Contoh, misalnya kita ingin membuat border pada semua sisi dengan ukuran 3px, berwarna biru, dan berbentuk solid :
+    border: 3px blue solid
+
+
+
 

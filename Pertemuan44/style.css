@@ -1,0 +1,86 @@
+p {
+    width: 250px;
+    height: 110px;
+    background-color: lightblue;
+}
+
+.longhand {
+    border-top-width: thick;
+    border-top-style: solid;
+    border-top-color: blue;
+
+    border-bottom-width: thick;
+    border-bottom-style: dotted;
+    border-bottom-color: green;
+
+    border-left-width: thin;
+    border-left-style: solid;
+    border-left-color: gold;
+
+    border-right-width: medium;
+    border-right-style: dotted;
+    border-right-color: purple;
+}
+
+.shorthand1 {
+    border-top: 5px blue solid;
+    border-bottom: 5px purple dotted;
+    border-left: 2px groove green;
+    border-right: 2px dashed yellow;
+}
+
+.shorthand2 {
+    border: 5px solid darkblue;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    color: blue;
+    font-size: 25px;
+    line-height: 200px;
+}
+
+.none {
+    border: 15px none green;
+}
+
+.hidden {
+    border: 15px hidden green;
+}
+
+.solid {
+    border: 15px solid green;
+}
+
+.dotted {
+    border: 15px dotted green;
+}
+
+.dashed {
+    border: 15px dashed green;
+}
+
+.double {
+    border: 15px double green;
+}
+
+.groove {
+    border: 15px groove green;
+}
+
+.ridge {
+    border: 15px ridge green;
+}
+
+.inset {
+    border: 15px inset green;
+}
+
+.outset {
+    border: 15px outset green;
+}
