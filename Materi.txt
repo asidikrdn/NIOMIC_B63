@@ -620,3 +620,11 @@ Padding     : jarak antara content dengan garis tepi(border).
 Border      : Garis tepi / Pembatas element. Border bisa kita atur warna, ketebalan, dan garis yang digunakan.
 Margin      : Jarak antar element, margin bersifat transparant dan digunakan agar antar element tidak saling menempel.
 
+Ref : https://www.duniailkom.com/tutorial-belajar-css-pengertian-css-box-model/
+
+===================================================================================================================
+Pertemuan 41 : Property Width dan Height
+-------------------------------------------------------------------------------------------------------------------
+
+Property Width dan Height digunakan untuk mengatur lebar dan tinggi element/content. Value dari property ini berupa angka dengan satuan px, em, %, dan rem.
+
