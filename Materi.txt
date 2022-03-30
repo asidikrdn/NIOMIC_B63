@@ -756,6 +756,53 @@ Terdapat 2 jenis shorthand notation pada border di css.
     Contoh, misalnya kita ingin membuat border pada semua sisi dengan ukuran 3px, berwarna biru, dan berbentuk solid :
     border: 3px blue solid
 
+===================================================================================================================
+Pertemuan 45 : Property Margin
+-------------------------------------------------------------------------------------------------------------------
 
+Property Margin digunakan untuk membuat ruang kosong pada sisi luar element yang berfungsi sebagai jarak antar element. Margin bersifat transparant dan tidak bisa diberikan warna.
+
+Sama seperti padding, penulisan margin dapat dilakukan dengan 2 cara.
+1. Penulisan terpisan untuk masing-masing arah
+    Contoh :
+    - margin-top    : untuk mengatur margin pada sisi atas.
+    - margin-bottom : untuk mengatur margin pada sisi bawah.
+    - margin-left   : untuk mengatur margin pada sisi kiri.
+    - margin-right  : untuk mengatur margin pada sisi kanan.
+
+2. Penulisan dengan shorthand notation
+    Contoh :
+    - margin
+
+    Value dengan shorthand notation bisa berisi 1, 2, 3, dan 4 nilai.
+    - 1 nilai   : nilai tersebut untuk keempat sisi (atas bawah kiri kanan)
+    - 2 nilai   : nilai pertama untuk padding atas bawah, nilai kedua untuk kanan kiri
+    - 3 nilai   : nilai pertama untuk atas, nilai kedua untuk kanan kiri, nilai ketiga untuk sisi bawah
+    - 4 nilai   : masing masing nilai berfungsi untuk masing-masing sisi secara berurutan (atas kanan bawah kiri)
+
+Tips :
+
+Margin Collapse
+Sebuah konsep sederhana pada css dimana web browser akan menggugurkan salah satu margin jika margin-top dan margin-bottom saling bersentuhan (hanya pada vertical margin).
+Contoh :
+- Pada element satu kita menggunakan margin-bottom senilai 20px
+- Pada element dua kita menggunakan margin-top senilai 20px
+
+Seharusnya jarak antar element satu dan dua adalah 40px, namun karena adanya margin collapse maka jarak antar element tersebut hanyalah 20px.
+
+Margin pada element mana yang dipilih ?
+Margin yang akan dipilih ialah margin yang memiliki value terbesar.
+Contoh :
+- Pada element satu kita menggunakan margin-bottom senilai 20px
+- Pada element dua kita menggunakan margin-top senilai 50px
+
+Maka yang akan digunakan ialah margin-top element kedua, karena valuenya lebih besar.
+
+Margin Auto
+Margin auto berfungsi untuk membuat element berada di tengah secara horizontal (horizontal centering)
+Contoh :
+margin: auto;
+
+Perbedannya dengan text-align ialah margin auto hanya bisa diterapkan pada block level element, sedangkan text-align digunakan untuk mengatur inline level element.
 
 

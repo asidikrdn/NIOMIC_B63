@@ -1,0 +1,28 @@
+div {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+.satu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: lightblue;
+}
+
+.dua {
+    margin: 25px 25px 25px 25px;
+    background-color: lightgreen
+}
+
+.tiga {
+    margin: auto;
+    background-color: yellow;
+}
