@@ -876,4 +876,9 @@ Dalam penggunaannya, CSS Reset harus diletakkan pada posisi paling atas, kemudia
 
 Selain memiliki kelebihan, CSS juga memiliki kekurangan yaitu kita harus ingat untuk mengatur ulang seluruh margin, padding, font-size, dll untuk element yang telah direset. CSS Reset juga akan menambah waktu pemrosesan, karena sebelum membaca CSS yang kita buat, Web browser harus membaca dan menjalankan CSS Reset terlebih dahulu.
 
+===================================================================================================================
+Pertemuan 47 : Tugas 6 CSS
+-------------------------------------------------------------------------------------------------------------------
+
+
 
