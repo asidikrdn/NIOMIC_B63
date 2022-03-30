@@ -604,3 +604,7 @@ Contoh :
 }
 
 dari contoh tersebut, maka pada element dengan class "satu" setiap teksnya akan diberikan bayangan dengan posisi 2px ke arah kiri, 4px ke arah bawah, dan dengan nilai blur 5px.
+
+===================================================================================================================
+Pertemuan 39 : Tugas 5 CSS
+-------------------------------------------------------------------------------------------------------------------
