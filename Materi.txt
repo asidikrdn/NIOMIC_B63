@@ -628,3 +628,32 @@ Pertemuan 41 : Property Width dan Height
 
 Property Width dan Height digunakan untuk mengatur lebar dan tinggi element/content. Value dari property ini berupa angka dengan satuan px, em, %, dan rem.
 
+===================================================================================================================
+Pertemuan 42 : Property Overflow
+-------------------------------------------------------------------------------------------------------------------
+
+Property Overflow digunakan untuk 
+
+Properti Overflow digunakan untuk mengatur apa yang akan dilakukan oleh sistem ketika konten melebihi dari dimensi element, apakah konten akan dipotong, membuat menu scrooll, atau tetap menampilkan konten diluar dimensi element.
+
+Ada 4 value yang dapat digunakan pada properti overflow, yaitu :
+
+- Visible
+    Visible merupakan nilai default dari properti overflow, jika kita menggunakan value ini maka konten yang melebihi dimensi akan tetap ditampilkan dan dibiarkan meluber keluar dimensi tanpa dipotong
+
+- Hidden
+    Jika kita menggunakan value hidden, maka konten yang melewati batas dari dimensi element akan dipotong dan disembunyikan, sehingga kita tidak akan bisa melihat konten yang melebihi dimensi wadahnya jika menggunakan nilai ini.
+
+- Scroll
+    Value Scroll berfungsi menampilkan scroll bar pada element (ada ataupun tidak ada kontek yang melebihi dimensi). Dengan adanya scroll bar pada element, maka konten yang melebihi dimensi dapat tetap kita lihat.
+
+- Auto
+    Value ini mirip dengan value scroll, bedanya adalah dengan menggunakan value auto, sistem hanya akan menampilkan/menambahkan scroll bar ketika ada konten yang melebihi dimensi.
+
+Penulisan pada property overflow ada 2 cara, yaitu :
+
+- overflow
+    Penulisan ini digunakan untuk mengatur secara horizontal dan vertical sekaligus
+
+- overflow-x / overflow-y
+    Penulisan ini digunakan untuk mengatur secara terpisah, baik horizontal saja (overflow-x) ataupun secara vertical saja (overflow-y)
