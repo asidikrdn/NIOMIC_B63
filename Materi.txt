@@ -678,3 +678,31 @@ Penulisan pada property overflow ada 2 cara, yaitu :
 
 - overflow-x / overflow-y
     Penulisan ini digunakan untuk mengatur secara terpisah, baik horizontal saja (overflow-x) ataupun secara vertical saja (overflow-y)
+
+===================================================================================================================
+Pertemuan 43 : Property Padding
+-------------------------------------------------------------------------------------------------------------------
+
+Property Padding digunakan untuk memberikan jarak pada sisi dalam element itu sendiri (jarak antara content dengan border).
+Contoh :
+padding-top: 50px;
+
+Penggunaan padding ada beberapa cara :
+1. Penulisan terpisah tiap arah
+    Contoh:
+    - padding-top       : mengatur padding pada sisi atas
+    - padding-left      : mengatur padding pada sisi kiri
+    - padding-right     : mengatur padding pada sisi kanan
+    - padding-bottom    : mengatur padding pada sisi bawah
+
+2. Penulisan shorthand notation
+    Contoh:
+    - padding
+
+    Value nya bisa berisi 1,2, 3 dan 4 nilai.
+    - 1 nilai   : nilai tersebut untuk keempat sisi (atas bawah kiri kanan)
+    - 2 nilai   : nilai pertama untuk padding atas bawah, nilai kedua untuk kanan kiri
+    - 3 nilai   : nilai pertama untuk atas, nilai kedua untuk kanan kiri, nilai ketiga untuk sisi bawah
+    - 4 nilai   : masing masing nilai berfungsi untuk masing-masing sisi secara berurutan (atas kanan bawah kiri)
+
+
