@@ -539,3 +539,15 @@ Value dari property margin-bottom berupa angka dengan satuan :
 - em
 - %
 - rem
+
+===================================================================================================================
+Pertemuan 35 : Property Letter-Spacing dan Word-Spacing
+-------------------------------------------------------------------------------------------------------------------
+
+Property ini digunakan untuk mengatur jarak spasi antar huruf(letter) atau kata(word).
+
+Value dari property margin-bottom berupa angka (positif dan negatif) dengan satuan :
+- px
+- em
+- %
+- rem
