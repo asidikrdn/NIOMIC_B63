@@ -584,3 +584,23 @@ Contoh, misalnya disini kita gabungkan penulisan font-size dan font-family :
 p {
     font : 13px "Open Sans", sans-serif;
 }
+
+===================================================================================================================
+Pertemuan 38 : Property Text-Shadow
+-------------------------------------------------------------------------------------------------------------------
+
+Property text-shadow digunakan untuk membuat efek bayangan pada text.
+
+Value dari property text-shadow berupa angka dengan satuan px, em, %, dan rem.
+
+Value pada property text-shadow terdiri dari 3 angka : 
+- angka pertama ialah nilai horizontal (negatif untuk ke kiri, positif untuk ke kanan)
+- angka kedua ialah nilai vertical (positif untuk ke bawah, negatif untuk ke atas)
+- angka ketiga ialah nilai blur
+
+Contoh :
+.satu {
+    text-shadow: -2px 4px 5px;
+}
+
+dari contoh tersebut, maka pada element dengan class "satu" setiap teksnya akan diberikan bayangan dengan posisi 2px ke arah kiri, 4px ke arah bawah, dan dengan nilai blur 5px.
