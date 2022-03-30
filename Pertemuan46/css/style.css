@@ -1,0 +1,15 @@
+.styled {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    margin: auto;
+    background-color: aqua;
+}
+
+.styled p {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 1px;
+    line-height: 40px;
+    text-align: center;
+}

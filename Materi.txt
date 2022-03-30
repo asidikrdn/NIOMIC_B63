@@ -805,4 +805,75 @@ margin: auto;
 
 Perbedannya dengan text-align ialah margin auto hanya bisa diterapkan pada block level element, sedangkan text-align digunakan untuk mengatur inline level element.
 
+===================================================================================================================
+Pertemuan 46 : CSS Reset
+-------------------------------------------------------------------------------------------------------------------
+
+CSS Reset digunakan untuk mereset default style dari web browser (Karena setipa web browser memiliki default style yang berbeda-beda). 
+
+CSS Reset ada beberapa jenis, misalnya yg paling sederhana ialah untuk meng 0 kan margin dan padding dengan cara memformat seluruh element menggunakan universal selector.
+Contoh :
+* {
+    margin: 0;
+    padding: 0;
+}
+
+Ada juga CSS Reset versy Eric Meyer's yang cukup terkenal yang dapat diakses pada link (https://meyerweb.com/eric/tools/css/reset/), bentuknya sebagai berikut :
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+CSS Reset tersebut bukan hanya menghapus margin dan padding, tetepai juga menghilangkan style border, font-size, dan berbagai style bawaan browser lainnya. Artinya benar-benar memulai dari lembaran kosong.
+
+Selain itu, ada juga CSS Reset normalize yang dapat diakses pada link (https://github.com/necolas/normalize.css/blob/master/normalize.css), bentuknya tidak dilampirkan pada file materi ini karena akan terlalu panjang.
+
+Dalam penggunaannya, CSS Reset harus diletakkan pada posisi paling atas, kemudian dibawahnya barulah kita sisipkan css yang kita buat. Hal ini agar css yang kita buat tidak ikut ter-reset oleh css reset.
+
+Selain memiliki kelebihan, CSS juga memiliki kekurangan yaitu kita harus ingat untuk mengatur ulang seluruh margin, padding, font-size, dll untuk element yang telah direset. CSS Reset juga akan menambah waktu pemrosesan, karena sebelum membaca CSS yang kita buat, Web browser harus membaca dan menjalankan CSS Reset terlebih dahulu.
+
 
