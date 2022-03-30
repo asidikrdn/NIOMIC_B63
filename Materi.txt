@@ -518,7 +518,7 @@ Value pada property text-align
 Pertemuan 33 : Property Line-Height
 -------------------------------------------------------------------------------------------------------------------
 
-Property Line-Height digunakan untuk mengatur line spacing atau jarak antar teks.
+Property Line-Height digunakan untuk mengatur tinggi baris yang akan berimbas pada jarak antar baris teks. Misal sebuah paragram memiliki font 12px dan diberikan line-heigth 14px maka jarak antar baris (spacingnya) adalah 14px-12px = 2px.
 
 Value dari property line-height berupa angka dengan satuan :
 - px
