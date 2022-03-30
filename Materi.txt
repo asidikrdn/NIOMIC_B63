@@ -527,3 +527,15 @@ Value dari property line-height berupa angka dengan satuan :
 - rem
 
 Value bisa juga ditulis tanpa satuan, namun jika tanpa satuan sebenarnya satuannya adalah em.
+
+===================================================================================================================
+Pertemuan 34 : Property Margin-Bottom
+-------------------------------------------------------------------------------------------------------------------
+
+Property margin-bottom digunakan untuk membuat jarak antar element pada bagian bawahnya, misal antara paragraf dengan header atau paragraf dengan paragraf lainnya.
+
+Value dari property margin-bottom berupa angka dengan satuan :
+- px
+- em
+- %
+- rem
