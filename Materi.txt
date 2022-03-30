@@ -513,3 +513,17 @@ Value pada property text-align
 - right     : untuk mengatur teks rata kanan
 - justify   : untuk mengatur teks rata kanan kiri
 - center    : untuk mengatur teks rata tengah
+
+===================================================================================================================
+Pertemuan 33 : Property Line-Height
+-------------------------------------------------------------------------------------------------------------------
+
+Property Line-Height digunakan untuk mengatur line spacing atau jarak antar teks.
+
+Value dari property line-height berupa angka dengan satuan :
+- px
+- em
+- %
+- rem
+
+Value bisa juga ditulis tanpa satuan, namun jika tanpa satuan sebenarnya satuannya adalah em.
