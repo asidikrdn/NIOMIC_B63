@@ -628,6 +628,27 @@ Pertemuan 41 : Property Width dan Height
 
 Property Width dan Height digunakan untuk mengatur lebar dan tinggi element/content. Value dari property ini berupa angka dengan satuan px, em, %, dan rem.
 
+Contoh : 
+{
+    height: 100px;
+    width: 150px;
+}
+
+Selain contoh diatas yang bersifat statis, property ini juga memiliki penulisan dengan tambahan fungsi, antara lain
+- Min
+    Mengatur batas ukuran minimal tinggi/lebar element. Ketika kontennya sedikit, tinggi/lebar elementnya akan tetap seperti yang diberikan, namun ketika isi kontennya bertambah banyak maka tinggi/lebar element akan menyesuaikan.
+    Contoh :
+    {
+        min-height: 100px;
+    }
+
+- Max
+    Mengatur batas ukuran maksimal tinggi/lebar element. Ketika kontennya sedikit, tinggi/lebar elementnya akan menyesuaikan (kecil), ketika isi kontennya bertambah banyak maka tinggi/lebar element akan menyesuaikan sampai dengan batas yang ditentukan.
+    Contoh :
+    {
+        max-width: 150px;
+    }
+
 ===================================================================================================================
 Pertemuan 42 : Property Overflow
 -------------------------------------------------------------------------------------------------------------------
