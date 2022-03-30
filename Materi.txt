@@ -546,7 +546,19 @@ Pertemuan 35 : Property Letter-Spacing dan Word-Spacing
 
 Property ini digunakan untuk mengatur jarak spasi antar huruf(letter) atau kata(word).
 
-Value dari property margin-bottom berupa angka (positif dan negatif) dengan satuan :
+Value dari property letter dan word spacing ialah berupa angka (positif dan negatif) dengan satuan :
+- px
+- em
+- %
+- rem
+
+===================================================================================================================
+Pertemuan 36 : Property Text-Indent
+-------------------------------------------------------------------------------------------------------------------
+
+Property text-indent ini digunakan untuk mengatur jarak pada baris pertama paragraf agar menjorok ke dalam (indentasi).
+
+Value dari property text-indent berupa angka dengan satuan :
 - px
 - em
 - %
