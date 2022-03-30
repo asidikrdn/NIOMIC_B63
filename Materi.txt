@@ -880,5 +880,10 @@ Selain memiliki kelebihan, CSS juga memiliki kekurangan yaitu kita harus ingat u
 Pertemuan 47 : Tugas 6 CSS
 -------------------------------------------------------------------------------------------------------------------
 
+===================================================================================================================
+Pertemuan 48 : Property Background-Color
+-------------------------------------------------------------------------------------------------------------------
+
+Property background-color digunakan untuk mengatur warna latar belakang dari element html. Nilai default property ini yaitu transparent, yang berarti akan "melewatkan" warna parent elementnya. Value dari property ini dapat berupa keyword, nilai #rgb, rgb(), rgba(), hsl(), dan hsla().
 
 

@@ -1,0 +1,39 @@
+body {
+    background-color: lightgreen;
+}
+div {
+    width: 200px;
+    height: 200px;
+    line-height: 100px;
+    text-align: center;
+    float: left;
+    margin: 20px;
+}
+
+.satu {
+    background-color: white;
+}
+
+.dua {
+    background-color: #ad37c5cc;
+}
+
+.tiga {
+    background-color: rgb(128, 128, 128);
+}
+
+.empat {
+    background-color: rgba(223, 12, 12, 0.678);
+}
+
+.lima {
+    background-color: hsl(180, 100%, 50%);
+}
+
+.enam {
+    background-color: hsla(39, 100%, 50%, 0.411);
+}
+
+.tujuh {
+    background-color: transparent;
+}
