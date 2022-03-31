@@ -1,0 +1,32 @@
+div {
+    width: 1400px;
+    height: 800px;
+    margin: 25px auto;
+    border: 5px solid blue;
+    background-color: orange;
+    background-image: url('https://upload.wikimedia.org/wikipedia/id/1/18/Kung_fu_panda_poster.jpg');
+}
+
+.satu {
+    background-repeat: repeat;
+}
+
+.dua {
+    background-repeat: repeat-x;
+}
+
+.tiga {
+    background-repeat: repeat-y;
+}
+
+.empat {
+    background-repeat: no-repeat;
+}
+
+.lima {
+    background-repeat: space;
+}
+
+.enam {
+    background-repeat: round;
+}
