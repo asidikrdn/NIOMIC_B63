@@ -1,0 +1,19 @@
+div {
+    width: 900px;
+    height: 500px;
+}
+
+.satu {
+    background-image: url('img/kung-fu.jpg')
+}
+
+.dua {
+    background-color: purple;
+    background-image: url('img/maxresdefault-3-1.jpg')
+}
+
+.tiga {
+    background-image: url('img/niomic.png'),
+                      url('img/maxresdefault-3-1.jpg');
+    background-repeat: no-repeat;
+}

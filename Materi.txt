@@ -886,4 +886,31 @@ Pertemuan 48 : Property Background-Color
 
 Property background-color digunakan untuk mengatur warna latar belakang dari element html. Nilai default property ini yaitu transparent, yang berarti akan "melewatkan" warna parent elementnya. Value dari property ini dapat berupa keyword, nilai #rgb, rgb(), rgba(), hsl(), dan hsla().
 
+===================================================================================================================
+Pertemuan 49 : Property Background-Image
+-------------------------------------------------------------------------------------------------------------------
 
+Property background-image digunakan untuk memasukkan gambar ke dalam background sebuah element HTML. Format gambar yang sering digunakan ialah jpg, png, gif, dan svg. Value dari property ini ialah path lokasi gambar yang akan digunakan ataupun berupa link. Alamat tersebut ditulis di dalam tanda kurung setelah keyword url.
+Contoh :
+background-image: url('/img/gambar.jpg');
+background-image: url('www.niomic.id/img/background.jpg');
+
+Secara default, gambar akan diposisikan dari kiri atas ke kanan bawah, jika ukuran gambar melebihi dimensi element, sisa gambar akan tersembunyi ke bagian kanan bawah.
+
+Untuk menjaga-jaga bilamana karena suatu hal gambar tidak dapat tampil atau butuh waktu lama, kita juga bisa menyisipkan background-color dibalik gambar pada selector yang sama.
+Contoh :
+div {
+    background-color: red;
+    background-image: url('img/background.jpg')
+}
+
+Dengan kode diatas, maka tag div akan lebih dulu diberikan background berwarna merah, barulah kemudian akan ditimpa dengan background gambar. Jika gambar gagal ditampilkan, maka background berwarna merah akan terlihat.
+
+Background-image juga dapat kita inputkan beberapa gambar sekaligus. Penulisannya hanya perlu menambah value saja dalam 1 property, tiap value dipisahkan dengan tanda koma.
+Contoh :
+div {
+    background-image: url('img/background.jpg'),
+                      url('img/bg.png');
+}
+
+Urutan gambar yang ditampilkan ialah gambar yang ditulis pertama akan berada di posisi paling atas pada tumpukan layer (paling depan), gambar kedua akan berada dibelakangnya, gambar ketiga akan berada dibelakangnya lagi, dan seterusnya.
