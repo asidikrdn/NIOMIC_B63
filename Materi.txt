@@ -972,3 +972,8 @@ image, position, size, repeat, attachment, origin, clip, color.
 
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 322-325.
 
+===================================================================================================================
+Pertemuan 56 : Tugas 7 CSS
+-------------------------------------------------------------------------------------------------------------------
+
+
