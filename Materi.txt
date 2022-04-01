@@ -931,3 +931,10 @@ Efek dari property background-repeat baru dapat kita lihat jika kita menggunakan
 Selain keempat value diatas, ada value tambahan pada CSS3, yaitu :
 - space     : gambar akan direpeat tanpa dipotong, jika ada ruang sisa yang tidak sesuai ukuran gambar (tidak bisa diisi), ruang tersebut akan disisakan ditengah, gambar akan diposisikan di pinggir terlebih dahulu.
 - round     : gambar diulang tanpa dipotong, bedanya dengan space, round akan membuat gambar melebar untuk mengisi ruang yang kosong.
+
+===================================================================================================================
+Pertemuan 51 : Property Background-Position
+-------------------------------------------------------------------------------------------------------------------
+Property background-position digunakan untuk mengatur letak/posisi background-image.
+
+Penjelasan lengkap tertulis ada di ebook CSS Dunia Ilkom hal 298-305.

@@ -1,0 +1,49 @@
+div {
+    width: 1000px;
+    height: 700px;
+    border: 5px solid green;
+    margin: 10px auto;
+    background-image: url('https://upload.wikimedia.org/wikipedia/id/1/18/Kung_fu_panda_poster.jpg');
+    background-repeat: no-repeat;
+}
+
+.satu {
+    /* Secara default, background-position dimulai dari koordinat 0.0, yaitu 0 dari sumbu x dan 0 dari sumbu y */
+}
+
+.dua {
+    /* Menggeser posisi background dengan angka dan satuan px */
+    /* Angka pertama adalah sumbu x (horizontal), angka kedua sumbu y (vertical) */
+    background-position: 255px 158px;
+    /* gambar akan diposisikan 255px dari sisi kiri, dan 158px dari sisi atas */
+}
+
+.tiga {
+    /* Menggeser posisi gambar dengan keyword */
+    /* Keyword pertama adalah sumbu x (horizontal), keyword kedua sumbu y (vertical) */
+    background-position: right bottom;
+    /* gambar akan berada di posisi kanan bawah */
+}
+
+.empat {
+    /* Jika kita hanya menggunakan 1 value, maka yg dibaca hanya sumbu x (horizontal), sementara sumbu y (vertical) akan terbaca default yaitu center */
+    background-position: 150px;
+    /* Gambar akan diposisikan 150px dari sisi kiri, dan berada di tengah secara vertical */
+}
+
+.lima {
+    /* Bisa juga menggunakan 4 nilai dengan kombinasi keyword dan angka */
+    background-position: right 25px bottom 10px;
+    /* Gambar akan diposisikan 25px dari sisi kanan, dan 10px dari sisi bawah */
+}
+
+.enam {
+    /* Jika kita memiliki lebih dari 1 background image, kita dapat mengatur posisi masing-masing gambar secara terpisah */
+    /* Penulisannya dipisahkan oleh koma dan berurutan sesuai urutan gambar */
+    background-image: 
+    url('https://upload.wikimedia.org/wikipedia/id/1/18/Kung_fu_panda_poster.jpg'),
+    url('https://e7.pngegg.com/pngimages/323/636/png-clipart-po-master-shifu-tigress-oogway-kung-fu-panda-kung-fu-panda-mammal-carnivoran-thumbnail.png'),
+    url('https://i.pinimg.com/236x/2a/b5/dd/2ab5dd9c071cf215d0621680c2054684.jpg');
+
+    background-position: left bottom, 299px 29px, right bottom;
+}
