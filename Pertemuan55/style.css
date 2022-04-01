@@ -1,0 +1,17 @@
+div {
+    width: 600px;
+    height: 500px;
+    border: 5px solid blue;
+    padding: 25px;
+}
+
+.satu {
+    background:
+        url('https://upload.wikimedia.org/wikipedia/id/1/18/Kung_fu_panda_poster.jpg')  /* image */
+        10px center / 450px 450px               /* position / size */
+        no-repeat                               /* repeat */
+        scroll                                  /* attachment */
+        content-box                             /* origin (gambar) */
+        padding-box                             /* clip (warna) */
+        orangered;                            /* color */
+}

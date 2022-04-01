@@ -962,3 +962,13 @@ Property Background-Blend-Mode digunakan untuk mendapatkan efek gabungan dari ga
 
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 319-321.
 
+===================================================================================================================
+Pertemuan 55 : Property Background-Shorthand-Notation
+-------------------------------------------------------------------------------------------------------------------
+
+Dari 9 property background, 8 diantaranya dapat disingkat dengan shorthand-notation. 
+8 property background tersebut ialah :
+image, position, size, repeat, attachment, origin, clip, color.
+
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 322-325.
+
