@@ -1,0 +1,83 @@
+div {
+    width: 400px;
+    height: 500px;
+    float: left;
+    border: 5px solid blue;
+    margin: 10px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/id/1/18/Kung_fu_panda_poster.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-color: orangered;
+}
+
+p {
+    line-height:450px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.satu {
+    background-blend-mode: normal;
+}
+
+.dua {
+    background-blend-mode: multiply;
+}
+
+.tiga {
+    background-blend-mode: overlay;
+}
+
+.empat {
+    background-blend-mode: screen;
+}
+
+.lima {
+    background-blend-mode: darken;
+}
+
+.enam {
+    background-blend-mode: lighten;
+}
+
+.tujuh {
+    background-blend-mode: color-dodge;
+}
+
+.delapan {
+    background-blend-mode: color-burn;
+}
+
+.sembilan {
+    background-blend-mode: hard-light;
+}
+
+.sepuluh {
+    background-blend-mode: soft-light;
+}
+
+.sebelas {
+    background-blend-mode: difference;
+}
+
+.duabelas {
+    background-blend-mode: exclusion;
+}
+
+.tigabelas {
+    background-blend-mode: hue;
+}
+
+.empatbelas {
+    background-blend-mode: saturation;
+}
+
+.limabelas {
+    background-blend-mode: color;
+}
+
+.enambelas {
+    background-blend-mode: luminosity;
+}

@@ -953,3 +953,12 @@ Pertemuan 53 : Property Background-Attachment
 Property background-attachment digunakan untuk mengatur apakah gambar melekat kepada halaman, atau kepada viewport.
 
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 310-313.
+
+===================================================================================================================
+Pertemuan 54 : Property Background-Blend-Mode
+-------------------------------------------------------------------------------------------------------------------
+
+Property Background-Blend-Mode digunakan untuk mendapatkan efek gabungan dari gambar background dengan warna background.
+
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 319-321.
+
