@@ -945,3 +945,11 @@ Pertemuan 52 : Property Background-Size
 
 Property background-size berfungsi untuk mengatur ukuran gambar background.
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 305-310.
+
+===================================================================================================================
+Pertemuan 53 : Property Background-Attachment
+-------------------------------------------------------------------------------------------------------------------
+
+Property background-attachment digunakan untuk mengatur apakah gambar melekat kepada halaman, atau kepada viewport.
+
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 310-313.

@@ -1,0 +1,41 @@
+div {
+    width: 1000px;
+    height: 700px;
+    border: 5px solid blue;
+    background-image: url('https://upload.wikimedia.org/wikipedia/id/1/18/Kung_fu_panda_poster.jpg');
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+.satu {
+    /* Value keyword 'scroll' menjadikan gambar mengikat ke element, sehingga ketika kita men-scroll halaman web, gambar akan ikut ter-scroll */
+    /* Value scroll merupakan value default dari property ini */
+    background-attachment: scroll;
+}
+
+.dua {
+    /* Value 'fixed' menjadikan gambar diam ditempat dan mengikat ke viewport. Sehingga saat kita scroll halaman webnya, gambar tersebut seolah" diam ditempat, dan akan hilang/tertutup sesuai dengan batas elementnya */
+    background-attachment: fixed;
+    background-position: center center;
+    /* Jika kita menggunakan value fixed, posisi gambar juga akan lepas dari element, posisinya akan mengikat pada viewport. Semisal kita menempatkan di kiri, sedangkan element kita berada di sisi tengah s/d kanan, maka gambar tersebut tidak dapat terlihat */
+}
+
+.tiga {
+    /* Value 'local' mirip dengan value scroll, bedanya value local ini gambar mengikat pada 'isi element' bukan pada elementnya */
+    background-attachment: local;
+    /* Perbedaan local dan scroll dapat terlihat jika konten dalam element tersebut overflow. Gambar dengan value scroll akan tetap diam di posisi element ketika konten di dalam element tersebut sedang di-scroll. Namun gambar dengan value local akan ikut ter-scroll bersama isi konten walau elementnya diam. */
+}
+
+.empat {
+    /* Mencoba value scroll dengan isi konten yang overflow */
+    overflow: scroll;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+.lima {
+    /* Mencoba value local dengan isi konten yang overflow */
+    overflow: scroll;
+    background-attachment: local;
+    background-position: center;
+}
