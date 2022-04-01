@@ -1,0 +1,40 @@
+div {
+    width: 1000px;
+    height: 700px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/id/1/18/Kung_fu_panda_poster.jpg');
+    background-repeat: no-repeat;
+    border: 5px solid blue;
+    margin: 10 auto;
+}
+
+.satu {
+    /* Mengisi dengan 1 buah value berisi angka, value ini akan mengatur ukuran lebar (width), dan tingginya akan menyesuaikan */
+    background-size: 150px;
+}
+
+.dua {
+    /* Mengisi dengan 2 value, value pertama mengatur lebar, value kedua mengatur tinggi */
+    background-size: 400px 400px;
+}
+
+.tiga {
+    /* Jika kita menggunakan satuan % pada value, maka persentase akan dihitung bukan berdasarkan ukuran asli gambar, melainkan berdasarkan ukuran element */
+    background-size: 50% 50%;
+    /* Gambar akan menjadi seperempat element, karena setengah secara vertical dan setengah secara horizontal */
+}
+
+.empat {
+    /* Menggunakan value 'contain' akan membuat gambar ditampilkan memenuhi element namun tetap mempertahankan rasio gambar, artinya jika ada ruang yg kosong maka akan dibiarkan kosong */
+    background-size: contain;
+    /* dapat dilihat secara tinggi, gambar memenuhi element, namun secara lebar ada ruang kosong karena rasio gambar tidak sesuai dengan rasio element */
+}
+
+.lima {
+    /* Berbeda dengan contain, value 'cover' akan menjadikan gambar memenuhi seluruh element, namun akan ada sisi gambar yang terpotong (bagian terpotongnya sama seperti bila kita menggunakan gambar dengan ukuran resolusi yang lebih besar) */
+    background-size: cover;
+}
+
+.enam {
+    /* Terakhir, value auto adalah value default yang akan mempertahankan ukuran dan rasio gambar */
+    background-size: auto;
+}

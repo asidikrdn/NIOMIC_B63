@@ -938,3 +938,10 @@ Pertemuan 51 : Property Background-Position
 Property background-position digunakan untuk mengatur letak/posisi background-image.
 
 Penjelasan lengkap tertulis ada di ebook CSS Dunia Ilkom hal 298-305.
+
+===================================================================================================================
+Pertemuan 52 : Property Background-Size
+-------------------------------------------------------------------------------------------------------------------
+
+Property background-size berfungsi untuk mengatur ukuran gambar background.
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 305-310.
