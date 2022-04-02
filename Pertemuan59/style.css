@@ -1,0 +1,49 @@
+/* Dengan memanfaatkan normal document flow, kita sudah dapat membuat layout web sederhana 
+Akan lebih baik jika kita tambahkan sedikit css untuk mempercantik style bawaan normal document flow */
+
+/* Mereset margin dan padding bawaan normal document flow (bawaan web browser) */
+html {
+    padding: 0;
+    margin: 0;
+    background: rgb(231, 232, 226)
+}
+
+/* Memformat style pada body */
+body {
+    background: white;
+    width: 960px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Memformat style h1 dan h2 */
+h1, h2 {
+    background: rgb(169, 167, 167);
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Memberikan padding pada content */
+.content {
+    padding: 10px 20px;
+}
+
+/* Memformat style gallery */
+.gallery {
+    background: rgb(231, 232, 226);
+    width: 880px;
+    margin: 10px auto;
+}
+
+/* Memformat style gambar */
+img {
+    border:  10px solid white;
+    margin: 10px;
+}
+
+/* perlu diperhatikan style lebar pada img dan gallery(kotak penampung img)
+lebar img 400px + border 2x10px + margin 2x10px total lebar 1 gambar adalah 440px 
+
+Jika ingin menampilkan 2 gambar berjejeran maka lebar yg dibutuhkan minimalnya 880px, 
+jika kurang dari itu maka gambar akan otomatis pindah ke bawah */

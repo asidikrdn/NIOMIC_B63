@@ -987,3 +987,12 @@ Pertemuan 58 : Font External (@font-face)
 Berfungsi untuk menambahkan font pada halaman web selain web safe font.
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 206
 
+===================================================================================================================
+Pertemuan 59 : Mengenal Normal Document Flow
+-------------------------------------------------------------------------------------------------------------------
+
+Normal Document Flow adalah istilah keren untuk menyebut bagaimana element HTML diproses dan ditampilkan oleh web browser secara normal tanpa campur tangan CSS. Atau ini juga bisa dipahami sebagai default style bawaan web browser.
+
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 326.
+
+
