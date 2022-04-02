@@ -995,4 +995,11 @@ Normal Document Flow adalah istilah keren untuk menyebut bagaimana element HTML 
 
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 326.
 
+===================================================================================================================
+Pertemuan 60 : Property Position
+-------------------------------------------------------------------------------------------------------------------
+
+Property Position merupakan salah satu property CSS yang digunakan untuk membawa sebuah element "keluar" dari normal document flow. Property position berfungsi untuk mengatur penempatan posisi dari sebuah element.
+Penjelasan lengkap tertulis ada p ebook CSS Dunia Ilkom hal 332.
+
 

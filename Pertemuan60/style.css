@@ -1,0 +1,86 @@
+.container {
+    width: 800px;
+    height: 500px;
+    background-color: lightgrey;
+    margin: 10px auto;
+}
+
+.satu, .dua, .tiga, .empat, .lima, .enam, .tujuh, .delapan, .sembilan, .sepuluh, .sebelas, .duabelas {
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+}
+
+.satu, .empat, .tujuh, .sepuluh {
+    background-color: red;
+}
+
+.dua, .lima, .delapan, .sebelas {
+    background-color: green;
+}
+
+.tiga, .enam, .sembilan, .duabelas {
+    background-color: blue;
+}
+
+/* Static */
+.satu {
+    position: static;
+    /* Tidak akan terlihat perubahan, karena static merupakan nilai default yg juga digunakan oleh normal document flow */
+}
+
+/* Relative */
+.dua {
+    position: relative;
+    /* Jika hanya menambahkan seperti diatas, tetap tidak terlihat perubahan, baru akan terlihat jika menambahkan juga posisi dari kiri, kanan, atas, dan bawah */
+    left: 200px;
+    top: -50px;
+    /* Setelah menambahkan jarak dari sisi kiri dan atas, baru lah box terlihat bergerak, namun ruang tempat asal box tersebut akan tetap dikosongkan dan tidak diisi */
+}
+
+/* Absolute */
+.outer {
+    width: 800px;
+    height: 500px;
+    background-color: lightblue;
+    position: relative;
+}
+
+.inner {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+.empat {
+    position: absolute;
+    /* Jika hanya merubah posisi ke absolute, maka box akan keluar dari normal flow sehingga berada pada posisi paling atas sebelah kiri pada parent elementnya, dan box yg menggunakan posisi static akan menempati posisinya (seolah" tidak ada box disana), sehingga yg terjadi adalah 2 box tersebut bertumpukan */
+    
+    /* Jika kita menambahkan jarak pada sisi box, maka posisi box akan bergantung pada element yang memiliki posisi relative. Misalnya element parentnya tidak relative, maka dia akan melihat element diatasnya, terus seperti itu hingga jika tidak ada element yang memiliki posisi relative, dia akan menginduk pada html */
+    left: 30px;
+    top: 10px;
+    /* Karena element parent (inner) tidak relativa, maka dia menginduk kepada element outer yang memiliki posisi relative */
+}
+
+/* Fixed */
+.tujuh {
+    position: fixed;
+    /* posisi fixed membutuhkan property tambahan untuk digunakan, yaitu jarak dari sisi */
+    right: 10px;
+    bottom: 10px;
+    /* Setelah ditambahkan, barulah terlihat bahwa box dengan posisi fixed, posisinya akan mengacu pada viewport dan dia akan tetap diam di posisi itu (meski layar di scroll atau ukuran web di perkecil) */
+    /* Sama seperti absolute, posisi fixed juga mengeluarkan box dari normal document flow, sehingga letak asalnya dapat diisi oleh box lain yang memiliki posisi static. */
+}
+
+/* Sticky */
+.sebelas {
+    position: sticky;
+    top: 10px;
+    /*Penggunaan posisi sticky harus dipadukan dengan property top untuk mengatur di posisi mana element tersebut akan berhenti */
+    /* Posisi sticky akan terlihat seperti static, tetap berada di normal document flow, dia baru akan berubah menjadi fixed ketika melewati batas yang ditetapkan. Contohnya di atas, ketika element tersebut berada di posisi 0px dari atas, maka dia akan diam ditempat */
+    /* Element tersebut baru akan hilang jika parent elementnya juga hilang (ikut terscroll misalnya) */
+}
