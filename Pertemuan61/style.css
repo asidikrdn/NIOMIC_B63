@@ -1,0 +1,52 @@
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    background-color: white;
+    min-height: 500px;
+    width: 900px;
+    margin: 10px auto;
+    padding: 25px;
+}
+
+.satu, .dua, .tiga, .empat, .lima, .enam {
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+    background-color: purple;
+    border: 2px solid blue;
+    margin: 10px;
+}
+
+/* None */
+#none h2, .satu {
+    display: none;
+}
+/* Display none berfungsi untuk membuat element tidak terlihat dan seolah-olah tidak ada.
+Kita bisa membuat element tidak terlihat denga element text-indent, margin, dan opacity, namun dengan ketiga cara tersebut element hanya tidak terlihat tetapi tempat elementnya akan tetap ada sehingga menyisakan ruang kosong.
+Jika dengan display none, tempat element nya juga akan hilang dan bisa diisi oleh element lain */
+
+/* Inline */
+#inline h2, #inline p, #inline div, #inline li {
+    display: inline;
+}
+/* Element yang tadinya block (mengambil tempat di baris terpisah), sekarang ditampilkan menjadi inline (mengisi ruang di sampingnya pada baris yang sama) */
+
+/* Block */
+#block i, #block strong, #block span {
+    display: block;
+}
+/* Element yg tadinya inline level, sekarang dirah menjadi block level element, terlihat dari ciri khasnya yaitu mengganti baris baru */
+
+/* Inline-Block */
+#inline-block .satu, #inline-block .dua, #inline-block .tiga {
+    display: inline;
+}
+#inline-block .empat, #inline-block .lima, #inline-block .enam {
+    display: inline-block;
+}
+/* Perbedaan inline dan inline-block ialah jika kita menggunakan inline, maka element tidak bisa diatur tingginya dan tidak bisa ditambahkan padding (Box 1,2,3). Jika menggunakan inline-block, element berperilaku sebagaimana inline level element, namun tetap mempertahankan ciri block level element dimana element bisa diberikan property height dan padding (Box 4,5,6). */
