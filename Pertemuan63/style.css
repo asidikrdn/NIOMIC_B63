@@ -1,0 +1,71 @@
+.container {
+    width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    margin: 10px;
+    padding: 5px;
+    background-color:white;
+    border: 2px solid black;
+}
+.mepetkiri {
+    width: 250px;
+    /* Mengatur posisi gambar di 'float' ke sebelah kiri, sehingga element setelahnya dapat mengisi sisa ruang yg ada di kanan element img */
+    float: left;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#satu {
+    background-color: red;
+    /* Box 1 akan dibuat 'float' ke kanan */
+    float: right;
+}
+
+#dua {
+    background-color: green;
+}
+
+#tiga {
+    background-color: blue;
+}
+
+/* Ketiga box akan dibuat float ke kanan, masing" akan berurutan sesuai urutan penulisan pada html */
+#empat {
+    background-color: red;
+    float: right;
+}
+#lima {
+    background-color: green;
+    float: right;
+}
+#enam {
+    background-color: blue;
+    float: right;
+}
+/* Untuk mengatasi masalah container yang hilang atau menyempit, maka kita bisa menggunakan property overflow hidden, namun sayangnya property overflow kurang maksimal untuk digunakan, karena jika kita menambahkan style lain (misalnya shadow) pada box, shadow tersebut tidak dapat terlihat. Selain overflow, kita juga bisa membuat kontainer menjadi float, namun masalah baru akan muncul yaitu kontainer harus menempel ke sisi kiri atau kanan. 
+Oleh karenanya, kita lebih disarankan menggunakan property clear untuk mengatasi hal tersebut, penulisannya cukup di sisipkan pada element terakhir dalam container, kita bisa menggunakan tag br */
+.clear {
+    clear: right;
+}
+
+
+.mepetkanan {
+    width: 400px;
+    float: right;
+}

@@ -1014,3 +1014,9 @@ Pertemuan 62 : Property Z-Index
 -------------------------------------------------------------------------------------------------------------------
  Property Z-Index digunakan untuk mengatur urutan element ketika element tersebut saling bertumpuk.
  Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 354.
+
+===================================================================================================================
+Pertemuan 63 : Property Float
+-------------------------------------------------------------------------------------------------------------------
+Property Float juga bisa digunakan untuk mengatur posisi dari sebuah element.
+Penjelasan lengkapap tertulis ada pada ebook CSS Dunia Ilkom hal 358.
