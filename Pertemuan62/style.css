@@ -1,0 +1,69 @@
+html {
+    background-color: white;
+}
+body {
+    width: 960px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: lightgrey;
+}
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    min-height: 700px;
+    background-color: grey;
+    position: relative;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    position: absolute;
+}
+
+/* Z-Index default, element yg paling terakhir (paling bawah) di tulis (pada html) adalah element yg paling atas */
+.satu {
+    top: 15px;
+    left: 15px;
+    background-color: red;
+}
+.tiga {
+    top: 150px;
+    left: 100px;
+    background-color: blue;
+}
+.dua {
+    top: 30px;
+    left: 150px;
+    background-color: green;
+}
+
+
+/* Mengatur tumpukan element dengan merubah nilai z-index */
+.empat {
+    bottom: 15px;
+    right: 15px;
+    background-color: red;
+    z-index: 3;
+}
+.lima {
+    bottom: 175px;
+    right: 75px;
+    background-color: green;
+    z-index: 1;
+}
+.enam {
+    bottom: 50px;
+    right: 150px;
+    background-color: blue;
+    z-index: 2;
+}
+/* semakin tinggi nilai z-indeksnya, element akan semakin diatas pada urutan tumpukan
+selain value positif, z-indeks juga bisa diisi dengan angka negatif, biasanya digunakan untuk menempatkan element berada di posisi paling bawah tumpukan */

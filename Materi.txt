@@ -1008,3 +1008,9 @@ Pertemuan 61 : Property Display
 
 Property Display digunakan untuk mengatur tampilan dari sebuah element.
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 345.
+
+===================================================================================================================
+Pertemuan 62 : Property Z-Index
+-------------------------------------------------------------------------------------------------------------------
+ Property Z-Index digunakan untuk mengatur urutan element ketika element tersebut saling bertumpuk.
+ Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 354.
