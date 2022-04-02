@@ -1,0 +1,13 @@
+@font-face {                        /* kode untuk menginput/menambahkan font */
+    font-family: Loraku;            /* Memberi nama/identitas (namanya bebas) pada font yg kita tambahkan */
+    src: local('Lora'), url('fonts/LORA-REGULAR.ttf') format('truetype');
+    /* 
+    - local digunakan untuk mencari font dengan nama keyword tersebut pada komputer client, jika ada gunakan font tersebut, jika tidak maka akan membaca font pada url 
+    - url digunakan untuk mengisikan lokasi kita menyimpan font
+    - format digunakan untuk mendefinisikan format font yg kita gunakan, jika tidak ditulis pun web browser akan mencoba menebaknya
+    */
+}
+
+h2, p { 
+    font-family: "Loraku";
+}

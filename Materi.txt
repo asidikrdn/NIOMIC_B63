@@ -980,5 +980,10 @@ Pertemuan 56 : Tugas 7 CSS
 Pertemuan 57 : Tugas 8 CSS
 -------------------------------------------------------------------------------------------------------------------
 
+===================================================================================================================
+Pertemuan 58 : Font External (@font-face)
+-------------------------------------------------------------------------------------------------------------------
 
+Berfungsi untuk menambahkan font pada halaman web selain web safe font.
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 206
 
