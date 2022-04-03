@@ -1,0 +1,18 @@
+body {
+    background-image: url('https://www.iwarebatik.org/wp-content/uploads/2020/01/RA_Pianemoisland_indtravel.jpg');
+    background-size: cover;
+}
+
+img {
+    position: absolute;
+    right: 10px;
+    z-index: -1;
+}
+
+.content {
+    width: 800px;
+    float: right;
+    background-color: white;
+    text-align: right;
+    padding: 10px;
+}
