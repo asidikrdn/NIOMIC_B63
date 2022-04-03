@@ -1,0 +1,27 @@
+.main {
+    width: 900px;
+    height: 700px;
+    margin: 10px auto;
+    border: 1px solid black;
+
+    /* memanggil gambar yang sudah diberikan efek gradient menggunakan apps editing seperti photoshop dll */
+    background-image: url('gradient.png');
+
+    /* untuk membuat gambar full, maka kita perlu menambahkan property background-size dan background-repeat */
+    /* contain digunakan agar 1 gambar memenuhi tinggi element */
+    background-size: contain;
+    /* repeat-x digunakan agar gambar memenuhi halaman secara horizontal dengan melakukan perulangan */
+    background-repeat: repeat-x;
+}
+
+.container {
+    width: 800px;
+    height: 650px;
+    margin: 10px auto;
+    border: 1px solid black;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
