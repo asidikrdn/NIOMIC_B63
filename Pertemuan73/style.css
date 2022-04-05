@@ -1,0 +1,16 @@
+body {
+    width: 80%;
+    margin: 10px auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content {
+    column-count: 3;
+    column-gap: 100px;
+    /* Penulisan value column-rule sama seperti penulisan value pada border, yaitu ukuran garis, jenis garis, dan warna garis */
+    column-rule: 5px double black;
+}
+
+p {
+    margin-top: 0;
+}

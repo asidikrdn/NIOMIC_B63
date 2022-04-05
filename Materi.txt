@@ -1078,3 +1078,9 @@ Pertemuan 72 : Property Column-Gap
 -------------------------------------------------------------------------------------------------------------------
 Property Column-Gap digunakan untuk mengatur besar jarak (gap) antar kolom.
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 405.
+
+===================================================================================================================
+Pertemuan 73 : Property Column-Rule
+-------------------------------------------------------------------------------------------------------------------
+Property Column-Rule digunakan untuk menambahkan garis pada jarak antar kolom. 
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 405.
