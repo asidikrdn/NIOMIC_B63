@@ -1066,3 +1066,9 @@ Contoh :
 Lebar viewport 960px, lebar colum-width 200px, maka akan menghasilkan 4.8 kolom yang selanjutnya dibulatkan menjadi 4 kolom.
 
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 403.
+
+===================================================================================================================
+Pertemuan 71 : Property Column-Fill
+-------------------------------------------------------------------------------------------------------------------
+Property Column-Fill digunakan untuk membuat teks dibagi rata seusai jumlah kolom (default), atau memenuhi kolom pertama terlebih dahulu sesuai tinggi parent element, barulah setelahnya teks akan mengisi kolom selanjutnya.
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 404.
