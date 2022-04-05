@@ -1,0 +1,15 @@
+body {
+    margin: 0 auto;
+    width: 1200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Membuat teks menjadi 3 kolom */
+.content {
+    column-count: 3;
+}
+
+/* Agar paragraf pertama di kolom paling kiri memiliki tinggi yg sama rata, maka kita harus hilangkan margin pada bagian atasnya */
+p {
+    margin-top: 0;
+}

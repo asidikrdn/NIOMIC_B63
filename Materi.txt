@@ -1050,3 +1050,10 @@ Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 391.
 ===================================================================================================================
 Pertemuan 68 : Tugas 10 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 69 : Property Column-Count
+-------------------------------------------------------------------------------------------------------------------
+
+Property Column-Count digunakan untuk menentukan jumlah kolom teks (multiple column).
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 401.
