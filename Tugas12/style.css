@@ -1,0 +1,67 @@
+body {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header {
+    background-color: black;
+    padding: 5px;
+    height: 50px;
+    line-height: 50px;
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    background-image: linear-gradient(to right, lightblue, aqua, rgb(217, 247, 247));
+    padding: 10px;
+}
+
+.card {
+    padding: 10px;
+}
+
+.slider {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slider-img {
+    width: 100%;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    margin: 20px 25px 25px 25px;
+    float: left;
+}
+
+.p-text {
+    column-count: 4;
+    column-gap: 15px;
+    column-rule: 2px solid black;
+    text-align: justify;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
