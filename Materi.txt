@@ -1090,3 +1090,7 @@ Pertemuan 74 : Property Column-Span
 -------------------------------------------------------------------------------------------------------------------
 Property Column-Span digunakan untuk "keluar" dari efek kolom (Sama seperti fungsi colspan pada table).
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 406.
+
+===================================================================================================================
+Pertemuan 75 : Tugas 11 CSS
+-------------------------------------------------------------------------------------------------------------------
