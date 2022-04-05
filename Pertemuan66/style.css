@@ -1,0 +1,59 @@
+.container {
+    width: 1000px;
+    height: 600px;
+    margin: 10px auto;
+    border: 3px solid black;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Linear Gradient */
+#container1 {
+    /* penggunaan linear gradient, dituliskan didalam property background-image */
+    background-image: linear-gradient(blue, white);
+}
+
+/* Linear Gradient dengan beberapa color-stop */
+#container2 {
+    background-image: linear-gradient(blue, white, red);
+}
+
+/* Linear Gradient dengan panjang color-stop */
+#container3 {
+    /* Kita dapat mengatur panjang tiap color-stop, tetapi khusus color-stop terakhir sebaiknya dibiarkan kosong atau defaultnya 100%, kecuali jika kita ingin me-repeat gradient tersebut */
+    /* Valuenya bisa menggunakan satuan px atau % */
+    background-image: linear-gradient(blue 60%, red);
+}
+#container4 {
+    background-image: linear-gradient(blue 100px, yellow 50%, red 60%, white);
+}
+
+/* Linear Gradient  Direction */
+#container5 {
+    /* Kita dapat mengatur arah gradient, valuenya bisa menggunakan keyword (to top, to bottom, to right, to left) atau satuan degre (deg, grad, rad, turn. Namun yg sering digunakan adalah deg) */
+    background-image: linear-gradient(to bottom right, blue, green, yellow);
+}
+#container6 {
+    background-image: linear-gradient(225deg, blue, green, yellow);
+}
+
+/* Linear Gradient Repeat */
+#container7 {
+    /* Mengulang gradient sebanyak beberapa kali dalam 1 element, untuk melakukan repeat kita hanya perlu menggatur length color-stop terakhir. Sceara default color stop terakhir bernilai 100% yg artinya memenuhi element, jika kita men-set 50% maka gradient dapat terulang sebanyak 2x. */
+    background-image: repeating-linear-gradient(blue, white 50%);
+}
+/* Padda repeating-linear-gradient kita tidak dapat mengatur panjang/size dari color stop (color-stop akan otomatis dibagi rata), tapi kita dapat mengatur direction (arah) dari gradient */
+#container8 {
+    background-image: repeating-linear-gradient(to right, blue, green, yellow 10%);
+}
+
+#container9 {
+    background-image: repeating-linear-gradient(45deg, red, white 1%);
+}
+
+#container10 {
+    background-image: repeating-linear-gradient(190deg, red, yellow, green, blue 10%);
+}

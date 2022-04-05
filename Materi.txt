@@ -1032,3 +1032,10 @@ Pertemuan 65 : Membuat Gradient dengan Gambar
 Membuat gradient dengan gambar merupakan teknik jadul yang sudah jarang digunakan, fungsi dari teknik ini ialah untuk memberikan efek gradient pada background halaman web.
 
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 379.
+
+===================================================================================================================
+Pertemuan 66 : Linear Gradient
+-------------------------------------------------------------------------------------------------------------------
+
+Linear Gradient merupakan efek gradient paling sederhana dimana gradiasi warna terjadi pada garis lurus. Propperty ini disediakan CSS3 untuk menggantikan cara lama yang membuat gradient menggunakan gambar.
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 382.
