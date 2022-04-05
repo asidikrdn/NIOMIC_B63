@@ -1072,3 +1072,9 @@ Pertemuan 71 : Property Column-Fill
 -------------------------------------------------------------------------------------------------------------------
 Property Column-Fill digunakan untuk membuat teks dibagi rata seusai jumlah kolom (default), atau memenuhi kolom pertama terlebih dahulu sesuai tinggi parent element, barulah setelahnya teks akan mengisi kolom selanjutnya.
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 404.
+
+===================================================================================================================
+Pertemuan 72 : Property Column-Gap
+-------------------------------------------------------------------------------------------------------------------
+Property Column-Gap digunakan untuk mengatur besar jarak (gap) antar kolom.
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 405.
