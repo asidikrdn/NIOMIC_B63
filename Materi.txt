@@ -1039,3 +1039,10 @@ Pertemuan 66 : Linear Gradient
 
 Linear Gradient merupakan efek gradient paling sederhana dimana gradiasi warna terjadi pada garis lurus. Propperty ini disediakan CSS3 untuk menggantikan cara lama yang membuat gradient menggunakan gambar.
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 382.
+
+===================================================================================================================
+Pertemuan 67 : Radial Gradient
+-------------------------------------------------------------------------------------------------------------------
+
+Radial Gradient merupakan efek gradient yang berbentuk lingkaran atau eclipse.
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 391.

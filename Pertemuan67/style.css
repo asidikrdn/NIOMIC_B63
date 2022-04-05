@@ -1,0 +1,83 @@
+h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    border: 3px solid black;
+    margin: 10px auto;
+
+}
+
+/* Radial Gradient */
+#container1 {
+    background-image: radial-gradient(white, black);
+}
+
+/* Radial Gradient dengan bentuk */
+#container2 {
+    /* secara default bentuk gradient adalah ellipse, namun kita juga bisa merubahnya menjadi bentuk lingkaran */
+    background-image: radial-gradient(ellipse, blue, yellow);
+}
+#container3 {
+    background-image: radial-gradient(circle, blue, yellow);
+}
+
+/* Radial Gradient Position */
+#container4 {
+    /* Kita dapat mengatur posisi titik lingkaran gradient dengan menambahkan keyword 'at' disertau value yg sama seperti value pada background position */
+    background-image: radial-gradient(circle at bottom right, blue, yellow);
+}
+#container5 {
+    background-image: radial-gradient(circle at 75% 50%, blue, yellow);
+}
+
+/* Radial Gradient Extend */
+/* Kita juga bisa mengatur seberapa jauh jarak gradient dari titik pusat */
+#container6 {
+    background-image: radial-gradient(circle 75px, blue, yellow);
+}
+#container7 {
+    background-image: radial-gradient(circle 150px, blue, yellow);
+}
+/* Selain berdasarkan ukuran panjnag, kita juga bisamenentukan batas lingkaran gradient berdasarkan sisi atau sudut dari parent element */
+#container8a {
+    /* Berdasarkan sudut terdekat */
+    background-image: radial-gradient(closest-corner circle at 75% 15%, blue, yellow);
+}
+#container8b {
+    /* Berdasarkan sudut terjauh*/
+    background-image: radial-gradient(farthest-corner circle at 75% 15%, blue, yellow);
+}
+#container9a {
+    /* Berdasarkan sisi terdekat */
+    background-image: radial-gradient(closest-side circle at 75% 15%, blue, yellow);
+}
+#container9b {
+    /* Berdasarkan sisi terjauh*/
+    background-image: radial-gradient(farthest-side circle at 75% 15%, blue, yellow);
+}
+
+/* Radial Gradient Color-Stop */
+/* Kita juga bisa menggunakan beberapa warna dalam radial gradient */
+#container10 {
+    background-image: radial-gradient(circle, red, yellow, blue);
+}
+#container11 {
+    background-image: radial-gradient(closest-corner circle at 75% 15%, red, yellow, blue)
+}
+
+/* Repeating Radial Gradient */
+/* Kita juga bisa melakukan perulangan pada radial gradient seperti pada linear gradient. Caranya pun sama, dengan menuliskan length dari color-stop terakhir */
+#container12 {
+    background-image: repeating-radial-gradient(circle, red, yellow, blue 20%);
+}
+#container13 {
+    background-image: repeating-radial-gradient(closest-corner circle at 75% 15%, red, yellow, blue 20%);
+}
+/* Kita juga bisa mengatur lengt dari color stop pada perulangan ini, color-stop yg bisa di set adalah selain color-stop terakhir dan besarannya juga tidak boleh lebih dari color-stop terakhir */
+#container14 {
+    background-image: repeating-radial-gradient(farthest-side circle at 25% 15%, red, yellow 15%, blue 25%);
+}
