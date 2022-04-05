@@ -1,0 +1,14 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Men-set lebar column */
+.content {
+    column-width: 200px;
+}
+
+p {
+    margin-top: 0;
+}

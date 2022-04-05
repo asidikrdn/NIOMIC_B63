@@ -1057,3 +1057,12 @@ Pertemuan 69 : Property Column-Count
 
 Property Column-Count digunakan untuk menentukan jumlah kolom teks (multiple column).
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 401.
+
+===================================================================================================================
+Pertemuan 70 : Property Column-Width
+-------------------------------------------------------------------------------------------------------------------
+Property Column-Width digunakan untuk membagi kolom tapi berdasarkan lebar yang ditentukan. Pembagian dilakukan dengan pembulatan kebawah.
+Contoh :
+Lebar viewport 960px, lebar colum-width 200px, maka akan menghasilkan 4.8 kolom yang selanjutnya dibulatkan menjadi 4 kolom.
+
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 403.
