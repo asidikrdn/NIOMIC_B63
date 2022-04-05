@@ -1084,3 +1084,9 @@ Pertemuan 73 : Property Column-Rule
 -------------------------------------------------------------------------------------------------------------------
 Property Column-Rule digunakan untuk menambahkan garis pada jarak antar kolom. 
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 405.
+
+===================================================================================================================
+Pertemuan 74 : Property Column-Span
+-------------------------------------------------------------------------------------------------------------------
+Property Column-Span digunakan untuk "keluar" dari efek kolom (Sama seperti fungsi colspan pada table).
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 406.
