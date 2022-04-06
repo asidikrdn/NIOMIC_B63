@@ -1,0 +1,115 @@
+h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.box {
+    margin: 10px auto;
+    width: 728px;
+    height: 728px;
+    background-color: blue;
+    /* Untuk membuat border image, kita membutuhkan property border dengan warna transparent */
+    border: 30px solid transparent;
+    /* pada ruang 30px tersebutlah border image akan ditampilkan */
+}
+
+/* Border Image Source */
+/* Digunakan untuk menentukan lokasi gambar */
+#satu {
+    border-image-source: url('img/border1.png');
+}
+
+/* Border Image Slice */
+/* Digunakan untuk memotong gambar border */
+#dua {
+    border-image-source: url('img/border1.png');
+    border-image-slice: 33 33 33 33;
+}
+/* Jika menggunakan persen, maka sudut sudut juga ikut terkena efek 'slice' */
+#dua_a {
+    border-image-source: url('img/border1.png');
+    border-image-slice: 16% 33% 16% 33%;
+}
+#tiga {
+    border-image-source: url('img/border2.png');
+    border-image-slice: 15%;
+}
+#tiga_a {
+    border-image-source: url('img/border1.png');
+    border-image-slice: 33 fill;
+}
+
+/* Border Image Width */
+/* Digunakan untuk menentukan lebar dari gambar border */
+#empat {
+    border-image-source: url('img/border1.png');
+    border-image-slice: 33;
+    border-image-width: 100px;
+}
+/* Jika lebar border-image lebih besar dari lebar border, maka sisa lebar border-image akan menimpa ke element. Biasanya digunakan untuk membuat efek tertentu */
+
+/* Border Image Repeat */
+/* Digunakan untuk mengulang gambar border agar tidak tampil dengan efek stretch */
+#lima_a {
+    /* Stecth, nilai default, gambar dibuat melebar */
+    border-image-source: url('img/border1.png');
+    border-image-slice: 33;
+    border-image-repeat: stretch;
+}
+#lima_b {
+    /* Repeat, gambar dibuat berulang terus menerus */
+    border-image-source: url('img/border1.png');
+    border-image-slice: 33;
+    border-image-repeat: repeat;
+}
+#lima_c {
+    /* Round, Perulangan dilakukan selama gambar tidak terpotong (web browser akan memberbesar/memperkecil gambar sedikit pada bagian ujung untuk mengisi jika ada ruang yg kurang) */
+    border-image-source: url('img/border1.png');
+    border-image-slice: 33;
+    border-image-repeat: round;
+}
+#lima_d {
+    /* Space, mirip seperti round namun jika terdapt ruang yg tidak cukup maka akan dibagi rata ke semua sisi */
+    border-image-source: url('img/border1.png');
+    border-image-slice: 33;
+    border-image-repeat: space;
+}
+#enam_a {
+    border-image-source: url('img/border2.png');
+    border-image-slice: 33;
+    border-image-repeat: stretch;
+}
+#enam_b {
+    border-image-source: url('img/border2.png');
+    border-image-slice: 33;
+    border-image-repeat: repeat;
+}
+#enam_c {
+    border-image-source: url('img/border2.png');
+    border-image-slice: 33;
+    border-image-repeat: round;
+}
+#enam_d {
+    border-image-source: url('img/border2.png');
+    border-image-slice: 33;
+    border-image-repeat: space;
+}
+
+/* Border Image Outset */
+/* Digunakan untuk memindahkan border image 'keluar' dari element, yakni berada di garis outset/outline */
+/* Dengan menggunakan outset ini maka border akan berada diluar hitungan element, sehingga jika berada di tepian viewport atau jika bersinggungan dengan element lain, kita perlu menambahkan margin agar bordernya tidak terpotong */
+#tujuh {
+    border-image-source: url('img/border1.png');
+    border-image-slice: 33;
+    border-image-repeat: space;
+    border-image-outset: 30px;
+}
+/* Dengan kode diatas, maka border-image akan keluar dari element sejauh 30px dari posisi asalnya */
+
+/* Border Image Shorthand Notation */
+#delapan {
+    /* urutan value : source slice / width / outset repeat */
+    border-image: url('img/border1.png') 33 fill / 30px / 50px round;
+    margin: 50px auto;
+}
+
