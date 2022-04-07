@@ -1112,3 +1112,9 @@ Pertemuan 78 : Border Image dari Gradient
 
 CSS3 border image juga mendukung gradient sebagai gambar border. Caranya, ganti alamat url sebagai nilai property border-image-source dengan fungsi gradient.
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 424
+
+===================================================================================================================
+Pertemuan 79 : Border Image dengan Gambar Berulang
+-------------------------------------------------------------------------------------------------------------------
+
+Sudah dibahas pada pertemuan 77.
