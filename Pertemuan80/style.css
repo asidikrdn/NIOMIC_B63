@@ -1,0 +1,89 @@
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container{
+    margin: 10px auto;
+    width: 1100px;
+    height: 400px;
+    /* background-color: aqua; */
+}
+
+.box {
+    float: left;
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+
+/* offset */
+/* Berfungsi untuk mengatur lokasi dan besar bayangan
+offset-x untuk horizontal, offset-y untuk vertical */
+#satu_a {
+    /* Urutan value : offset-x offset-y */
+    box-shadow: 15px 5px;
+}
+#satu_b {
+    /* Urutan value : offset-x offset-y */
+    box-shadow: -15px 10px;
+}
+#satu_c {
+    /* Urutan value : offset-x offset-y */
+    box-shadow: 15px -25px;
+}
+
+/* Blur-radius */
+/* Digunakan untuk efek 'kabur'/'blur' pada bayangan */
+#dua_a {
+    /* Urutan value : offset-x offset-y blur-radius */
+    box-shadow: 15px 20px 10px;
+}
+#dua_b {
+    box-shadow: 15px 20px 20px;
+}
+#dua_c {
+    box-shadow: 15px 20px 30px;
+}
+
+/* Spread */
+/* Digunakan untuk mengatur seberapa jauh efek bayangan terjadi */
+#tiga_a {
+    /* Urutan value : offset-x offset-y blur-radius spread */
+    box-shadow: 15px 20px 20px 10px;
+}
+#tiga_b {
+    box-shadow: 15px 20px 20px 20px;
+}
+#tiga_c {
+    box-shadow: 15px 20px 20px -10px;
+}
+
+/* Color */
+/* Digunakan untuk memberikan warna pada bayangan */
+#empat_a {
+    /* Urutan value : offset-x offset-y blur-radius spread color*/
+    box-shadow: 15px 20px 20px 10px red;
+}
+#empat_b {
+    box-shadow: 15px 20px 20px 10px rgb(44, 75, 211);
+}
+#empat_c {
+    box-shadow: 15px 20px 20px 10px #e04593;
+}
+
+/* Inset */
+/* Digunakan untuk membuat bayangan tampil di dalam element, ditulis pada bagian paling awal */
+#lima_a {
+    /* Urutan value : inset offset-x offset-y color*/
+    box-shadow: inset 10px 10px blue;
+}
+#lima_b {
+    /* Urutan value : inset offset-x offset-y blur-radius*/
+    box-shadow: inset 10px 10px 10px;
+}
+#lima_c {
+    /* Urutan value : inset offset-x offset-y blur-radius spread*/
+    box-shadow: inset 10px 10px 10px 5px;
+}

@@ -1118,3 +1118,10 @@ Pertemuan 79 : Border Image dengan Gambar Berulang
 -------------------------------------------------------------------------------------------------------------------
 
 Sudah dibahas pada pertemuan 77.
+
+===================================================================================================================
+Pertemuan 80 : Box Shadow
+-------------------------------------------------------------------------------------------------------------------
+
+Property Box Shadow digunakan untuk membuat efek bayangan.
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 428.
