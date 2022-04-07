@@ -1105,3 +1105,10 @@ Pertemuan 77 : Border Image
 
 Border Image memungkinkan kita membuat bingkai dari gambar.
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 410.
+
+===================================================================================================================
+Pertemuan 78 : Border Image dari Gradient
+-------------------------------------------------------------------------------------------------------------------
+
+CSS3 border image juga mendukung gradient sebagai gambar border. Caranya, ganti alamat url sebagai nilai property border-image-source dengan fungsi gradient.
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 424

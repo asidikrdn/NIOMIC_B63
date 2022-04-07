@@ -1,0 +1,15 @@
+.box {
+    margin: 10px auto;
+    width: 900px;
+    height: 600px;
+    background-color: aqua;
+
+    border: 30px solid transparent;
+
+    /* menggunakan value repeating linear gradient sebagai value dari border-image-source */
+    border-image-source: repeating-linear-gradient(to bottom right, black, white 10px);
+    border-image-width: 30px;
+    border-image-slice: 33;
+    /* border-image-repeat: round; */
+    border-image-outset: 30px;
+}
