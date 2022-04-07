@@ -1125,3 +1125,9 @@ Pertemuan 80 : Box Shadow
 
 Property Box Shadow digunakan untuk membuat efek bayangan.
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 428.
+
+===================================================================================================================
+Pertemuan 81 : Multiple Box Shadow
+-------------------------------------------------------------------------------------------------------------------
+Kita dapat membuat lebih dari 1 bayangan dengan property box-shadow.
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 432.

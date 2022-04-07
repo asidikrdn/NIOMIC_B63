@@ -1,0 +1,29 @@
+.container {
+    width: 1200px;
+    height: 500px;
+    margin:  0 auto;
+}
+
+.box {
+    float: left;
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    margin: 25px;
+}
+
+/* Multiple Box Shadow */
+/* Semua value dapat langsung dituliskan pada 1 property box-shadow dan dipisahkan menggunakan koma */
+#satu {
+    /* Urutan value : value1, value2 */
+    box-shadow: 10px 10px, -10px -10px;
+}
+#dua {
+    box-shadow: 10px 10px red, 15px 15px yellow, 20px 20px blue;
+}
+#tiga {
+    box-shadow: inset 10px 10px 5px, inset -10px -10px 5px;
+}
+#empat {
+    box-shadow: inset 10px 10px 5px red, -10px -10px 5px blue; 
+}
