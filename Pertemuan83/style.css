@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    height: 300px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.box {
+    background-color: honeydew;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Display: Flex */
+/* Merupakan tampilan default dari flexbox */
+/* Membuat child element menjadi sejajar dalam satu baris serta tingginya memenuhi parent element */
+#dua {
+    display: flex;
+}
+
+/* Display: Inline-Flex */
+/* Sama seperti display flex yang digunakan untuk membuat flex container, namun container akan tampil dalam bentuk inline level element */
+#tiga {
+    display: inline-flex;
+}

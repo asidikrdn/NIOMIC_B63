@@ -1135,3 +1135,25 @@ Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 432.
 ===================================================================================================================
 Pertemuan 82 : Tugas 13 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 83 : Apa itu Flexbox
+-------------------------------------------------------------------------------------------------------------------
+Flexbox berisi berbagai property CSS untuk mengatur tampilan yang tersusun secara 1 dimensi (baris saja, atau kolom saja).
+
+Property untuk flex-container:
+- flex-direction
+- flex-wrap
+- flex-flow (shorthand)
+- justify-content
+- align-items
+- align-content
+
+Property untuk flex-item :
+- order
+- flex-grow
+- flex-shrink
+- flex-basis
+- flex (shorthand)
+
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 490.
