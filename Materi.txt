@@ -1157,3 +1157,10 @@ Property untuk flex-item :
 - flex (shorthand)
 
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 490.
+
+===================================================================================================================
+Pertemuan 84 : Flexbox Flex-Direction
+-------------------------------------------------------------------------------------------------------------------
+
+Property flex-direction digunakan untuk mengatur urutan dan posisi element di dalam flex container.
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 493.

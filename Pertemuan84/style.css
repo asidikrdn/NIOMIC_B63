@@ -1,0 +1,45 @@
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.container {
+    height: 300px;
+    margin: 10px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    display: flex;
+}
+
+.box {
+    background-color: honeydew;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Row */
+/* Membuat flex-item berjajar pada sumbu-x (horizontal) dan berkumpul di sisi kiri sesuai urutan penulisan */
+#satu {
+    flex-direction: row;
+}
+
+/* Row-Reverse */
+/* Membuat flex-item berjajar pada sumbu-x (horizontal) dan berkumpul di sisi kanan sesuai urutan penulisan (dimulai dari kanan) */
+#dua {
+    flex-direction: row-reverse;
+}
+
+/* Column */
+/* Membuat flex-item berjajar pada sumbu-y (vertical) membentuk kolom dan berkumpul di sisi atas sesuai urutan penulisan */
+#tiga {
+    flex-direction: column;
+}
+
+/* Column-Reverse */
+/* Membuat flex-item berjajar pada sumbu-y (vertical) membentuk kolom dan berkumpul di sisi atas sesuai urutan penulisan (dimulai dari bawah) */
+#empat {
+    flex-direction: column-reverse;
+}
