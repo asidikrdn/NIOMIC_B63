@@ -1180,3 +1180,11 @@ Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 506.
 ===================================================================================================================
 Pertemuan 87 : Tugas 15 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 88 : Flexbox Flex-Wrap
+-------------------------------------------------------------------------------------------------------------------
+
+Property flex-wrap digunakan untuk menentukan apakah flex item akan membuat baris baru jika flex container tidak cukup lebar.
+Value dari property ini adalah nowrao (default) dan wrap.
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 496.
