@@ -1,0 +1,55 @@
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.container {
+    height: 300px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    background-color: honeydew;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Strecth (Default Value) */
+/* Memperbesar tinggi flex item untuk memenuhi tinggi kontainer (selama tinggi flex item tidak dinefinisikan) */
+#satu {
+    align-items: stretch;
+}
+
+/* Flex-Start */
+/* Mendorong semua flex item ke bagian awal (karena flex align-item di contoh ini mengatur sumbu-y, maka bagian awalnya adalah sisi atas) */
+#dua {
+    align-items: flex-start;
+}
+
+/* Flex-End */
+/* Mendiring semua flex item ke bagian akhir (karena flex align-item di contoh ini mengatur sumbu-y, maka bagian awalnya adalah sisi bawah) */
+#tiga {
+    align-items: flex-end;
+}
+
+/* Center */
+/* Mengatur semua flex item ke bagian tengah */
+#empat {
+    align-items: center;
+}
+
+/* Baseline */
+/* Mengatur flex item berdasarkan garis dasar text, efeknya baru bisa terlihat ketika flex item memiliki tinggi font yang berbeda" */
+#lima {
+    align-items: baseline;
+}
+/* Contoh tanpa baseline */
+#enam {
+    align-items: flex-start;
+}

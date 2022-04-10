@@ -1168,3 +1168,11 @@ Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 493.
 ===================================================================================================================
 Pertemuan 85 : Tugas 14 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 86 : Flexbox Align-Items
+-------------------------------------------------------------------------------------------------------------------
+
+Property align-items digunakan untuk mengatur posisi flex item pada cross axis (sumbu yang bersilangan dengan sumbu utama).
+Misal, menggunakan flex-direction:row (sumbu-x), maka align-items akan mengatur posisi flex item pada sumbu-y.
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 506.
