@@ -1200,3 +1200,9 @@ Pertemuan 90 : Flexbox Justify-Content
 Property justify-content digunakan untuk mengatur posisi flex-item pada main-axis (sumbu utama), berlawanan dengan property align(align-items, align-self, dan align-content). Hasilnya tergantung sumbu yang dipakai pada flex-direction.
 
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 500.
+
+===================================================================================================================
+Pertemuan 91 : Tugas 17 CSS
+-------------------------------------------------------------------------------------------------------------------
+Menggunakan property order
+
