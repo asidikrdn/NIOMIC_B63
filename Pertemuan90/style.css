@@ -1,0 +1,67 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgreen;
+  border: 2px solid black;
+  height: 200px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgreen;
+  border: 2px solid black;
+  height: 200px;
+}
+
+.box {
+  background-color: honeydew;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Flex-Start (Default) */
+/* Mendorong semua flex item ke bagian awal (karena menggunakan flex-direction:row, maka flex item akan didorong berdasarkan sumbu-x, yaitu ke sisi kiri) */
+.satu {
+  justify-content: flex-start;
+}
+
+/* Flex-End */
+/* Mendorong semua flex item ke bagian akhir (karena menggunakan flex-direction:row, maka flex item akan didorong berdasarkan sumbu-x, yaitu ke sisi kanan) */
+.dua {
+  justify-content: flex-end;
+}
+
+/* Center */
+/* Memposisikan semua flex item di sisi tengah flex container berdasarkan sumbu yang sesuai dengan flex-direction */
+.tiga {
+  justify-content: center;
+}
+
+/* Space-Between */
+/* Mengatur flex item pertama ke bagian awal, flex item terakhir ke bagian ujung, dan mengatur elemen lain diantaranya. Space-between ini membuat item mengisi sisi awal, ujung, dan tengah dengan dipisahkan jarak diantara element tersebut (mirip dengan text-align:justify) */
+.empat {
+  justify-content: space-between;
+}
+
+/* Space-Around */
+/* Membagi ruang kosong pada sisi kanan dan kiri dari setiap flex item. Sehingga jarak antara flex item dengan flex item lainnya 2x lebih besar dari jarak flex item dengan bagian awal atau ujung flex container. */
+.lima {
+  justify-content: space-around;
+}
+
+/* Space-Evenly */
+/* Membagi ruang kosong / jarak sama besar setiap flex item, termasuk dengan sisi dalam flex container. */
+.enam {
+  justify-content: space-evenly;
+}

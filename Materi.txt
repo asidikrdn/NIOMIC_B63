@@ -1192,3 +1192,11 @@ Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 496.
 ===================================================================================================================
 Pertemuan 89 : Tugas 16 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 90 : Flexbox Justify-Content
+-------------------------------------------------------------------------------------------------------------------
+
+Property justify-content digunakan untuk mengatur posisi flex-item pada main-axis (sumbu utama), berlawanan dengan property align(align-items, align-self, dan align-content). Hasilnya tergantung sumbu yang dipakai pada flex-direction.
+
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 500.
