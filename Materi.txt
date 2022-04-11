@@ -1217,3 +1217,11 @@ Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 530.
 ===================================================================================================================
 Pertemuan 93 : Tugas 18 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 94 : Flexbox Flex-Flow
+-------------------------------------------------------------------------------------------------------------------
+
+Property flex-flow merupakan penulisan singkat (shorthand) gabungan dari flex-direction dan flex-wrap.
+
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 499.
