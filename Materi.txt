@@ -1206,3 +1206,10 @@ Pertemuan 91 : Tugas 17 CSS
 -------------------------------------------------------------------------------------------------------------------
 Menggunakan property order
 
+===================================================================================================================
+Pertemuan 92 : Flexbox Order
+-------------------------------------------------------------------------------------------------------------------
+
+Property order digunakan untuk mengatur urutan flex item relatif ke flex item lainnya. Nilai terkecil akan berada di bagian awal flex container.
+
+Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 530.

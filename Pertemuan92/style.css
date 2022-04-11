@@ -1,0 +1,54 @@
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    margin: 10px;
+    /* Mengatur lebar dasar container berukuran 100% dari viewport (disini lebar karena flex-directionnya adalah row), diaturnya menggunakan flex-basis */
+    flex-basis: 100%;
+    border: 2px solid black;
+    background-color: lightgreen;
+}
+
+.box {
+    margin: 5px;
+    padding: 5px;
+    background-color: honeydew;
+}
+
+/* 0 (default) */
+/* Tidak akan ada perubahan pada flex item tersebut */
+.box2 {
+    order: 0;
+}
+
+/* 1 */
+/* Flex item akan berada di posisi paling kanan, karena 2 flex item lainnya tidak deberikan order yang berarti nilai ordernya adalah default (0), oleh karena itu flex item box5 lebih besar dari 2 flex item lainnya */
+.box5 {
+    order: 1;
+}
+
+/* -1 */
+/* Flex item akan berada di posisi paling kiri, karena 2 flex item lainnya tidak deberikan order yang berarti nilai ordernya adalah default (0), oleh karena itu flex item box8 lebih kecil dari 2 flex item lainnya */
+.box8 {
+    order: -1;
+}
+
+/* Diatur berbeda-beda */
+/* Flex item akan tampil sesuai nilai ordernya dari yang terkecil hingga yang terbesar */
+.box10 {
+    order: 3;
+}
+.box11 {
+    order: 1;
+}
+.box12 {
+    order: 2;
+}
