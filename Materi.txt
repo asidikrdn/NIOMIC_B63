@@ -1225,3 +1225,7 @@ Pertemuan 94 : Flexbox Flex-Flow
 Property flex-flow merupakan penulisan singkat (shorthand) gabungan dari flex-direction dan flex-wrap.
 
 Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 499.
+
+===================================================================================================================
+Pertemuan 95 : Tugas 19 CSS
+-------------------------------------------------------------------------------------------------------------------
