@@ -1245,3 +1245,25 @@ Bootstrap juga sering disebut sebagai CSS framework karena berisi sebuah “kera
 Dengan Bootstrap, kita bisa membuat tampilan web menarik tanpa harus paham kode-kode rumit dibaliknya. Dasar yang diperlukan cukup basic HTML, CSS dan sedikit JavaScript jika ingin membuat efek-efek interaktif.
 
 Bootstrap bersifat open source dan bisa digunakan secara gratis. Website resmi Bootstrap beralamat di getbootstrap.com.
+
+===================================================================================================================
+Pertemuan 98 : Penggunaan Bootstrap
+-------------------------------------------------------------------------------------------------------------------
+
+Bootstrap dapat digunakan dengan dua cara, offline dan online.
+
+1. Cara Offline :
+    - Download file bootstrap di getbootstrap.com
+    - Ekstrak zip
+    - Copy folder css dan js ke dalam folder project
+    - Memanggil bootstrap.css dengan tag <link> dan bootstrap.bundle.js dengan tag <script>
+    
+    Sebetulnya, dalam folder css dan js dari bootstrap 5 terdapat banyak file,
+    Penjelasan lengkap tertulis ada pada ebook Bootstrap 5 Dunia Ilkom hal 37 - 42.
+
+2. Cara Online :
+    - Memanggil file bootstrap.css dan bootstrap.bundle.js pada CDN
+
+    Kelebihan menggunakan CDN adalah lebih cepat dan praktis karena kita tidak perlu menampung file bootstrap dalam project kita dan bagus untuk sistem web cache, tapi kelemahannya adalah halaman web kita bergantung pada server CDN tersebut, bilamana sewaktu-waktu server tersebut down maka halaman web kita akan tampil berantakan, atau jika versi bootstrapnya berganti maka akan terjadi masalah juga pada halaman web kita.
+
+    Penjelasan lengkap tertulis ada pada ebook Bootstrap 5 Dunia Ilkom hal 45.
