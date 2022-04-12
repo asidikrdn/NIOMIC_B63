@@ -1267,3 +1267,14 @@ Bootstrap dapat digunakan dengan dua cara, offline dan online.
     Kelebihan menggunakan CDN adalah lebih cepat dan praktis karena kita tidak perlu menampung file bootstrap dalam project kita dan bagus untuk sistem web cache, tapi kelemahannya adalah halaman web kita bergantung pada server CDN tersebut, bilamana sewaktu-waktu server tersebut down maka halaman web kita akan tampil berantakan, atau jika versi bootstrapnya berganti maka akan terjadi masalah juga pada halaman web kita.
 
     Penjelasan lengkap tertulis ada pada ebook Bootstrap 5 Dunia Ilkom hal 45.
+
+===================================================================================================================
+Pertemuan 99 : Penggunaan Komponen Bootstrap
+-------------------------------------------------------------------------------------------------------------------
+
+Modul Components merupakan modul utama Bootstrap yang berisi berbagai komponen web
+hasil perpaduan kode HTML, CSS dan JavaScript. Terdapat puluhan komponen Bootstrap,
+mulai dari membuat tombol alert, popover, breadcrumb, carousel, navbar, pagination, tooltips,
+toasts, dll.
+
+Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom hal 49.
