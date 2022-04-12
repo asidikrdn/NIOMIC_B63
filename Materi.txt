@@ -1233,3 +1233,15 @@ Pertemuan 95 : Tugas 19 CSS
 ===================================================================================================================
 Pertemuan 96 : Tugas 20 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 97 : Apa Itu Bootstrap
+-------------------------------------------------------------------------------------------------------------------
+
+Bootstrap adalah open source front-end framework untuk merancang tampilan web. Bootstrap terdiri dari kumpulan kode HTML, CSS dan JavaScript “siap pakai” yang memudahkan kita dalam membuat desain web.
+
+Bootstrap juga sering disebut sebagai CSS framework karena berisi sebuah “kerangka kerja” (framework) bagaimana cara menyusun kode HTML dan CSS sesuai dengan aturan dari Bootstrap. Namun karena Bootstrap juga menggunakan JavaScript, maka lebih pas disebut sebagai front-end framework.
+
+Dengan Bootstrap, kita bisa membuat tampilan web menarik tanpa harus paham kode-kode rumit dibaliknya. Dasar yang diperlukan cukup basic HTML, CSS dan sedikit JavaScript jika ingin membuat efek-efek interaktif.
+
+Bootstrap bersifat open source dan bisa digunakan secara gratis. Website resmi Bootstrap beralamat di getbootstrap.com.
