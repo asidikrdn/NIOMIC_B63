@@ -1309,3 +1309,8 @@ Pertemuan 103 : Bootstrap Table
 Bootstrap menyediakan cukup banyak class untuk mempercantik tampilan tabel, mulai dari membuat border, membuat efek strip, mengubah warna background, menambahkan caption hingga membuat tabel yang responsive.
 
 Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom hal 180.
+
+
+===================================================================================================================
+Pertemuan 104 : Tugas 23 CSS
+-------------------------------------------------------------------------------------------------------------------
