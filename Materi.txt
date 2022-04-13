@@ -1314,3 +1314,11 @@ Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom hal 180.
 ===================================================================================================================
 Pertemuan 104 : Tugas 23 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 105 : Bootstrap Forms
+-------------------------------------------------------------------------------------------------------------------
+
+Bootstrap Forms digunakan untuk mempercantik element form pada html.
+
+Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom (form hal 324, button hal 192).
