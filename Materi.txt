@@ -1282,3 +1282,18 @@ Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom hal 49.
 ===================================================================================================================
 Pertemuan 100 : Tugas 21 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 101 : Bootstrap Typography
+-------------------------------------------------------------------------------------------------------------------
+
+Typography adalah seni mengatur huruf/teks untuk membuatnya tampak menarik dan lebih mudah dibaca.
+
+1. Heading
+    Dalam bootstrap, kita dapat membuat heading dengan class .h1 s/d .h6. Class tersebut dapat digunakan tanpa element heading html, misalnya menggunakan element paragraf.
+2. Display
+    Display digunakan untuk membuat teks yang lebih besar dari heading, dalam bootstrap tersedia class .display-1 s/d .display-4.
+3. Text-Alignment
+    Digunakan untuk mengatur perataan text, dalam bootstrap tersedia class .text-start (align left), .text-end (align right), dan .text-center (align center).
+
+Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom (Typography hal 167, text-alignment hal 131)
