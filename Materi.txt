@@ -1322,3 +1322,7 @@ Pertemuan 105 : Bootstrap Forms
 Bootstrap Forms digunakan untuk mempercantik element form pada html.
 
 Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom (form hal 324, button hal 192).
+
+===================================================================================================================
+Pertemuan 106 : Tugas 24 CSS
+-------------------------------------------------------------------------------------------------------------------
