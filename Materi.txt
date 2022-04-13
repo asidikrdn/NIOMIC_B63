@@ -1301,3 +1301,11 @@ Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom (Typography hal
 ===================================================================================================================
 Pertemuan 102 : Tugas 22 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 103 : Bootstrap Table
+-------------------------------------------------------------------------------------------------------------------
+
+Bootstrap menyediakan cukup banyak class untuk mempercantik tampilan tabel, mulai dari membuat border, membuat efek strip, mengubah warna background, menambahkan caption hingga membuat tabel yang responsive.
+
+Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom hal 180.
