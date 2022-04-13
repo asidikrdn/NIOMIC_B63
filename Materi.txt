@@ -1297,3 +1297,7 @@ Typography adalah seni mengatur huruf/teks untuk membuatnya tampak menarik dan l
     Digunakan untuk mengatur perataan text, dalam bootstrap tersedia class .text-start (align left), .text-end (align right), dan .text-center (align center).
 
 Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom (Typography hal 167, text-alignment hal 131)
+
+===================================================================================================================
+Pertemuan 102 : Tugas 22 CSS
+-------------------------------------------------------------------------------------------------------------------
