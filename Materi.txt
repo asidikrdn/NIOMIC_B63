@@ -1326,3 +1326,11 @@ Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom (form hal 324, 
 ===================================================================================================================
 Pertemuan 106 : Tugas 24 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 107 : Bootstrap Buttons
+-------------------------------------------------------------------------------------------------------------------
+
+Bootstrap Buttons digunakan untuk mempercantik element button.
+
+Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom hal 192.

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar CSS - Niomic</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+
+    <div class="container m-5">
+      <h2>Class BTN</h2>
+      <!-- Membuat Button dengan class btn -->
+      <!-- Selain menggunakan tag <button> dan <input>, pembuatan button dengan class btn juga bisa menggunakan tag lain seperti <a> dan <span> misalnya -->
+      <button class="btn">Tombol</button>
+      <input type="button" value="Tombol" class="btn" />
+      <span class="btn">Tombol</span>
+      <a href="#" class="btn">Tombol</a>  
+    </div>
+    
+    <div class="container m-5">
+      <h2>Membuat button berwarna dengan bootstrap</h2>
+      <!-- Memberikan warna pada bootstrap button -->
+      <button class="btn btn-primary">primary</button>
+      <button class="btn btn-secondary">secondary</button>
+      <button class="btn btn-success">success</button>
+      <button class="btn btn-danger">danger</button>
+      <button class="btn btn-warning">warning</button>
+      <button class="btn btn-info">info</button>
+      <button class="btn btn-light">light</button>
+      <button class="btn btn-dark">dark</button>
+    </div>
+
+    <div class="container m-5">
+      <h2>Membuat button berwarna dengan bootstrap pada element selain button</h2>
+      <!-- Memberikan warna pada bootstrap button dengan element selain button -->
+      <a href="#" class="btn btn-primary">Link</a>
+      <span class="btn btn-secondary">Span</span>
+      <input type="button" value="Input" class="btn btn-success" />
+      <i class="btn btn-danger">i</i>
+      <b class="btn btn-warning">b</b>
+      <em class="btn btn-info">em</em>
+      <strong class="btn btn-light">strong</strong>
+      <small class="btn btn-dark">small</small>
+    </div>
+
+    <div class="container m-5">
+      <h2>Membuat variasi lain dari warna pada bootstrap button</h2>
+      <!-- variasi lain dari warna pada bootstrap button -->
+      <!-- Dengan menggunakan outline, warna hanya akan tampil sebagai border saja, namun ketika pointer diarahkan ke tombol, barulah tombol tersebut akan menampilkan warna secara full -->
+      <button class="btn btn-outline-primary">Outline primary</button>
+      <button class="btn btn-outline-secondary">Outline secondary</button>
+      <button class="btn btn-outline-success">Outline success</button>
+      <button class="btn btn-outline-danger">Outline danger</button>
+      <button class="btn btn-outline-warning">Outline warning</button>
+      <button class="btn btn-outline-info">Outline info</button>
+      <button class="btn btn-outline-light">Outline light</button>
+      <button class="btn btn-outline-dark">Outline dark</button>
+    </div>
+    
+    <div class="container m-5">
+      <h2>Membuat button terlihat seperti link</h2>
+      <!-- Efek lain yaitu membuat tombol terlihat seperti link -->
+      <button class="btn btn-link">Tombol Link</button>
+    </div>
+    
+    <div class="container m-5">
+      <h2>Button Size</h2>
+      <!-- Size pada button -->
+      <button class="btn btn-primary btn-lg">Large</button>
+      <button class="btn btn-secondary btn-lg">Large</button>
+      
+      <button class="btn btn-primary">Normal</button>
+      <button class="btn btn-secondary">Normal</button>
+      
+      <button class="btn btn-primary btn-sm">Small</button>
+      <button class="btn btn-secondary btn-sm">Small</button>  
+    </div>
+    
+
+    <!-- Block Button -->
+    <!-- untuk membuat block button yang memenuhi parent element, kita harus membungkus button tsb dengan div yang menggunakan class d-grid. Class d-grid digunakan untuk mengaktifkan CSS Grid -->
+    <div class=" container m-5 d-grid">
+      <button class="btn btn-primary btn-lg">Block Button</button>
+      <button class="btn btn-secondary btn-lg mt-2">Block Button</button>
+    </div>
+
+    <div class="container m-5">
+      <h2>Active Button</h2>
+      <!-- Active -->
+      <!-- Secara default, efek active akan otomatis digunakan ketika tombol disorot oleh pointer, namun jika kita ingin mempermanenkan efek tersebut tanpa harus menyorot tombol kita bisa menggunakan class .active -->
+      <button class="btn btn-primary btn-lg">Button</button>
+      <button class="btn btn-secondary btn-lg">Button</button>
+      <button class="btn btn-primary btn-lg active">Active Button</button>
+      <button class="btn btn-secondary btn-lg active">Active Button</button>
+    </div>
+
+    <div class="container m-5">
+      <h2>Disabled Button</h2>
+      <!-- Disabled -->
+      <!-- Disabled membuat tombol tidak dapat di klik, untuk menggunakan efek ini bisa dengan menambahkan class disabled atau atribut disabled. Namun attribut disabled hanya dapat digunakan pada element button dan input -->
+      
+      <!-- Menggunakan class disabled -->
+      <button class="btn btn-primary">Normal</button>
+      <button class="btn btn-primary disabled">Disabled</button>
+      <span class="me-4"></span>
+      <a href="#" class="btn btn-primary">Normal</a>
+      <a href="#" class="btn btn-primary disabled">Disabled</a>
+      
+      <span class="me-5"></span>
+
+      <!-- Menggunakan atribut disabled -->
+      <button class="btn btn-danger">Normal</button>
+      <button class="btn btn-danger" disabled>Disabled</button>
+      <span class="me-4"></span>
+      <a href="#" class="btn btn-danger">Normal</a>
+      <!-- Untuk membuktikan bahwa atribut disabled tidak dapat digunakan pada element link -->
+      <a href="#" class="btn btn-danger" disabled>Disabled</a> 
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
