@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar CSS - Niomic</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- Image Responsive -->
+    <!-- Membuat gambar menjadi responsive mengikuti parent elementnya, efeknya dapat dirasakan ketika layar diperkecil -->
+    <div class="container m-5">
+      <h2>Image Responsive</h2>
+      <div class="row">
+        <div class="col-6">
+          <!-- Responsive -->
+          <img src="img/tablesetting2.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-6">
+          <!-- Non-Responsive -->
+          <img src="img/tablesetting2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Thumbnails -->
+    <!-- Memberikan efek bingkai tambahan pada gambar -->
+    <div class="container m-5">
+      <h2>Image Thumbnails</h2>
+      <div class="row">
+        <div class="col-4">
+          <!-- Thumbnail -->
+          <img src="img/slider2.jpg" class="m-2 img-fluid img-thumbnail" alt="">
+        </div>
+        <div class="col-4">
+          <!-- Thumbnail + rounded -->
+          <img src="img/slider2.jpg" class="m-2 img-fluid img-thumbnail rounded" alt="">
+        </div>
+        <div class="col-4">
+          <!-- Thumbnail + rounded-circle -->
+          <img src="img/slider2.jpg" class="m-2 img-fluid img-thumbnail rounded-circle" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <!-- Thumbnail + rounded + shadow -->
+          <img src="img/slider2.jpg" class="m-2 img-fluid img-thumbnail rounded shadow" alt="">
+        </div>
+        <div class="col-4">
+          <!-- Thumbnail + rounded-circle + shadow yang lebih besar -->
+          <img src="img/slider2.jpg" class="m-2 img-fluid img-thumbnail rounded-circle shadow-lg" alt="">
+        </div>
+        <div class="col-4">
+          <!-- Thumbnail + rounded + shadow + border-warning (untuk memberikan border warna kekuningan) -->
+          <img src="img/slider2.jpg" class="m-2 img-fluid img-thumbnail rounded shadow-lg border-warning" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Figure -->
+    <!-- Mengelompokkan gambar dan memberikan keterangan pada gambar -->
+    <div class="container m-5">
+      <h2>Figure</h2>
+      <div class="row">
+        <div class="col-4">
+          <!-- Default (tanpa figure class) -->
+          <figure>
+            <img src="img/hamburger.jpg" class="img-fluid" alt="">
+            <figcaption>Hamburger</figcaption>
+          </figure>
+        </div>
+        <div class="col-4">
+          <!-- Menggunakan class figure dari bootstrap -->
+          <figure class="figure">
+            <img src="img/hamburger.jpg" alt="" class="figure-img img-fluid">
+            <figcaption class="figure-caption">Hamburger</figcaption>
+          </figure>
+        </div>
+        <div class="col-4">
+          <!-- Kombinasi class figure dengan beberapa class lain -->
+          <figure class="figure">
+            <img src="img/hamburger.jpg" alt="" class="img-fluid figure-img img-thumbnail rounded shadow">
+            <figcaption class="figure-caption text-center">Hamburger</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
