@@ -1359,3 +1359,7 @@ grid serta menerapkan mobile-first design concept.
 Maksud dari mobile-first adalah sistem grid Bootstrap di desain dengan tampilan web versi mobile sebagai patokan utama, baru kemudian berangkat ke versi desktop (layar besar).
 
 Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom hal 54.
+
+===================================================================================================================
+Pertemuan 112 : Tugas 27 CSS
+-------------------------------------------------------------------------------------------------------------------
