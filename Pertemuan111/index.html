@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar CSS - Niomic</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    div {
+      background-color: rgba(86, 61, 124, 0.15);
+      border: 1px solid rgba(86, 61, 124, 0.2);
+      padding: 0.4em;
+      margin-top: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <!-- Container dan Container-Fluid -->
+  <!-- Jika menggunakan container, maka kotak bersifat tetap (fixed-width-container) yang menyisakan ruang kosong di kiri kanan. Ketika layar diperkecil, pada ukuran tertentu kotak tersebut juga akan berubah ukuran namun dengan tetap mempertahankan ruang kosong di sisinya. Namun, jika ukuran layar sudah terlalu kecil, container akan memenuhi ukuran jendela web. -->
+  <!-- Jika menggunakan container fluid, maka lebar kotak akan memenuhi layar 100%. Ketika ukuran layar web berubah, maka lebar contaienr akan langsung menyesuaikan -->
+  <div class="container">Container</div>
+  <div class="container-fluid">Container Fluid</div>
+
+  <!-- Row dan Collumnn -->
+  <!-- Row untuk membuat baris, Col untuk membuat kolom -->
+  <div class="container" style="background-color: transparent; border: none;">
+    <div class="row">
+      <div class="col">Kolom 1</div>
+      <div class="col">Kolom 2</div>
+      <div class="col">Kolom 3</div>
+    </div>
+  </div>
+  <!-- jika kita membuat beberapa col sekaligus, lebar masing-masing col akan menyesuaikan -->
+  <div class="container" style="background-color: transparent; border: none;">
+    <div class="row">
+      <div class="col">Kolom 1</div>
+    </div>
+    <div class="row">
+      <div class="col">Kolom 1</div>
+      <div class="col">Kolom 2</div>
+    </div>
+    <div class="row">
+      <div class="col">Kolom 1</div>
+      <div class="col">Kolom 2</div>
+      <div class="col">Kolom 3</div>
+    </div>
+    <div class="row">
+      <div class="col">Kolom 1</div>
+      <div class="col">Kolom 2</div>
+      <div class="col">Kolom 3</div>
+      <div class="col">Kolom 4</div>
+      <div class="col">Kolom 5</div>
+    </div>
+  </div>
+  <!-- Jumlah col dalam tiap row bisa tidak terbatas, dan bootstrap akan membuatnya responsive sesuai ukuran layar -->
+  <div class="container" style="background-color: transparent; border: none;">
+    <div class="row">
+      <div class="col">Kolom 1</div><div class="col">Kolom 2</div><div class="col">Kolom 3</div>
+      <div class="col">Kolom 4</div><div class="col">Kolom 5</div><div class="col">Kolom 6</div>
+      <div class="col">Kolom 7</div><div class="col">Kolom 8</div><div class="col">Kolom 9</div>
+      <div class="col">Kolom 10</div><div class="col">Kolom 11</div><div class="col">Kolom 12</div>
+      <div class="col">Kolom 13</div><div class="col">Kolom 14</div><div class="col">Kolom 15</div>
+      <div class="col">Kolom 16</div><div class="col">Kolom 17</div><div class="col">Kolom 18</div>
+    </div>
+  </div>
+
+  <!-- Column Number -->
+  <!-- Mengatur ukuran col agar proporsional dalam 12 segmen yang ada di bootstrap (1 row = 12 segmen) -->
+  <div class="container" style="background-color: transparent; border: none;">
+    <div class="row">
+      <div class="col-12">Col-12</div>
+    </div>
+    <div class="row">
+      <div class="col-4">Col-4</div>
+      <div class="col-4">Col-4</div>
+      <div class="col-4">Col-4</div>
+    </div>
+    <div class="row">
+      <div class="col-3">Col-3</div>
+      <div class="col-6">Col-6</div>
+      <div class="col-3">Col-3</div>
+    </div>
+    <div class="row">
+      <div class="col-2">Col-2</div>
+      <div class="col-8">Col-8</div>
+      <div class="col-2">Col-2</div>
+    </div>
+    <div class="row">
+      <div class="col-1">Col-1</div>
+      <div class="col-10">Col-10</div>
+      <div class="col-1">Col-1</div>
+    </div>
+  </div>
+  
+  <!-- 
+    Masih banyak class lain seperti :
+    - Column-Break  : untuk membuat kolom pada baris baru walau masih ada sisa ruang
+    - Row-Col-      : untuk men-set jumlah segmen dalam 1 row (defaultnya 12)
+    - Nested Row    : membuat baris di dalam baris
+    - Gutter        : Negatif margin pada bootstrap, untuk menghapusnya bisa gunakan class g-0
+    - Column Offset : Membuat kolom kosong / kolom yang akan dilewati
+    - Column Order  : Mengatur urutan kolom
+   -->
+
+   <!-- Grid Breakpoint -->
+   <!-- Ini adalah kunci dari responsivenya bootstrap, terdapat aturan breakpoint dari extrasmall hingga extralarge, dimana kita bisa menerapkan ukuran kolom berbeda ketika ditampilkan di smartphone dan di PC -->
+   <!-- Untuk contoh silahkan lihat output code dibawah dengan ukuran layar yg berbeda-beda -->
+   <div class="container" style="background-color: transparent; border: none;">
+     <div class="row">
+       <div class="col-12 col-sm-12 col-md-12 col-lg-8">Kolom 1</div>
+       <div class="col-12 col-sm-6 col-md-10 col-lg-2">Kolom 2</div>
+       <div class="col-12 col-sm-6 col-md-2 col-lg-2">Kolom 3</div>
+     </div>
+   </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

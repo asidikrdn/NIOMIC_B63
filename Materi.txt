@@ -1350,3 +1350,12 @@ Penjelasan lengkap tertulis ada pada ebook CSS Dunia Ilkom hal 175.
 ===================================================================================================================
 Pertemuan 110 : Tugas 26 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 111 : Bootstrap Grid
+-------------------------------------------------------------------------------------------------------------------
+Bootstrap grid system adalah sistem grid dari Bootstrap. Bootstrap menggunakan 12 kolom
+grid serta menerapkan mobile-first design concept.
+Maksud dari mobile-first adalah sistem grid Bootstrap di desain dengan tampilan web versi mobile sebagai patokan utama, baru kemudian berangkat ke versi desktop (layar besar).
+
+Penjelasan lengkap tertulis ada pada ebook Bootstrap Dunia Ilkom hal 54.
