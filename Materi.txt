@@ -1404,7 +1404,7 @@ Materialize adalah sebuah framework intuitif yang mirip dengan Bootstrap dan fou
 Materialize dapat diunduh melalui situs https://github.com/Dogfalo/materialize/releases/download/1.0.0/materialize-v1.0.0.zip
 
 ===================================================================================================================
-Pertemuan 115 : Cara Menggunakan Framework Materialize
+Pertemuan 119 : Cara Menggunakan Framework Materialize
 -------------------------------------------------------------------------------------------------------------------
 
 - Setelah download, buka hasil download-an
