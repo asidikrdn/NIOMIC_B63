@@ -1418,3 +1418,7 @@ Pertemuan 119 : Cara Menggunakan Framework Materialize
 Pertemuan 120 : Contoh Framework (Materialize)
 -------------------------------------------------------------------------------------------------------------------
 Contoh project materialize dapat dilihat pada situs resmi https://materializecss.com/showcase.html
+
+===================================================================================================================
+Pertemuan 121 : Tugas 30 CSS
+-------------------------------------------------------------------------------------------------------------------
