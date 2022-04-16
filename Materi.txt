@@ -1367,3 +1367,11 @@ Pertemuan 112 : Tugas 27 CSS
 ===================================================================================================================
 Pertemuan 113 : Tugas 28 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 114 : Apa itu Semantic UI
+-------------------------------------------------------------------------------------------------------------------
+Semantic UI adalah kumpulan kode/framework yang membantu menciptakan tampilan yang cantik dan responsif dengan menggunakan HTML yang human-friendly. Semantic UI merupakan salah satu alternatif dari bootstrap.
+
+Semantic UI dapat diunduh melalui situs https://github.com/Semantic-Org/Semantic-UI-CSS/archive/master.zip
+
