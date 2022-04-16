@@ -1395,3 +1395,10 @@ Membuat menu menggunakan semantic ui
 ===================================================================================================================
 Pertemuan 117 : Tugas 29 CSS
 -------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Pertemuan 118 : Apa itu Materialize
+-------------------------------------------------------------------------------------------------------------------
+Materialize adalah sebuah framework intuitif yang mirip dengan Bootstrap dan foundation yang menawarkan komponen UI. Namun, berbeda fungsi karena Bootstrap dan Foundation berbasis mobile pertama kali sedangkan Materialize mengikuti filosofi Material Design dari Google.
+
+Materialize dapat diunduh melalui situs https://github.com/Dogfalo/materialize/releases/download/1.0.0/materialize-v1.0.0.zip
