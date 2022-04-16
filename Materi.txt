@@ -1375,3 +1375,13 @@ Semantic UI adalah kumpulan kode/framework yang membantu menciptakan tampilan ya
 
 Semantic UI dapat diunduh melalui situs https://github.com/Semantic-Org/Semantic-UI-CSS/archive/master.zip
 
+
+===================================================================================================================
+Pertemuan 115 : Cara Menggunakan Framework Semantic UI
+-------------------------------------------------------------------------------------------------------------------
+
+- Setelah download, buka hasil download-an
+- Ekstrak
+- Copy file semantic.min.css dan semantic.min.js ke dalam folder project
+- Hubungkan semantic.min.css dengan tag <link> pada html
+- Hubungkan semantic.min.js dengan tag <scrript> pada html
