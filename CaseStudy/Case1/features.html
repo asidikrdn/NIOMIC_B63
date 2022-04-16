@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar CSS - Niomic</title>
+    <link rel="shortcut icon" href="img/niomic.png" type="image/x-icon" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* Karena pada bootstrap 5 tidak ada jumbotron, maka kita bisa membuatnya sendiri */
+      .jumbotron {
+        padding: 4rem 2rem;
+        margin-bottom: 2rem;
+        background-color: #e9ecef;
+        border-radius: 0.3rem;
+      }
+
+      .body {
+        background-color: #f8f9fa;
+      }
+
+      /* Membuat class untuk menstyle gambar pada jumbotron agar berukuran kecil */
+      .interior {
+        /* height: 150px; */
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- Navbar (dari template) -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Kontraktor</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="features.html">Feature</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-info" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Carousel -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/building02.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>K O N T R A K T O R</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident obcaecati cupiditate harum qui nam quidem.
+              </p>
+            </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"></nav>
+      </div>
+
+      <!-- Media List -->
+      <section class="section-wrap bg-light my-4">
+        <div class="container-fluid px-0">
+          <div class="row">
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <img src="img/interior.jpeg" alt="..." class="interior" />
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <h5 class="mt-0 mb-1 text-black">Lorem Ipsum</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  iusto quaerat sed voluptates veniam harum culpa nulla dolore eum
+                  consequatur porro nobis soluta, quidem sequi provident quisquam.
+                  Deleniti excepturi et temporibus. Aperiam, quae deleniti,
+                  provident autem perspiciatis molestiae labore vero, id tempora
+                  quasi harum. Voluptatum voluptates earum ullam nihil, sit vero
+                  ad minima delectus quia. Officia illum molestias voluptas esse
+                  sint suscipit sunt quos asperiores, nulla iure, enim doloribus
+                  quae ratione provident culpa recusandae, reiciendis et atque
+                  iusto sequi praesentium!
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mt-3">
+              <div class="flex-grow-1 ms-0">
+                <h5 class="mt-0 mb-1 text-black">Lorem Ipsum</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  iusto quaerat sed voluptates veniam harum culpa nulla dolore eum
+                  consequatur porro nobis soluta, quidem sequi provident quisquam.
+                  Deleniti excepturi et temporibus. Aperiam, quae deleniti,
+                  provident autem perspiciatis molestiae labore vero, id tempora
+                  quasi harum. Voluptatum voluptates earum ullam nihil, sit vero
+                  ad minima delectus quia. Officia illum molestias voluptas esse
+                  sint suscipit sunt quos asperiores, nulla iure, enim doloribus
+                  quae ratione provident culpa recusandae, reiciendis et atque
+                  iusto sequi praesentium!
+                </p>
+              </div>
+              <div class="flex-shrink-0">
+                <img src="img/interior.jpeg" alt="..." class="interior" />
+              </div>
+            </div>
+            <div class="d-flex mt-3">
+              <div class="flex-shrink-0">
+                <img src="img/interior.jpeg" alt="..." class="interior" />
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <h5 class="mt-0 mb-1 text-black">Lorem Ipsum</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  iusto quaerat sed voluptates veniam harum culpa nulla dolore eum
+                  consequatur porro nobis soluta, quidem sequi provident quisquam.
+                  Deleniti excepturi et temporibus. Aperiam, quae deleniti,
+                  provident autem perspiciatis molestiae labore vero, id tempora
+                  quasi harum. Voluptatum voluptates earum ullam nihil, sit vero
+                  ad minima delectus quia. Officia illum molestias voluptas esse
+                  sint suscipit sunt quos asperiores, nulla iure, enim doloribus
+                  quae ratione provident culpa recusandae, reiciendis et atque
+                  iusto sequi praesentium!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
