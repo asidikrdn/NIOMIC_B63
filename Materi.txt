@@ -1385,3 +1385,9 @@ Pertemuan 115 : Cara Menggunakan Framework Semantic UI
 - Copy file semantic.min.css dan semantic.min.js ke dalam folder project
 - Hubungkan semantic.min.css dengan tag <link> pada html
 - Hubungkan semantic.min.js dengan tag <scrript> pada html
+
+
+===================================================================================================================
+Pertemuan 116 : Contoh Framework (Semantic UI)
+-------------------------------------------------------------------------------------------------------------------
+Membuat menu menggunakan semantic ui
