@@ -1402,3 +1402,14 @@ Pertemuan 118 : Apa itu Materialize
 Materialize adalah sebuah framework intuitif yang mirip dengan Bootstrap dan foundation yang menawarkan komponen UI. Namun, berbeda fungsi karena Bootstrap dan Foundation berbasis mobile pertama kali sedangkan Materialize mengikuti filosofi Material Design dari Google.
 
 Materialize dapat diunduh melalui situs https://github.com/Dogfalo/materialize/releases/download/1.0.0/materialize-v1.0.0.zip
+
+===================================================================================================================
+Pertemuan 115 : Cara Menggunakan Framework Materialize
+-------------------------------------------------------------------------------------------------------------------
+
+- Setelah download, buka hasil download-an
+- Ekstrak
+- Copy folder css dan js ke dalam folder project
+- Import Google Font pada link https://fonts.googleapis.com/icon?family=Material+Icons
+- Hubungkan materialize.min.css dengan tag <link> pada html
+- Hubungkan materialize.min.js dengan tag <scrript> pada html
