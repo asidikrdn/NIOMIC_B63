@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li {
+  background-color: grey;
+  position: relative;
+}
+
+li a {
+  display: block;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 3px solid aqua;
+}
+
+li a.active {
+  background-color: aqua;
+  color: black;
+}
+
+li a:hover {
+  background-color: aquamarine;
+  color: black;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  flex-flow: column;
+}
+
+.submenu a {
+  border: none;
+}
+
+li:hover .submenu {
+  display: block;
+  min-width: 150px;
+}
