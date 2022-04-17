@@ -1,0 +1,31 @@
+nav {
+  width: 200px;
+  border-left: 5px solid aqua;
+}
+
+ul {
+  list-style: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  background-color: lightgrey;
+}
+
+li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  color: white;
+  padding: 0.5em 1em;
+}
+
+li a.active {
+  background-color: aqua;
+}
+
+li a:hover {
+  background-color: aquamarine;
+}
