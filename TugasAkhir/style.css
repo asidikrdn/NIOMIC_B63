@@ -1,0 +1,39 @@
+/* Membuat link navigasi memiliki border bawah dan menjadi huruf besar */
+#navbar .nav-link {
+  border-bottom: 3px solid transparent;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  /* Membuat efek saat link nav di tunjuk pointer */
+  #navbar .nav-link:hover,
+  #navbar .active {
+    border-bottom-color: white;
+    transition: border-color 500ms;
+  }
+}
+
+/* Memperbesar ukuran icon */
+#product i[class^="bi"] {
+  font-size: 4em;
+}
+
+/* Agar tinggi tiap product/service menjadi sama */
+#product .container {
+  height: 100%;
+  border-radius: 35px;
+}
+
+/* Agar tinggi tiap product/service menjadi sama */
+#team .card {
+  height: 100%;
+  border-radius: 25px;
+}
+
+#team img {
+  border-radius : 25px 25px 0 0;
+}
+
+#footer .container {
+  height: 50px
+}
