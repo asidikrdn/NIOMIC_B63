@@ -1,0 +1,22 @@
+
+#header {
+  min-height: 100vh;
+  max-height: 100%;
+}
+
+#header img {
+  border: 2px solid orangered;
+}
+
+#navbar .active {
+  border-bottom: 1px solid orangered;
+}
+#navbar a:hover {
+  border-bottom: 1px solid orange;
+  transform:translateY(-5%);
+}
+
+#content .section-title h2 {
+  background-color: orange;
+  border-radius: 0 0 25px 0;
+}
