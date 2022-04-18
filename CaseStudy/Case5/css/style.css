@@ -1,13 +1,16 @@
-
-#header {
+/* Header */
+#webHeader {
   min-height: 100vh;
   max-height: 100%;
 }
 
-#header img {
+header img {
   border: 2px solid orangered;
 }
+/* End of Header */
 
+
+/* Navbar */
 #navbar .active {
   border-bottom: 1px solid orangered;
 }
@@ -16,7 +19,24 @@
   transform:translateY(-5%);
 }
 
+#navbar-mobile {
+  bottom: 0;
+  width: 100%;
+}
+
+#navbar-mobile .active {
+  border-bottom: 1px solid orange;
+}
+/* End of Navbar */
+
+
+/* Content */
+#content .container {
+  border-radius: 15px;
+}
+
 #content .section-title h2 {
   background-color: orange;
   border-radius: 0 0 25px 0;
 }
+/* End of Content */
