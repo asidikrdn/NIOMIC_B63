@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 33 JS NIOMIC</title>
+  </head>
+  <body>
+    <input type="text" class="tugas" value="Nama Depan" /> <br />
+    <input type="text" class="tugas" value="Nama Belakang" /> <br />
+    <input type="text" class="tugas" value="Hobi" /> <br /><br />
+
+    <button
+      type="button"
+      name="button"
+      onclick="
+    tampilkanElement()"
+    >
+      Jalan
+    </button>
+    <script>
+      let tampilkanElement = () => {
+        console.log(document.getElementsByClassName("tugas"));
+      };
+    </script>
+  </body>
+</html>
