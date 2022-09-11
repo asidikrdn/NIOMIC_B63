@@ -1,3 +1,4 @@
+// Cara 1, menggunakan perulangan for
 function panggilNestedArray(value) {
   // tulis jawabanmu disini
   // Membuat array transpose
@@ -28,10 +29,41 @@ function panggilNestedArray(value) {
   console.log(arrTransposed);
 }
 
+
+
+// Cara 2, menggunakan map()
+let transposeArray = (array) => {
+  // Menjalankan method map() pada array dalam dan menyimpannya dalam variabel outerArray
+  let outerArray = array[0].map((valueInnerArray, indexInnerArray) => {
+    // Pada setiap perulangan array dalam, jalankan method map() pada array luar dan menyimpannya pada variabel innerArray
+    let innerArray = array.map((valueOuterArray) => {
+      // Proses ini akan menghasilkan 1 buah array tiap perulangannya
+
+      console.log(valueOuterArray[indexInnerArray]);
+      // Kembalikan element array dengan index sesuai perulangan array dalam
+      return valueOuterArray[indexInnerArray];
+    })
+
+    console.log(innerArray);
+    // mengembalikan nilai innerArray yang merupakan kombinasi dari element tiap innerArray sebelumnya
+    return innerArray
+  });
+
+  console.log(outerArray);
+  // mengembalikan nilai outerArray yang merupakan gabungan dari beberapa innerArray yang sudah didapatkan
+  return outerArray;
+}
+
+
+
+
+
 var nestedArray = [
   [1, 2, 3, 4],
   ['Mark Zuckerberg', 'Elon Musk', 'Bill Gates', 'Steve Jobs'],
   ['Facebook', 'Tesla', 'Microsoft', 'Apple']
 ];
 
+console.log(transposeArray(nestedArray));
+console.log();
 panggilNestedArray(nestedArray);
