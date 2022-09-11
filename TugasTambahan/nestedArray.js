@@ -33,6 +33,110 @@ function panggilNestedArray(value) {
 
 // Cara 2, menggunakan map()
 let transposeArray = (array) => {
+  let arrayBaru = array[0].map((nilaiKolomArrayLama, indexKolomArrayLama) => {
+    let barisArrayBaru = array.map((barisArrayLama) => {
+      console.log(barisArrayLama[indexKolomArrayLama]);
+      return barisArrayLama[indexKolomArrayLama];
+    })
+    console.log(barisArrayBaru);
+    return barisArrayBaru
+  });
+  console.log(arrayBaru);
+  return arrayBaru;
+}
+/**
+Penjelasan Cara 2 
+
+Perulangan ke-1 :
+  indexKolomArrayLama = 0;
+  didalamnya ada perulangan lagi,
+    perulangan ke-1 :
+    menghasilkan baris pertama dari array,
+    kemudian ambil element ke 0 (sesuai indexKolomArrayLama) dari array baris pertama,
+    kirim nilai tersebut ke barisArrayBaru.
+    perulangan ke-2 :
+    menghasilkan baris kedua dari array,
+    kemudian ambil element ke 0 (sesuai indexKolomArrayLama) dari array baris kedua,
+    kirim nilai tersebut ke barisArrayBaru.
+    perulangan ke-3 :
+    menghasilkan baris ketiga dari array,
+    kemudian ambil element ke 0 (sesuai indexKolomArrayLama) dari array baris ketiga,
+    kirim nilai tersebut ke barisArrayBaru.
+  barisArrayBaru kini telah menjadi sebuah array yang berisi 3 element (yang dihasilkan dari tiap perulangan),
+  kirim barisArrayBaru sebagai element ke-0 ke arrayBaru.
+Perulangan ke-2 :
+  indexKolomArrayLama = 1;
+  didalamnya ada perulangan lagi,
+    perulangan ke-1 :
+    menghasilkan baris pertama dari array,
+    kemudian ambil element ke 1 (sesuai indexKolomArrayLama) dari array baris pertama,
+    kirim nilai tersebut ke barisArrayBaru.
+    perulangan ke-2 :
+    menghasilkan baris kedua dari array,
+    kemudian ambil element ke 1 (sesuai indexKolomArrayLama) dari array baris kedua,
+    kirim nilai tersebut ke barisArrayBaru.
+    perulangan ke-3 :
+    menghasilkan baris ketiga dari array,
+    kemudian ambil element ke 1 (sesuai indexKolomArrayLama) dari array baris ketiga,
+    kirim nilai tersebut ke barisArrayBaru.
+  barisArrayBaru kini telah menjadi sebuah array yang berisi 3 element (yang dihasilkan dari tiap perulangan),
+  kirim barisArrayBaru sebagai element ke-1 ke arrayBaru.
+Perulangan ke-3 :
+  indexKolomArrayLama = 2;
+  didalamnya ada perulangan lagi,
+    perulangan ke-1 :
+    menghasilkan baris pertama dari array,
+    kemudian ambil element ke 2 (sesuai indexKolomArrayLama) dari array baris pertama,
+    kirim nilai tersebut ke barisArrayBaru.
+    perulangan ke-2 :
+    menghasilkan baris kedua dari array,
+    kemudian ambil element ke 2 (sesuai indexKolomArrayLama) dari array baris kedua,
+    kirim nilai tersebut ke barisArrayBaru.
+    perulangan ke-3 :
+    menghasilkan baris ketiga dari array,
+    kemudian ambil element ke 2 (sesuai indexKolomArrayLama) dari array baris ketiga,
+    kirim nilai tersebut ke barisArrayBaru.
+  barisArrayBaru kini telah menjadi sebuah array yang berisi 3 element (yang dihasilkan dari tiap perulangan),
+  kirim barisArrayBaru sebagai element ke-2 ke arrayBaru.
+Perulangan ke-4 :
+  indexKolomArrayLama = 3;
+  didalamnya ada perulangan lagi,
+    perulangan ke-1 :
+    menghasilkan baris pertama dari array,
+    kemudian ambil element ke 3 (sesuai indexKolomArrayLama) dari array baris pertama,
+    kirim nilai tersebut ke barisArrayBaru.
+    perulangan ke-2 :
+    menghasilkan baris kedua dari array,
+    kemudian ambil element ke 3 (sesuai indexKolomArrayLama) dari array baris kedua,
+    kirim nilai tersebut ke barisArrayBaru.
+    perulangan ke-3 :
+    menghasilkan baris ketiga dari array,
+    kemudian ambil element ke 3 (sesuai indexKolomArrayLama) dari array baris ketiga,
+    kirim nilai tersebut ke barisArrayBaru.
+  barisArrayBaru kini telah menjadi sebuah array yang berisi 3 element (yang dihasilkan dari tiap perulangan),
+  kirim barisArrayBaru sebagai element ke-3 ke arrayBaru.
+ */
+
+
+
+
+
+var nestedArray = [
+  [1, 2, 3, 4],
+  ['Mark Zuckerberg', 'Elon Musk', 'Bill Gates', 'Steve Jobs'],
+  ['Facebook', 'Tesla', 'Microsoft', 'Apple']
+];
+
+console.log(transposeArray(nestedArray));
+console.log();
+panggilNestedArray(nestedArray);
+
+
+
+
+/**
+// Cara 2, menggunakan map()
+let transposeArray = (array) => {
   // Menjalankan method map() pada array dalam dan menyimpannya dalam variabel outerArray
   let outerArray = array[0].map((valueInnerArray, indexInnerArray) => {
     // Pada setiap perulangan array dalam, jalankan method map() pada array luar dan menyimpannya pada variabel innerArray
@@ -65,5 +169,4 @@ var nestedArray = [
 ];
 
 console.log(transposeArray(nestedArray));
-console.log();
-panggilNestedArray(nestedArray);
+ */
