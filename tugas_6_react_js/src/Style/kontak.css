@@ -1,0 +1,12 @@
+#kontak_bg {
+  /* background-image: url("https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+  background-image: url("https://img.freepik.com/premium-vector/hand-painted-background-violet-orange-colours_23-2148427578.jpg?w=2000");
+  height: 730px;
+}
+
+.kontak {
+  color: black;
+  text-align: center;
+  margin-top: 208px;
+  background-color: white;
+}
