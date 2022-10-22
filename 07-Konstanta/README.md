@@ -1,0 +1,1 @@
+# Konstanta pada GoLang
