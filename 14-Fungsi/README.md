@@ -59,3 +59,21 @@ Dan cara menggunakan/memanggilnya adalah sebagai berikut :
 ```Go
 var variabel_penampung_nilai_kembalian1, variabel_penampung_nilai_kembalian2 = nama_fungsi(nilai_argument1,nilai_argument2)
 ```
+
+## Fungsi Variadic
+
+Golang mengadopsi konsep variadic function atau pembuatan fungsi dengan parameter sejenis yang tak terbatas. Maksud tak terbatas disini adalah jumlah parameter yang disisipkan ketika pemanggilan fungsi bisa berapa saja.
+
+Parameter variadic memiliki sifat yang mirip dengan slice. Nilai parameter-parameter yang disisipkan memiliki tipe data yang sama, dan akan ditampung oleh sebuah variabel saja. Cara pengaksesan tiap datanya juga sama, dengan menggunakan indeks.
+
+Deklarasi parameter variadic sama dengan cara deklarasi variabel biasa, pembedanya pada parameter jenis ini ditambahkan tanda 3 titik ( ... ) setelah penulisan variabel (sebelum tipe data). Nantinya semua nilai yang disisipkan sebagai parameter akan ditampung oleh variabel tersebut.
+
+Nilai tiap parameter bisa diakses seperti cara pengaksesan tiap elemen slice. Pada contoh kode, metode yang dipilih adalah for - range . Format penggunaan for - range adalah seperti berikut :
+
+```Go
+for variabel_penampung_index, nama_array_yang_diproses := range nama_array_yang_diproses {
+  fmt.Printf("bilangan ke-%d adalah %d \n", variabel_penampung_index, nama_array_yang_diproses)
+ }
+```
+
+Dalam contoh kode terdapat fungsi fmt.Sprintf(). Fungsi fmt.Sprintf() pada dasarnya sama dengan fmt.Printf() , hanya saja fungsi ini tidak menampilkan nilai, melainkan mengembalikan nilainya dalam bentuk string.
