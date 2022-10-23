@@ -15,3 +15,6 @@ Pada saat proses development, bisa saja kita langsung menjalankan kode tanpa men
 Akan tetepi cara ini hanya disarankan untuk digunakan pada proses development, untuk proses production tetap menggunakan file binary hasil compilenya.
 Perintah untuk menjalankan kode tanpa meng-compilenya adalah seperti berikut :
 `go run [nama_file.go]`
+
+Golang menyediakan package testing yang bisa dimanfaatkan untuk keperluan unit testing. File yang akan di-test harus ber-suffix _test.go. Berikut adalah contoh penggunaan command go test untuk testing file.
+`go test namafile_test.go`
