@@ -24,3 +24,23 @@ Disinilah kegunaan dari `select`. Select memudahkan pengontrolan komunikasi data
 Program pencarian rata-rata dan nilai tertinggi berikut merupakan contoh sederhana penerapan select dalam channel. Akan ada 2 buah goroutine yang masing-masing di-handle oleh sebuah channel. Setiap kali goroutine selesai dieksekusi, akan dikirimkan datanya ke channel yang bersangkutan. Lalu dengan menggunakan select, akan dikontrol penerimaan datanya.
 
 Pertama, kita siapkan terlebih dahulu 2 fungsi yang akan dieksekusi sebagai goroutine baru. Fungsi pertama digunakan untuk mencari rata-rata, dan fungsi kedua untuk penentuan nilai tertinggi dari sebuah slice.
+
+## Channel - Range dan Close
+
+Penerimaan data lewat channel yang dipakai oleh banyak goroutine, akan lebih mudah dengan memanfaatkan keyword `for - range`.
+
+`for - range` jika diterapkan pada channel, akan melakukan perulangan tanpa henti. Perulangan tersebut tetap berjalan meski tidak ada transaksi pada channel, dan hanya akan berhenti jika status channel berubah menjadi closed atau sudah ditutup. Fungsi `close` digunakan utuk menutup channel.
+
+Channel yang sudah ditutup tidak bisa digunakan lagi untuk menerima maupun mengirim data. Menjadikan penerimaan data menggunakan `for - range` juga ikut berhenti.
+
+### Channel Direction
+
+Ada yang unik dengan fitur parameter channel yang disediakan Golang. Level akses channel bisa ditentukan, apakah hanya sebagai penerima, pengirim, atau penerima sekaligus pengirim. Konsep ini disebut dengan `channel direction`. Cara pemberian level akses adalah dengan menambahkan tanda `<-` sebelum atau setelah keyword `chan`. Untuk lebih jelasnya bisa dilihat di list berikut.
+
+- `cH chan string`    : Parameter `cH` bisa digunakan untuk mengirim dan menerima data
+- `cH chan<- string`  : Parameter `cH` hanya bisa digunakan untuk mengirim data
+- `cH <-chan string`  : Parameter `cH` hanya bisa digunakan untuk menerima data
+
+Sebagai contoh fungsi `sendMessage(cH chan<- string)` yang parameter `cH` dideklarasikan dengan level akses untuk pengiriman data saja. Channel tersebut hanya bisa digunakan untuk mengirim, contohnya: `cH <- fmt.Sprintf("data %d", i)`.
+
+Dan sebaliknya pada fungsi `printMessage(cH <-chan string)`, channel `cH` hanya bisa digunakan untuk menerima data saja.
