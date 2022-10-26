@@ -44,3 +44,15 @@ Ada yang unik dengan fitur parameter channel yang disediakan Golang. Level akses
 Sebagai contoh fungsi `sendMessage(cH chan<- string)` yang parameter `cH` dideklarasikan dengan level akses untuk pengiriman data saja. Channel tersebut hanya bisa digunakan untuk mengirim, contohnya: `cH <- fmt.Sprintf("data %d", i)`.
 
 Dan sebaliknya pada fungsi `printMessage(cH <-chan string)`, channel `cH` hanya bisa digunakan untuk menerima data saja.
+
+## Channel Timeout
+
+Timeout digunakan untuk mengontrol penerimaan data dari channel berdasarkan waktu diterimanya, dengan durasi timeout bisa ditentukan sendiri.
+
+Ketika tidak ada aktivitas penerimaan data selama durasi tersebut, akan memicu callback yang isinya juga ditentukan sendiri.
+
+Berikut adalah program sederhana tentang pengaplikasian timeout pada channel. Sebuah goroutine baru dijalankan dengan tugas mengirimkan data setiap interval tertentu, dengan durasi interval-nya adalah acak/random.
+
+Selanjutnya, disiapkan perulangan tanpa henti, yang di tiap perulangannya ada seleksi kondisi channel menggunakan select.
+
+Akan muncul output setiap kali ada penerimaan data dengan delay waktu acak. Ketika tidak ada aktifitas pada channel dalam durasi 5 detik, perulangan pengecekkan channel akan dihentikan.
