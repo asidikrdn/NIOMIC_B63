@@ -41,5 +41,5 @@ func writeToFile(pathFile string, textSlice []string) {
 }
 
 func main() {
-	writeToFile("C:/Users/sidik/Documents/test1.txt", []string{"Ahmad Sidik Rudini", "M Rizki Syabani"})
+	writeToFile("34-File/test1.txt", []string{"Ahmad Sidik Rudini", "M Rizki Syabani"})
 }

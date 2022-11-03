@@ -25,5 +25,5 @@ func deleteFile(pathFile string) {
 }
 
 func main() {
-	deleteFile("C:/Users/sidik/Documents/test1.txt")
+	deleteFile("34-File/test1.txt")
 }

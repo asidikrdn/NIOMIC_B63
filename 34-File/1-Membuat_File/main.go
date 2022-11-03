@@ -38,5 +38,5 @@ func createFile(path string) {
 }
 
 func main() {
-	createFile("C:/Users/sidik/Documents/test1.txt")
+	createFile("34-File/test1.txt")
 }

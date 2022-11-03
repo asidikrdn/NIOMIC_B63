@@ -51,5 +51,5 @@ func readFile(pathFile string) {
 }
 
 func main() {
-	readFile("C:/Users/sidik/Documents/test1.txt")
+	readFile("34-File/test1.txt")
 }
