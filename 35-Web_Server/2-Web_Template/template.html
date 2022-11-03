@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <style>
+      h1 {
+        color: red;
+      }
+    </style>
+    <title>Coba Template Web Golang</title>
+  </head>
+  <body>
+    <h1>Halo, {{.Nama}} ({{.NPM}})</h1>
+    <h5>Kamu anak {{.Prodi}} ya ?</h5>
+
+    <!--
+		  Di dalam file template, kode yang ada di dalam kurung kurawal ganda akan diganti dengan isi dari variabel yang dikirim Go Lang
+		  Contoh, {{.Nama}} akan terganti dengan isi variabel Nama
+    -->
+  </body>
+</html>
