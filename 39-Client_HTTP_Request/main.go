@@ -55,9 +55,9 @@ func fetchUser(urlServer string, idMhs string) (mahasiswa, error) {
 	var dataMhs mahasiswa
 
 	// Membuat payload untuk parameter ketiga dari request
-	parameter := url.Values{}
-	parameter.Set("id", idMhs)
-	payload := bytes.NewBufferString(parameter.Encode())
+	parameter := url.Values{}                            // menghasilkan object yang nantinya dapat digunakan sebagai form data request
+	parameter.Set("id", idMhs)                           // men-set isi dari object yang nantinya dapat digunakan sebagai form data request
+	payload := bytes.NewBufferString(parameter.Encode()) // meng-encode form data request dan mengubahnya menjadi bentuk bytes.Buffer agar bisa disisipkan pada parameter ketiga dari http.NewRequest()
 
 	// membuat request baru
 	// http.NewRequest(method, urlYangDiRequest, formDataRequest)
@@ -65,7 +65,7 @@ func fetchUser(urlServer string, idMhs string) (mahasiswa, error) {
 	if err != nil {
 		panic(err)
 	}
-	request.Header.Set("Content-Type", "application/x-www-form-urlencoded")
+	request.Header.Set("Content-Type", "application/x-www-form-urlencoded") // men-set tipe header pada request
 
 	// melakukan eksekusi request
 	response, err := client.Do(request) // response akan berisi intance object bertipe http.Response
