@@ -65,7 +65,7 @@ func fetchUser(urlServer string, idMhs string) (mahasiswa, error) {
 	if err != nil {
 		panic(err)
 	}
-	request.Header.Set("Content-Type", "application/form-data")
+	request.Header.Set("Content-Type", "application/x-www-form-urlencoded")
 
 	// melakukan eksekusi request
 	response, err := client.Do(request) // response akan berisi intance object bertipe http.Response
