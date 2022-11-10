@@ -52,10 +52,10 @@ func users(w http.ResponseWriter, r *http.Request) {
 func user(w http.ResponseWriter, r *http.Request) {
 	// menentukan tipe response, yaitu sebagai JSON
 	w.Header().Set("Content-Type", "application/json")
-	r.Header.Set("Content-Type", "application/x-www-form-urlencoded")
 
 	if r.Method == "GET" {
 		// mengambil data form yang dikirim dari client, pada konteks ini data yang dimaksud adalah ID
+		// id := r.FormValue("id")
 		id := r.FormValue("id")
 
 		// melakukan perulangan pada slice dataMahasiswa
