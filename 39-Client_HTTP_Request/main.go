@@ -60,15 +60,20 @@ func fetchUser(urlServer string, idMhs string) (mahasiswa, error) {
 	payload := bytes.NewBufferString(parameter.Encode()) // meng-encode form data request dan mengubahnya menjadi bentuk bytes.Buffer agar bisa disisipkan pada parameter ketiga dari http.NewRequest()
 
 	// membuat request baru
-	// http.NewRequest(method, urlYangDiRequest, formDataRequest)
-	request, err := http.NewRequest("GET", urlServer+"/user?"+payload.String(), payload) // request akan berisi intance object bertipe http.Request
+	// http.NewRequest(method, urlYangDiRequest, formDataRequest), request akan berisi intance object bertipe http.Request
+	// request, err := http.NewRequest("POST", urlServer+"/user", payload)	// jika menggunakan method POST
+	request, err := http.NewRequest("GET", urlServer+"/user?"+payload.String(), nil) // jika menggunakan method POST
 	if err != nil {
 		panic(err)
 	}
-	request.Header.Set("Content-Type", "application/x-www-form-urlencoded") // men-set tipe header pada request
+	// Jika menggunakan method post (data tidak tampil di URL), maka kita harus men-set tipe konten pada header request
+	// request.Header.Set("HEADER", "application/x-www-form-urlencoded") // men-set tipe header pada request
+
+	fmt.Println("request:", request)
 
 	// melakukan eksekusi request
 	response, err := client.Do(request) // response akan berisi intance object bertipe http.Response
+	fmt.Println("response:", response)
 	if err != nil {
 		panic(err)
 	}
@@ -92,7 +97,7 @@ func main() {
 
 	fmt.Println()
 
-	mhs, err := fetchUser(baseUrl, `U001`)
+	mhs, err := fetchUser(baseUrl, "U001")
 	if err != nil {
 		panic(err)
 	}
